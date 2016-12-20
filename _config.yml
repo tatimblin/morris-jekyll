@@ -6,16 +6,20 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
+title: Morris Animal Refuge
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+  The Morris Animal Refuge is a 501(c)(3) open admission shelter 
+  dedicated to helping the homeless, abandoned and unwanted pets of 
+  the Philadelphia region.  Founded in 1874 by Elizabeth Morris, we 
+  were the first organization dedicated to sheltering and rehoming 
+  pets, and continue that legacy today by providing adoptions, a 
+  low-cost spay/neuter program, fostering, humane education and 
+  more.
+baseurl: "/morris-jekyll" # the subpath of your site, e.g. /blog
+url: "https://tatimblin.github.io" # the base hostname & protocol for your site
+twitter_username: MorrisAnimal
+github_username:  tatimblin
 
 # Build settings
 markdown: kramdown
