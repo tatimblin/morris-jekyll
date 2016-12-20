@@ -23,3 +23,9 @@ github_username:  tatimblin
 
 # Build settings
 markdown: kramdown
+permalink: /product/:slug/
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
