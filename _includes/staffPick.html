@@ -1,0 +1,37 @@
+<div class="staff-wrap">
+    <div class="staff-item">
+        {% for post in site.posts limit: 2 %}
+            {% if post.categories contains 'staffPickLeft' %}
+                <a href="">
+                    <img src="../img/hero/{{ post.img }}">
+                    <h1>{{ post.title }}</h1>
+                    <p>${{ post.price }}</p>
+                </a>
+            {% endif %}
+        {% endfor %}
+    </div>
+    <div class="staff-item staff-item-card">
+            <div class="staff-item-card-img">
+                img
+            </div>
+            <div class="staff-item-card-desc">
+                <div class="staff-item-card-desc_title">
+                    <h1>Title</h1>
+                </div>
+                <div class="staff-item-card-desc_body">
+                    <p>Body.</p>
+                </div>
+            </div>
+    </div>
+    <div class="staff-item">
+        {% for post in site.posts limit: 2 %}
+            {% if post.categories contains 'staffPickRight' %}
+                <a href="">
+                    <img src="../img/hero/{{ post.img }}">
+                    <h1>{{ post.title }}</h1>
+                    <p>${{ post.price }}</p>
+                </a>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

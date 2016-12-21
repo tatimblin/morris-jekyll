@@ -6,9 +6,10 @@
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: 'Poppins', sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
+$title-font-weight: 700;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -21,6 +22,18 @@ $brand-color:      #2a7ae2;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+
+// Morris Brand
+$light-blue: #41C3DB;
+$yellow: #FF9900;
+$green: #9BAD3B;
+$purple: #9E4771;
+$pink: #F04C8B;
+$blue: #007EA4;
+$red: #ED1A23;
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+$title-color: #fafdf0;
 
 // Width of the content area
 $content-width:    800px;
@@ -49,5 +62,7 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "hero",
+        "staffPick"
 ;

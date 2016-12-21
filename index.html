@@ -1,9 +1,30 @@
 ---
 layout: default
+
+hero-img: "catInBox.png"
+hero-title: "Take Me Home"
+hero-body: "Wether it's for a friend, your furry friend, or yourself, we have gifts and supplies for the whole gang."
+hero-action: "Action"
+
+hero-color: "9E4771"
+hero-orient: "row"
 ---
 
-<div class="home">
+<!--
+    hero-color
+        $light-blue: #41C3DB;
+        $yellow: #FF9900;
+        $green: #9BAD3B;
+        $purple: #9E4771;
+        $pink: #F04C8B;
+        $blue: #007EA4;
+        $red: #ED1A23;
+    hero-orient
+        Set to 'row' or 'row-reverse'
+-->
 
+<div class="home">
+{% include staffPick.html %}
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
