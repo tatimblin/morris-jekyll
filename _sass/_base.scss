@@ -82,7 +82,11 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+    font-weight: $title-font-weight;
+}
+
+h1 {
+    font-size: 3em;
 }
 
 
@@ -102,6 +106,25 @@ a {
         color: $text-color;
         text-decoration: underline;
     }
+}
+
+
+
+/**
+ * Buttons
+ */
+.btn {
+    position: absolute;
+    display:block;
+    padding:10px 20px;
+    background:$green;
+    border: 3px solid #006224;
+    border-radius:3px;
+  
+    font-weight: 700;
+    font-size:1.2em;
+    color: $title-color;
+    text-transform:uppercase;
 }
 
 
@@ -156,12 +179,12 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+//    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+//    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    padding-right: 0; //$spacing-unit
+    padding-left: 0;
     @extend %clearfix;
 
     @include media-query($on-laptop) {

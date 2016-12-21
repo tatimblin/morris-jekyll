@@ -1,0 +1,31 @@
+.hero {
+    &-orange {
+        background: $yellow;
+    }
+    &-content {
+        display:flex;
+        justify-content: space-between;
+        width: $content-width;
+        margin: 0 auto;
+        padding: 0; 
+        line-height: 1em;
+        color: $title-color;
+        &-img {
+            align-self:flex-end;
+            padding:0;
+            width:50%; height:200px;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        &-cta {
+            align-self:flex-start;
+            padding:100px 0;
+            h1 {
+                margin:0 0 .5em 0;
+            }
+            p {
+                line-height: 1.5em;
+            }
+        }
+    }
+}
