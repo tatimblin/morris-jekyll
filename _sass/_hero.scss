@@ -29,3 +29,20 @@
         }
     }
 }
+
+@include media-query($on-palm) {
+    .hero {
+        width: 100%;
+    &-content {
+        width:100% - 10%;
+        padding: 0 5%;
+        flex-direction: column;
+        &-img {
+            display:none;
+        }
+        &-cta {
+
+        }
+    }
+}
+}

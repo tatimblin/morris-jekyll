@@ -1,9 +1,16 @@
 .staff-wrap {
-    width: $content-width;
+    width:100%;
+    max-width: $content-width;
     margin:100px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+@include media-query($on-palm) {
+    .staff-wrap {
+        flex-direction: column;
+    }
 }
 
 .staff-item {
