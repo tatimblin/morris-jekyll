@@ -16,8 +16,11 @@
 .staff-item {
     text-align: center;
     margin:30px 0;
-    img {
+    &-img {
         width:100px; height:150px;
+        margin:0 auto;
+        background-size: cover;
+        background-position: center;
         background: #ccc;
     }
     h1 {
@@ -28,6 +31,7 @@
     p {
         font-size:1em;
         line-height: 1em;
+        padding:0 0 $spacing-unit 0;
     }
 }
 

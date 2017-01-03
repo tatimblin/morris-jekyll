@@ -4,7 +4,7 @@ title:  "Dog Bowl"
 date:   2017-1-2 6:48:59 -0500
 categories: hero staffPickLeft
 
-img: ""
+img: "placeholder.jpg"
 price: "10"
 ---
 Wether it's for a friend, your furry friend, or yourself, we have gifts and supplies for the whole gang.

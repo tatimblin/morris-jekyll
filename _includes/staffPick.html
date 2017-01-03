@@ -6,7 +6,8 @@
     <div class="staff-item">
         {% for post in site.categories.staffPickLeft limit: 2 %}
                 <a href="">
-                    <img src="../img/hero/{{ post.img }}">
+                   <div class="staff-item-img" style="background-image:url('../img/products/{{ post.img }}')"></div>
+                    
                     <h1>{{ post.title }}</h1>
                     <p>${{ post.price }}</p>
                 </a>
@@ -28,7 +29,7 @@
     <div class="staff-item">
         {% for post in site.categories.staffPickRight limit: 2 %}
                 <a href="">
-                    <img src="../img/hero/{{ post.img }}">
+                    <div class="staff-item-img" style="background-image:url('../img/products/{{ post.img }}')"></div>
                     <h1>{{ post.title }}</h1>
                     <p>${{ post.price }}</p>
                 </a>
