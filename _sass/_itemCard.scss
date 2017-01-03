@@ -1,0 +1,183 @@
+.product_wrap {
+    width:90%;
+    max-width:$content-width;
+	margin: 100px auto;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+}
+
+.product {
+	position:relative;
+	width: 30%;
+    margin:0 0 $spacing-unit 0;
+	
+	transform: translateY(0) translateX(0);
+	transition: all 300ms ease-in-out 200ms;
+	
+	z-index:1;
+	&-dropshadow {
+		position:absolute;
+		width:100%; height:100%;
+		opacity:0;
+		background-image:url('../img/assets/diagonals.png');
+		background-repeat: repeat-x repeat-y;
+		background-size: 100px 100px;
+		border-radius:5px;
+		
+		transform: translateY(0px) translateX(0px);
+		transition: all 500ms ease-in-out 280ms;
+		
+		z-index:-1;
+	}
+	&:hover .product-dropshadow {
+		opacity:0.3;
+		transform:translateY(10px) translateX(5px);
+	}
+	&:hover {
+		transform:translateY(-10px) translateX(-5px);
+	}
+	&-backdrop {
+		position:absolute;
+		width:100%; height:50%;
+		opacity:0;
+		border-radius:250%;
+		transform: scale(.5) translateY(100px);
+		transition:all 600ms ease-in-out 50ms;
+		
+		z-index:-1;
+	}
+	&:hover .product-backdrop {
+		background:$purple;
+		height:100%;
+		opacity:1;
+		border-radius:5px;
+		transform: scale(1) translateY(0px);
+	}
+	&:hover .product-backdrop_purple {
+		background:$purple;
+	}
+	&:hover .product-backdrop_green {
+		background:$green;
+	}
+	&:hover .product-backdrop_red {
+		background:$red;
+	}
+	&-img {
+		width:90%; height:15vw;
+		margin:15px auto;
+		border-radius:5px;
+		background:#ccc;
+		background-size:cover;
+		
+		z-index:10;
+	}
+	&-content {
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		
+		margin:20px 0 0 0;
+		
+		z-index:10;
+		&-title {
+			h4 {
+				color: #000;
+				transition: all 300ms ease-in-out 150ms;
+			}
+		}
+		&-cost {
+            margin:0px 0 10px 0;
+			h5 {
+				line-height:1.5em;
+				font-size:1em;
+				color: #000;
+				transition: all 300ms ease-in-out 150ms;
+			}
+		}
+	}
+	// Change the color
+	&:hover .product-content-cost h5 {
+		color: $title-color;
+	}
+	&:hover .product-content-title h4 {
+		color: $title-color;
+	}
+	.product-buy {
+		position: absolute;
+		width:40%;
+		right:5%;
+		padding:5px 5px;
+		border:1px solid $purple;
+		border-radius:30px;
+		background: $title-color;
+		
+		opacity:0;
+		transform: translateY(-200px);
+		transition: all 300ms ease-in-out 150ms;
+		&:hover {
+			box-shadow: 0px 8px 6px rgba(0,0,0,0.16), 0 3px 2px rgba(0,0,0,0.23);
+		}
+		h5 {
+			text-align: center;
+			font-size:1em;
+			color: $purple;
+            margin-bottom: 0;
+		}
+	}
+	&:hover .product-buy{
+		opacity:1;
+		transform: translateY(-35px);
+	}
+}
+
+@include media-query(800px) {
+    .product {
+	    width: 45%;
+        &-img {
+            height:25vw;
+            margin:15px auto;
+            border-radius:3px;
+        }
+    }
+}
+
+@include media-query($on-palm) {
+    .product {
+	    width: 100%;
+        &-img {
+            height:55vw;
+            margin:15px auto;
+            border-radius:3px;
+        }
+    }
+}
+
+#bowl {
+	background-image:url('http://www.masoncashpets.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/2/0/2030.309_1_1.jpg');
+}
+#tshirt {
+	background-image:url('http://2t4y703efn992y2nurahx0pb.wpengine.netdna-cdn.com/wp-content/uploads/2014/06/crazy-dog-lady.jpg');
+}
+#mug {
+	background-image:url('https://i.gyazo.com/be0e92fd273f2b33773d95e3cd0ddc3c.png');
+}
+
+#purple {
+	border:2px solid $purple;
+	h5 {
+		color: $purple;
+	}
+}
+#green {
+	border:2px solid $green;
+	h5 {
+		color: $green;
+	}
+}
+#red {
+	border:2px solid $red;
+	h5 {
+		color: $red;
+	}
+}

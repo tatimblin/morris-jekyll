@@ -1,0 +1,121 @@
+// General Banner Styles
+
+body {
+}
+
+.banner {
+	width:100%; 
+	background: $green;
+	overflow:hidden;
+	&-content {
+		max-width:$content-width;
+		margin:0 auto;
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+	}
+    img {
+	    width:100%;
+    }
+}
+
+@include media-query($on-palm) {
+    .banner {
+        &-content {
+            flex-direction: column-reverse;
+            &-copy {
+                padding:20px 0 0 0;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.banner-content-icon {
+	animation: 
+			banner-dog-peak 
+			3s 
+			cubic-bezier(0.68, -0.55, 0.265, 1.55) 
+			3s 
+			1 
+			alternate 
+			forwards;
+	transform:translateY(100px) scale(1);
+}
+
+.banner-dog {
+		height:150px;
+	.dog-eye {
+		animation: 
+			banner-dog-blink 
+			4s 
+			ease-in-out 
+			4s 
+			infinite 
+			alternate;
+		transform-origin:center;
+		overflow:hidden;
+	}
+	transform:scale(1) rotateZ(0deg) translateY(0);
+	transition: all 400ms cubic-bezier(0.600, 0.270, 0.525, 1.455);
+}
+
+.banner-content-icon:hover .banner-dog{
+	transform:scale(1.15) rotateZ(-10deg) translateY(-15px);
+}
+
+
+
+
+@keyframes banner-dog-peak {
+	0% {
+		transform:translateY(100px);
+	}
+	30% {
+		transform:translateY(30px);
+	}
+	100% {
+		transform:translateY(30px);
+	}
+}
+
+@keyframes banner-dog-blink {
+	0% {
+		transform:rotateX(0deg);
+	}
+	5% {
+		transform:rotateX(90deg);
+	}
+	10% {
+		transform:rotateX(0deg);
+	}
+	
+}
+
+@keyframes banner-dog-wiggle {
+	0% {
+		transform: 
+			translateY(-40px)
+			translateX(-15px)
+			rotate(0deg);
+	}
+	100% {
+		transform: 
+			translateY(-40px)
+			translateX(-15px)
+			rotate(10deg);
+	}
+}
+
+
+
+.banner-content-copy {
+	max-width:70%;
+	h1 {
+		font-family: $base-font-family;
+		font-weight:700;
+		font-size:2em;
+		color: $title-color;
+        margin-bottom: 0; //Set elsewhere
+	}
+}

@@ -25,18 +25,24 @@ hero-orient: "row"
 
 <div class="home">
 {% include staffPick.html %}
-  <h1 class="page-heading">Posts</h1>
+{% include banner/guilt.html %}
+    <div class="section-title">
+        <h2>Items</h2>
+    </div>
 
   <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <div class="product_wrap">
+        {% for post in site.posts %}
+           {% include itemCard.html %}
+           <!--<li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+          </li>-->
+        {% endfor %}
+    </div>
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
