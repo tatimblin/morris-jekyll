@@ -16,8 +16,8 @@ description: > # this means to ignore newlines until "baseurl:"
   pets, and continue that legacy today by providing adoptions, a 
   low-cost spay/neuter program, fostering, humane education and 
   more.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/morris-jekyll" # the subpath of your site, e.g. /blog
+url: "https://tatimblin.github.io" # the base hostname & protocol for your site
 twitter_username: MorrisAnimal
 github_username:  tatimblin
 
