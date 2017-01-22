@@ -10,6 +10,12 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
+    
+    {% assign category = site.my_categories | where: "slug", post.category %}
+  {% assign category = category[0] %}
+  {% if category %}
+    {% capture category_content %}<a class="label" href="{{ category.url }}" style="background-color:{{ category.color }}">{{ category.name }}</a>{% endcapture %}
+  {% endif %}
   </div>
 
 </article>

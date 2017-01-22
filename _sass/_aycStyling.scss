@@ -1,0 +1,108 @@
+
+// ### COLORS ###
+$light-blue: #41C3DB;
+$yellow: #FF9900;
+$green: #9BAD3B;
+$purple: #9E4771;
+$pink: #F04C8B;
+$blue: #007EA4;
+$red: #ED1A23;
+$black:#404040;
+
+$title-color: #fafdf0;
+$input-placeholder: #3E3E3D;
+
+// ### FONTS ###
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+$heading: 'Poppins', sans-serif;
+
+// ### BREAKPOINTS ###
+$mobile:600px;
+$desktop:800px;
+
+
+
+.heading {
+  font-family: $heading;
+  font-weight: 700;
+  //color: $title-color;
+}
+h1 {
+  @extend .heading;
+  font-size: 8em;
+}
+h2 {
+  @extend .heading;
+  font-size: 4em;
+}
+h3 {
+  @extend .heading;
+  font-size: 2em;
+}
+h4 {
+  @extend .heading;
+  font-size: 1.5em;
+}
+h5 {
+  @extend .heading;
+  font-weight: 400;
+  font-size: 2em;
+}
+p {
+  font-family: $heading;
+  //color: $title-color;
+  line-height:1.5em;
+}
+
+
+.btn-more {
+  display:block;
+  padding:5px 40px;
+  background:$light-blue;
+  border: 3px solid #3BB3CB;
+  border-radius:3px;
+  
+  font-family: $heading;
+  font-weight: 700;
+  color: $title-color;
+  text-transform:uppercase;
+  
+}
+
+.btn-cta {
+  display:block;
+  padding:10px 20px;
+  background:$green;
+  border: 3px solid #006224;
+  border-radius:3px;
+  
+  font-family: $heading;
+  font-weight: 700;
+  font-size:1.2em;
+  color: $title-color;
+  text-transform:uppercase;
+}
+
+input[type=text] {
+  display:block;
+  
+  padding:20px 30px;
+  margin:10px;
+  border:1px solid #ccc;
+  border-radius:5px;
+  background:$title-color;
+}
+
+.placeholder {
+  font-family:$heading;
+  font-weight:700;
+  font-size:12px;
+  line-height:12px;
+  color: $input-placeholder;
+  text-transform:uppercase;
+}
+
+::-webkit-input-placeholder {
+  @extend .placeholder;
+}
