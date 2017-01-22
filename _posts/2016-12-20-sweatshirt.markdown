@@ -2,7 +2,7 @@
 layout: post
 title:  "Sweatshirt"
 date:   2017-1-2 5:48:59 -0500
-categories: hero staffPickRight
+categories: hero staffPickRight people
 
 img: ""
 price: "14"

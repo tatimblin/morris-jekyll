@@ -2,7 +2,7 @@
 layout: post
 title:  "Dog Bowl"
 date:   2017-1-2 6:48:59 -0500
-categories: hero staffPickLeft
+categories: hero staffPickLeft pet
 
 img: "placeholder.jpg"
 price: "10"

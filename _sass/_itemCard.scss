@@ -26,13 +26,14 @@
 		border-radius:5px;
 		
 		transform: translateY(0px) translateX(0px);
-		transition: all 500ms ease-in-out 280ms;
+		transition: all 500ms ease-in-out 0ms;
 		
 		z-index:-1;
 	}
 	&:hover .product-dropshadow {
 		opacity:0.3;
 		transform:translateY(10px) translateX(5px);
+        transition-delay: 280ms; //Only affects the in transition
 	}
 	&:hover {
 		transform:translateY(-10px) translateX(-5px);
@@ -151,16 +152,6 @@
             border-radius:3px;
         }
     }
-}
-
-#bowl {
-	background-image:url('http://www.masoncashpets.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/2/0/2030.309_1_1.jpg');
-}
-#tshirt {
-	background-image:url('http://2t4y703efn992y2nurahx0pb.wpengine.netdna-cdn.com/wp-content/uploads/2014/06/crazy-dog-lady.jpg');
-}
-#mug {
-	background-image:url('https://i.gyazo.com/be0e92fd273f2b33773d95e3cd0ddc3c.png');
 }
 
 #purple {

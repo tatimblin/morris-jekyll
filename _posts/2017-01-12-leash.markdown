@@ -2,7 +2,7 @@
 layout: post
 title:  "Leash"
 date:   2016-12-20 12:48:59 -0500
-categories: hero
+categories: hero pet both
 
 img: "Screen Shot 2016-10-10 at 9.09.00 PM.png"
 price: "12"

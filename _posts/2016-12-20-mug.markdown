@@ -2,7 +2,7 @@
 layout: post
 title:  "Mug"
 date:   2016-12-20 12:48:59 -0500
-categories: hero staffPickLeft
+categories: hero staffPickLeft people
 
 img: ""
 price: "17"

@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="section-title">
+    <h2>{{ page.title }}</h2>
+</div>
+
+<div class="text-justify">
+    {% if site.categories[page.slug] %}
+        <div class="product_wrap">
+            {% for post in site.categories[page.slug] %}
+                {% include itemCard.html %} 
+            {% endfor %}
+        </div>
+        {% else %}
+        <p>There are no posts in this category.</p>
+    {% endif %}
+</div>
+
+
+{% unless page.content == '' %}
+  <p>{{ page.content }}</p>
+{% endunless %}

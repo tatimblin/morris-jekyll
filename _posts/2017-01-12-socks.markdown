@@ -2,7 +2,7 @@
 layout: post
 title:  "Puppy Socks"
 date:   2017-1-2 6:48:59 -0500
-categories: hero
+categories: hero people
 
 img: "mugwithball.JPG"
 price: "6"
