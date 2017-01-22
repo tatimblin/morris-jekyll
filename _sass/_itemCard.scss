@@ -55,14 +55,14 @@
 		border-radius:5px;
 		transform: scale(1) translateY(0px);
 	}
-	&:hover .product-backdrop_purple {
-		background:$purple;
+	&:hover .product-backdrop_people {
+		background:$forPeople;
 	}
-	&:hover .product-backdrop_green {
-		background:$green;
+	&:hover .product-backdrop_both {
+		background:$forBoth;
 	}
-	&:hover .product-backdrop_red {
-		background:$red;
+	&:hover .product-backdrop_pet {
+		background:$forPet;
 	}
 	&-img {
 		width:90%; height:15vw;
@@ -130,6 +130,9 @@
 		opacity:1;
 		transform: translateY(-35px);
 	}
+    a {
+        text-decoration:none;
+    }
 }
 
 @include media-query(800px) {

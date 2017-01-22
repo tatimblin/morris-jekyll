@@ -61,7 +61,7 @@
 			<div class="nav-link">
 			{% for my_page in site.pages %}
             {% if my_page.title %}
-				<div class="nav-link_item nav-link_item1" id="{{ my_page.slug }}">
+				<div class="site-nav nav-link_item nav-link_item1" id="{{ my_page.slug }}">
 					<a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
 				</div>
             {% endif %}
