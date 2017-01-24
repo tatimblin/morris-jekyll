@@ -207,6 +207,101 @@
     <div class="page-content">
       <div class="wrapper">
         <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            This file controls the homepage of the our site.
+            Its layout is 'default' (see above) and the information here gets pulled into layout/default.html where <div class="section-title">
+    <h2>For Both</h2>
+</div>
+
+<div class="text-justify">
+    
+        <div class="product_wrap">
+            
+                  
+
+<div class="product">
+   <a href="/product/leash/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_both"></div>
+    <div class="product-img" id="bowl" style="background-image:url('/img/products/Screen Shot 2016-10-10 at 9.09.00 PM.png');">
+
+    </div>
+    <div class="product-buy" id="purple">
+        <h5>BUY NOW</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Leash</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$12</h5>
+        </div>
+    </div>
+    </a>
+</div>
+ 
+            
+        </div>
+        
+</div>
+
+
+
+  <p><div class="banner">
+	
+	<div class="banner-content">
+		<div class="banner-content-icon">
+
+<svg id="Layer_1" class="banner-dog" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 276.27 235.5">
+	<defs>
+		<style>
+			.cls-1{fill:#645240;}.cls-2{fill:#fff;}.cls-3{fill:#578ba8;}.cls-4{fill:#251d10;}.cls-5{fill:#ee3d74;}
+		</style>
+	</defs>
+	<title>jakeDog</title>
+	<path class="cls-1" d="M46.42,166.86s27-42,50.53-47.39c-11.68-13.31-59.6-70.9-59.6-70.9S-25.54,96.9,46.42,166.86Z" transform="translate(-11.9 -48.57)" />
+	<path class="cls-1 dog-ear" d="M253.58,169.46s-24.95-43.19-47.44-48.92c11.5-13.43,58.75-71.61,58.75-71.61S324.16,99,253.58,169.46Z" transform="translate(-11.9 -48.57)" />
+	<ellipse class="cls-2" cx="135.1" cy="138.43" rx="117.06" ry="97.07" />
+	<ellipse class="cls-1" cx="77.93" cy="128.66" rx="47.5" ry="45.77" />
+	<circle class="cls-3 dog-eye" cx="188.43" cy="138.43" r="23" /><path class="cls-4" d="M133.33,223.35S120,210,138,210s34,.67,24.67,13C148.53,243.49,133.33,223.35,133.33,223.35Z" transform="translate(-11.9 -48.57)" />
+	<circle class="cls-3 dog-eye" cx="81.76" cy="138.43" r="23" />
+	<circle class="cls-2 dog-eye" cx="75.1" cy="135.59" r="8.67" />
+	<circle class="cls-2 dog-eye" cx="90.83" cy="147.1" r="4.18" />
+	<circle class="cls-2 dog-eye" cx="182.8" cy="134.92" r="8.67" />
+	<circle class="cls-2 dog-eye" cx="198.54" cy="146.43" r="4.18" />
+
+	<path id="tounge" class="cls-5" d="M136.94,245.16s-.91,21.18,9.53,21.41,9.91-19.78,9.91-19.78a23.2,23.2,0,0,1-9.69-14.94C145.54,238.7,136.94,245.16,136.94,245.16Z" transform="translate(-11.9 -48.57)" />
+	<path class="cls-4" d="M146.49,228.09S144.94,258,180,245.23C168.38,247.86,150,253.77,146.49,228.09Z" transform="translate(-11.9 -48.57)" />
+	<path class="cls-4" d="M147.52,230.21c-1.56,1.21-3.28,19.18-29.12,16.6C130.67,247.88,143.76,247.77,147.52,230.21Z" transform="translate(-11.9 -48.57)" />
+	<path id="toungeLine" class="cls-4" d="M146.48,240.34s-1.94,14.81-.49,19.53C145.4,256,146.48,240.34,146.48,240.34Z" transform="translate(-11.9 -48.57)" />
+	
+</svg>
+		</div>
+		<div class="banner-content-copy">
+			<h1>
+				Spending $40 lets us take care of two dogs for a week.
+			</h1>
+		</div>
+	</div>
+</div>
+</p>
+ is present.
+        Instructions:
+            1) You can edit the hero banner on this page using the front matter (above), for your convenience I put the brand colors below. You can edit:
+                - The color
+                - Title text
+                - Body text
+                - Select an image
+                - And switch the text and image sides
+            2) The homepage is a special place, a unique part of this page is the Staff Pick section (You can see it 'included' below). To put products here please give posts the category 'staffPickLeft' or 'staffPickRight' This will put the two most recent posts with that category up on the first page.
+            3) Next is the banner/guilt.html it was created to be used as a template and swapping out the content in a new file will easily create a new one
+            4) The secition-title class will hold an <h2> and present it as the header of a section. It is used throughout the site.
+            5) Finally we have a loop taking all the posts on the site and putting them on the front page, if our store gets too big we may need to limit the max number of loops. put 'Limit: x' at the end of the for to cap the loops.
+            
+###############
+   
     hero-color
         $light-blue: #41C3DB;
         $yellow: #FF9900;
@@ -312,7 +407,7 @@
         <h2>Items</h2>
     </div>
 
-  <ul class="post-list">
+  <div class="post-list">
     <div class="product_wrap">
         
              
@@ -626,16 +721,96 @@
           </li>-->
         
     </div>
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+  </div>
 
 </div>
 
       </div>
     </div>
 
-    <footer class="site-footer">
+    <footer>
+	<div class="foot-inner foot-info">
+		<div class="foot-info-item">
+			<img src="">
+		</div>
+		<div class="foot-info-item">
+			<div class="foot-info-item_icon">
+				contact
+			</div>
+			<div class="foot-info-item-content">
+				<h3>Contact Us</h3>
+				<p>1242 Lombard Street Philadelphia Pennsylvania 19147</p>
+			</div>
+		</div>
+		<div class="foot-info-item">
+			<div class="foot-info-item_icon">
+				hours
+			</div>
+			<div class="foot-info-item-content">
+				<h3>Hours of Operation</h3>
+				<p>Monday, Tuesday, Saturday, Sunday <br> 11am – 4pm</p>
+				<p>Wednesday, Friday <br> 11am – 7pm</p>
+			</div>
+		</div>
+	</div>
+	
+    <div class="foot-line"></div>
+
+	<div class="foot-inner foot-link">
+		<div class="foot-link-item">
+			<a href="">Home</a>
+			<a href="">Adopt</a>
+			<a href="">Donate</a>
+			<a href="">Get Involved</a>
+			<a href="">Contact</a>
+			<a href="">About</a>
+			<a href="">Retail Store</a>
+			<a href="">Animal Welfare</a>
+			<a href="">Surrender</a>
+			<a href="">Programs</a>
+		</div>
+		<div class="foot-link-item">
+			<a href="">Admin Portal</a>
+			<a href="">Terms And Conditions</a>
+			<a href="">Privacy Policy</a>
+			<a href="">Sitemap</a>
+			<a href="">Join our Team</a>
+			<a href="">Newsletter Signup</a>
+		</div>
+		<div class="foot-link-item">
+			<div class="foot-link-item-partner">
+				<div class="foot-link-item-partner_co">
+					Company
+				</div>
+				<div class="foot-link-item-partner_co">
+					Company
+				</div>
+				<div class="foot-link-item-partner_co">
+					Company
+				</div>
+			</div>
+			<div class="foot-link-item-more">
+				<a href="">View All Partners</a>
+			</div>
+		</div>
+	</div>
+	<div class="foot-biz">
+	<div class="foot-inner">
+		<div class="foot-biz-item">
+			<p>© 2017 Morris Animal Refuge</p>
+		</div>
+		<div class="foot-biz-item">
+			<p>All Rights Reserved</p>
+		</div>
+	</div>
+	</div>
+</footer>
+  
+
+  
+  
+<!-- 
+<footer class="site-footer">
 
   <div class="wrapper">
 
@@ -678,6 +853,7 @@
   </div>
 
 </footer>
+-->
 
 <script
   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

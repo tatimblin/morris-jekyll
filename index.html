@@ -11,6 +11,25 @@ hero-orient: "row"
 ---
 
 <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            This file controls the homepage of the our site.
+            Its layout is 'default' (see above) and the information here gets pulled into layout/default.html where {{content}} is present.
+        Instructions:
+            1) You can edit the hero banner on this page using the front matter (above), for your convenience I put the brand colors below. You can edit:
+                - The color
+                - Title text
+                - Body text
+                - Select an image
+                - And switch the text and image sides
+            2) The homepage is a special place, a unique part of this page is the Staff Pick section (You can see it 'included' below). To put products here please give posts the category 'staffPickLeft' or 'staffPickRight' This will put the two most recent posts with that category up on the first page.
+            3) Next is the banner/guilt.html it was created to be used as a template and swapping out the content in a new file will easily create a new one
+            4) The secition-title class will hold an <h2> and present it as the header of a section. It is used throughout the site.
+            5) Finally we have a loop taking all the posts on the site and putting them on the front page, if our store gets too big we may need to limit the max number of loops. put 'Limit: x' at the end of the for to cap the loops.
+            
+###############
+   
     hero-color
         $light-blue: #41C3DB;
         $yellow: #FF9900;
@@ -30,7 +49,7 @@ hero-orient: "row"
         <h2>Items</h2>
     </div>
 
-  <ul class="post-list">
+  <div class="post-list">
     <div class="product_wrap">
         {% for post in site.posts %}
            {% include itemCard.html %}
@@ -43,8 +62,6 @@ hero-orient: "row"
           </li>-->
         {% endfor %}
     </div>
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
 
 </div>
