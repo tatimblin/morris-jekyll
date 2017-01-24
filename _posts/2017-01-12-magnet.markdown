@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Classic Mug"
+title:  "Car Magnet"
 date:   2017-1-2 5:48:59 -0500
-categories: hero people
+categories: people hero
 
 img: "mug.png"
 price: "18"

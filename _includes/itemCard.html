@@ -1,6 +1,9 @@
+  
+
 <div class="product">
+   <a href="{{ post.url }}">
     <div class="product-dropshadow"></div>
-    <div class="product-backdrop product-backdrop_purple"></div>
+    <div class="product-backdrop product-backdrop_{{post.categories[0]}}"></div>
     <div class="product-img" id="bowl" style="background-image:url('{{ site.baseurl }}/img/products/{{ post.img }}');">
 
     </div>
@@ -15,4 +18,5 @@
             <h5>${{ post.price }}</h5>
         </div>
     </div>
+    </a>
 </div>

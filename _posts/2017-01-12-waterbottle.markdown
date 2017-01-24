@@ -3,7 +3,7 @@
 layout: post
 title:  "Water Bottle"
 date:   2017-01-12 14:30:59 -0500
-categories: hero people
+categories: people hero
 
 img: "mugwithball.JPG"
 price: "15"

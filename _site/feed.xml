@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Jan 2017 15:01:27 -0500</pubDate>
-    <lastBuildDate>Sun, 22 Jan 2017 15:01:27 -0500</lastBuildDate>
+    <pubDate>Sun, 22 Jan 2017 15:47:11 -0500</pubDate>
+    <lastBuildDate>Sun, 22 Jan 2017 15:47:11 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -20,9 +20,9 @@
         <guid isPermaLink="true">/product/bandana/</guid>
         
         
-        <category>hero</category>
-        
         <category>pet</category>
+        
+        <category>hero</category>
         
       </item>
     
@@ -35,9 +35,9 @@
         <guid isPermaLink="true">/product/waterbottle/</guid>
         
         
-        <category>hero</category>
-        
         <category>people</category>
+        
+        <category>hero</category>
         
       </item>
     
@@ -50,9 +50,9 @@
         <guid isPermaLink="true">/product/hat/</guid>
         
         
-        <category>hero</category>
-        
         <category>people</category>
+        
+        <category>hero</category>
         
       </item>
     
@@ -65,9 +65,9 @@
         <guid isPermaLink="true">/product/socks/</guid>
         
         
-        <category>hero</category>
-        
         <category>people</category>
+        
+        <category>hero</category>
         
       </item>
     
@@ -95,16 +95,16 @@
         <guid isPermaLink="true">/product/bowl/</guid>
         
         
+        <category>pet</category>
+        
         <category>hero</category>
         
         <category>staffPickLeft</category>
         
-        <category>pet</category>
-        
       </item>
     
       <item>
-        <title>Classic Mug</title>
+        <title>Car Magnet</title>
         <description>
 </description>
         <pubDate>Mon, 02 Jan 2017 05:48:59 -0500</pubDate>
@@ -112,9 +112,9 @@
         <guid isPermaLink="true">/product/magnet/</guid>
         
         
-        <category>hero</category>
-        
         <category>people</category>
+        
+        <category>hero</category>
         
       </item>
     
@@ -142,11 +142,11 @@
         <guid isPermaLink="true">/product/sweatshirt/</guid>
         
         
+        <category>people</category>
+        
         <category>hero</category>
         
         <category>staffPickRight</category>
-        
-        <category>people</category>
         
       </item>
     
@@ -159,11 +159,11 @@
         <guid isPermaLink="true">/product/leash/</guid>
         
         
-        <category>hero</category>
+        <category>both</category>
         
         <category>pet</category>
         
-        <category>both</category>
+        <category>hero</category>
         
       </item>
     
@@ -191,11 +191,11 @@
         <guid isPermaLink="true">/product/mug/</guid>
         
         
+        <category>people</category>
+        
         <category>hero</category>
         
         <category>staffPickLeft</category>
-        
-        <category>people</category>
         
       </item>
     
@@ -223,11 +223,11 @@
         <guid isPermaLink="true">/product/tshirt/</guid>
         
         
+        <category>people</category>
+        
         <category>hero</category>
         
         <category>staffPickRight</category>
-        
-        <category>people</category>
         
       </item>
     

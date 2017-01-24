@@ -57,9 +57,33 @@ body {
 		display: flex;
 		justify-content:space-between;
 		align-items:center;
-        #people {color:$purple; order:1;}
-        #pet {color:$blue; order:2;}
-    	#both {color:$green; order:3;}
+        #people {
+            color:$forPeople; 
+            order:1;
+            border-bottom: solid 3px $title-color;
+            transition: border-bottom 100ms ease-in-out;
+            &:hover {
+                border-bottom: solid 3px $forPeople;
+            }
+        }
+        #pet {
+            color:$forPet; 
+            order:2;
+            border-bottom: solid 3px $title-color;
+            transition: border-bottom 100ms ease-in-out;
+            &:hover {
+                border-bottom: solid 3px $forPet;
+            }
+        }
+    	#both {
+            color:$forBoth; 
+            order:3;
+            border-bottom: solid 3px $title-color;
+            transition: border-bottom 100ms ease-in-out;
+            &:hover {
+                border-bottom: solid 3px $forBoth;
+            }
+        }
 		&_item {
 			font-family: $heading;
 			font-weight:700;
@@ -77,6 +101,7 @@ body {
 			}
             a {
                 color: inherit;
+                text-decoration: none;
             }
 		}
 	}
