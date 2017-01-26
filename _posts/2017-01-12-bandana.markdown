@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Bandana"
+slug: bandana
 date:   2017-1-12 14:39:20 -0500
 categories: pet hero
 
