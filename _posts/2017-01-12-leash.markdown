@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Leash"
+slug: leash
 date:   2016-12-20 12:48:59 -0500
 categories: both pet hero
 

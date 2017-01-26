@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Sweatshirt"
+slug: sweatshirt
 date:   2017-1-2 5:48:59 -0500
 categories: people hero staffPickRight
 

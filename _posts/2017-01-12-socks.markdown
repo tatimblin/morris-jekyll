@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Puppy Socks"
+slug: socks
 date:   2017-1-2 6:48:59 -0500
 categories: people hero
 

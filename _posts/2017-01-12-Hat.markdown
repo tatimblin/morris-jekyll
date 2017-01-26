@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Hat"
+slug: hat
 date:   2017-01-12 5:48:59 -0500
 categories: people hero
 
