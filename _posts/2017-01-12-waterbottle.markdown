@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Water Bottle"
-slug: water-bottle
+slug: waterbottle
 date:   2017-01-12 14:30:59 -0500
 categories: people hero
 
