@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Look. Love. Adopt. T-Shirt"
-slug: lla-tshirt
+slug: tshirt
 date:   2016-12-20 10:48:59 -0500
 categories: people hero staffPickRight
 
