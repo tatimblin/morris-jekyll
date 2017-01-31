@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "MAR Hat"
-slug: tshirt
-date:   2016-12-20 10:48:59 -0500
+slug: hat
+date:   2017-1-31 10:48:59 -0500
 categories: people hero 
 
 img: "logo_hat.gif"
