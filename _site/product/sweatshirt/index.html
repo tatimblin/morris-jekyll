@@ -175,23 +175,96 @@
 </header>-->
 
     
-    <div class="hero" style="background:#;">
-    <div class="hero-content" style="flex-direction:;">
+    <!-- 
+    The code here is duplicated in order to be present for both page and layout types. Information is gathered from index.html and layout/post.html.
+-->
+
+
+
+
+
+
+
+<div class="hero" style="background:#9E4771;">
+    <div class="hero-content" style="flex-direction:row;">
+        
+            <div class="hero-content-img" style="background-image:url('/img/hero/catInBox.png'); margin:
+               
+                   0 60px 0 0
+               
+               
+            ;">
+               <!-- 
+                   Here we switch the margin of the image to be in between te image and text no matter the order.
+               -->
+                
+            </div>
         
         <div class="hero-content-cta">
-            <h1></h1>
-            <p></p>
+            <h1>Take Me Home</h1>
+            <p>Wether it's for a friend, your furry friend, or yourself, we have gifts and supplies for the whole gang.</p>
+            
+            
+                <div class="hero-content-cta-btn btn">
+                    Action
+                </div>
             
             
         </div>
     </div>
 </div>
 
+
     <div class="page-content">
       <div class="wrapper">
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
+<div class="post-item">
+    <div class="post-item_img" style="background-image: url('/img/products/')"></div>
+</div>
+<div class="post-item">
+    <h1>Sweatshirt</h1>
+    <p>
+        <!-- Trying to add a product type-->
+            
+        
+    </p>
+    <p>$14.00</p>
+    <hr>
+    <div class="post-item_content">
+        <p>Wether it’s for a friend, your furry friend, or yourself, we have gifts and supplies for the whole gang.</p>
+
+<p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+
+    </div>
+    <div class="post-item_addCart">
+       Qty.
+       <select>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+        <div class="btn-cta">
+            Add To Cart
+        </div>
+    </div>
+</div>
+
+<!--  <header class="post-header">
     <h1 class="post-title" itemprop="name headline">Sweatshirt</h1>
     <p class="post-meta"><time datetime="2017-01-02T05:48:59-05:00" itemprop="datePublished">Jan 2, 2017</time></p>
   </header>
@@ -216,9 +289,7 @@
 
     
     
-  
-  
-  </div>
+  </div>-->
 
 </article>
 

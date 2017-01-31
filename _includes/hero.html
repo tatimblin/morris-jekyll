@@ -1,3 +1,10 @@
+<!-- 
+    The code here is duplicated in order to be present for both page and layout types. Information is gathered from index.html and layout/post.html.
+-->
+
+
+
+{% if page.hero-img %}
 <div class="hero" style="background:#{{ page.hero-color }};">
     <div class="hero-content" style="flex-direction:{{ page.hero-orient }};">
         {% if page.hero-img %}
@@ -24,6 +31,42 @@
                     {{ page.hero-action }}
                 </div>
             {% endif %}
+            
         </div>
     </div>
 </div>
+{% endif %}
+
+
+{% if layout.hero-img %}
+<div class="hero" style="background:#{{ layout.hero-color }};">
+    <div class="hero-content" style="flex-direction:{{ layout.hero-orient }};">
+        {% if layout.hero-img %}
+            <div class="hero-content-img" style="background-image:url('{{ site.baseurl }}/img/hero/{{ layout.hero-img }}'); margin:
+               {% if layout.hero-orient == 'row' %}
+                   0 60px 0 0
+               {% endif %}
+               {% if layout.hero-orient == 'row-reverse' %}
+                   0 0 0 60px
+               {% endif %}
+            ;">
+               <!-- 
+                   Here we switch the margin of the image to be in between te image and text no matter the order.
+               -->
+                
+            </div>
+        {% endif %}
+        <div class="hero-content-cta">
+            <h1>{{ layout.hero-title }}</h1>
+            <p>{{ layout.hero-body }}</p>
+            
+            {% if layout.hero-action %}
+                <div class="hero-content-cta-btn btn">
+                    {{ layout.hero-action }}
+                </div>
+            {% endif %}
+            
+        </div>
+    </div>
+</div>
+{% endif %}

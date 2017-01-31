@@ -4,6 +4,7 @@ title:  "Look. Love. Adopt. T-Shirt"
 slug: tshirt
 date:   2017-1-28 10:48:59 -0500
 categories: people hero staffPickRight
+type: "t-shirt"
 
 img: "womens_lookloveadopt.png"
 price: "22"
