@@ -5,7 +5,7 @@ slug: hat
 date:   2017-1-31 10:48:59 -0500
 categories: people hero 
 
-img: "logo_hat.gif"
+img: "logo_hat.png"
 price: "16"
 ---
 
