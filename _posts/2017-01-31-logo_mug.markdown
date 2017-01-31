@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "MAR Mug"
-slug: tshirt
+slug: mug
 date:   2017-01-31 10:48:59 -0500
 categories: people hero 
 
-img: "logo_mug.gif"
+img: "log_mug.png"
 price: "13"
 ---
 Start your morning with Morris Animal Refuge by purchasing this adorable mug! The cat ears and tail are a fun addition to our classic mug.
