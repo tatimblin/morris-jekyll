@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Car Magnet"
+slug: magnet
+date:   2017-1-31 5:48:59 -0500
+categories: people hero
+
+img: "bunny_mug.png"
+price: "4.50"
+---
+Have a little fun with this adorable magnet while supporting our animals! This magnet is perfect for your car, fridge, or anywhere you'd like!

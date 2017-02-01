@@ -54,7 +54,7 @@ footer {
 				text-decoration: underline;
 			}
 		}
-		a:not(:first-child):before {
+		a:not(:last-child):after {
 			padding: 0 10px;
 			content: '|';
 		}

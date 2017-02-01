@@ -6,33 +6,17 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 26 Jan 2017 15:51:43 -0500</pubDate>
-    <lastBuildDate>Thu, 26 Jan 2017 15:51:43 -0500</lastBuildDate>
+    <pubDate>Tue, 31 Jan 2017 22:10:30 -0500</pubDate>
+    <lastBuildDate>Tue, 31 Jan 2017 22:10:30 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
-        <title>Bandana</title>
-        <description>&lt;p&gt;Product Description&lt;/p&gt;
-
+        <title>Stackable Mug</title>
+        <description>&lt;p&gt;Add some color to your day with the row house stackable mug! Not only is it colorful, but its shape allows for easy stacking and less clutter in your cabinets.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 12 Jan 2017 14:39:20 -0500</pubDate>
-        <link>/product/bandana/</link>
-        <guid isPermaLink="true">/product/bandana/</guid>
-        
-        
-        <category>pet</category>
-        
-        <category>hero</category>
-        
-      </item>
-    
-      <item>
-        <title>Water Bottle</title>
-        <description>&lt;p&gt;product description&lt;/p&gt;
-</description>
-        <pubDate>Thu, 12 Jan 2017 14:30:59 -0500</pubDate>
-        <link>/product/waterbottle/</link>
-        <guid isPermaLink="true">/product/waterbottle/</guid>
+        <pubDate>Tue, 31 Jan 2017 14:30:59 -0500</pubDate>
+        <link>/product/mug/</link>
+        <guid isPermaLink="true">/product/mug/</guid>
         
         
         <category>people</category>
@@ -42,10 +26,70 @@
       </item>
     
       <item>
-        <title>Hat</title>
-        <description>&lt;p&gt;Product description of a hat&lt;/p&gt;
+        <title>Tote Bag</title>
+        <description>
 </description>
-        <pubDate>Thu, 12 Jan 2017 05:48:59 -0500</pubDate>
+        <pubDate>Tue, 31 Jan 2017 12:48:59 -0500</pubDate>
+        <link>/product/bag/</link>
+        <guid isPermaLink="true">/product/bag/</guid>
+        
+        
+        <category>people</category>
+        
+        <category>hero</category>
+        
+      </item>
+    
+      <item>
+        <title>MAR T-Shirt</title>
+        <description>&lt;p&gt;Our row house t-shirt captures the history of America’s first animal refuge, Morris Animal Refuge. Keep history alive and look great doing it with our Row House T-Shirt!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 Jan 2017 10:48:59 -0500</pubDate>
+        <link>/product/tshirt/</link>
+        <guid isPermaLink="true">/product/tshirt/</guid>
+        
+        
+        <category>people</category>
+        
+        <category>hero</category>
+        
+      </item>
+    
+      <item>
+        <title>Look. Love. Adopt. T-Shirt</title>
+        <description>&lt;p&gt;Spread an important message with our baseball t-shirt! The modern design looks awesome and supports the animals of Morris Animal Refuge!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 Jan 2017 10:48:59 -0500</pubDate>
+        <link>/product/tshirt/</link>
+        <guid isPermaLink="true">/product/tshirt/</guid>
+        
+        
+        <category>people</category>
+        
+        <category>hero</category>
+        
+      </item>
+    
+      <item>
+        <title>MAR Mug</title>
+        <description>&lt;p&gt;Start your morning with Morris Animal Refuge by purchasing this adorable mug! The cat ears and tail are a fun addition to our classic mug.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 Jan 2017 10:48:59 -0500</pubDate>
+        <link>/product/mug/</link>
+        <guid isPermaLink="true">/product/mug/</guid>
+        
+        
+        <category>people</category>
+        
+        <category>hero</category>
+        
+      </item>
+    
+      <item>
+        <title>MAR Hat</title>
+        <description>
+</description>
+        <pubDate>Tue, 31 Jan 2017 10:48:59 -0500</pubDate>
         <link>/product/hat/</link>
         <guid isPermaLink="true">/product/hat/</guid>
         
@@ -57,12 +101,12 @@
       </item>
     
       <item>
-        <title>Puppy Socks</title>
-        <description>&lt;p&gt;Product Description…&lt;/p&gt;
+        <title>Kids Row House</title>
+        <description>&lt;p&gt;Our row house t-shirt captures the history of America’s first animal refuge, Morris Animal Refuge. Keep history alive and look great doing it by purchasing our colorful tee!&lt;/p&gt;
 </description>
-        <pubDate>Mon, 02 Jan 2017 06:48:59 -0500</pubDate>
-        <link>/product/socks/</link>
-        <guid isPermaLink="true">/product/socks/</guid>
+        <pubDate>Tue, 31 Jan 2017 06:48:59 -0500</pubDate>
+        <link>/product/tshirt/</link>
+        <guid isPermaLink="true">/product/tshirt/</guid>
         
         
         <category>people</category>
@@ -72,42 +116,10 @@
       </item>
     
       <item>
-        <title>Dog Bowl</title>
-        <description>&lt;p&gt;Wether it’s for a friend, your furry friend, or yourself, we have gifts and supplies for the whole gang.&lt;/p&gt;
-
-&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 02 Jan 2017 06:48:59 -0500</pubDate>
-        <link>/product/bowl/</link>
-        <guid isPermaLink="true">/product/bowl/</guid>
-        
-        
-        <category>pet</category>
-        
-        <category>hero</category>
-        
-        <category>staffPickLeft</category>
-        
-      </item>
-    
-      <item>
         <title>Car Magnet</title>
-        <description>
+        <description>&lt;p&gt;Have a little fun with this adorable magnet while supporting our animals! This magnet is perfect for your car, fridge, or anywhere you’d like!&lt;/p&gt;
 </description>
-        <pubDate>Mon, 02 Jan 2017 05:48:59 -0500</pubDate>
+        <pubDate>Tue, 31 Jan 2017 05:48:59 -0500</pubDate>
         <link>/product/magnet/</link>
         <guid isPermaLink="true">/product/magnet/</guid>
         
@@ -119,91 +131,10 @@
       </item>
     
       <item>
-        <title>Sweatshirt</title>
-        <description>&lt;p&gt;Wether it’s for a friend, your furry friend, or yourself, we have gifts and supplies for the whole gang.&lt;/p&gt;
-
-&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
+        <title>Row House T-Shirt</title>
+        <description>&lt;p&gt;Our row house t-shirt captures the history of America’s first animal refuge, Morris Animal Refuge. Keep history alive and look great doing it with our Row House T-Shirt!&lt;/p&gt;
 </description>
-        <pubDate>Mon, 02 Jan 2017 05:48:59 -0500</pubDate>
-        <link>/product/sweatshirt/</link>
-        <guid isPermaLink="true">/product/sweatshirt/</guid>
-        
-        
-        <category>people</category>
-        
-        <category>hero</category>
-        
-        <category>staffPickRight</category>
-        
-      </item>
-    
-      <item>
-        <title>Leash</title>
-        <description>
-</description>
-        <pubDate>Tue, 20 Dec 2016 12:48:59 -0500</pubDate>
-        <link>/product/leash/</link>
-        <guid isPermaLink="true">/product/leash/</guid>
-        
-        
-        <category>both</category>
-        
-        <category>pet</category>
-        
-        <category>hero</category>
-        
-      </item>
-    
-      <item>
-        <title>Mug</title>
-        <description>&lt;p&gt;Wether it’s for a friend, your furry friend, or yourself, we have gifts and supplies for the whole gang.&lt;/p&gt;
-
-&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 20 Dec 2016 12:48:59 -0500</pubDate>
-        <link>/product/mug/</link>
-        <guid isPermaLink="true">/product/mug/</guid>
-        
-        
-        <category>people</category>
-        
-        <category>hero</category>
-        
-        <category>staffPickLeft</category>
-        
-      </item>
-    
-      <item>
-        <title>Look. Love. Adopt. T-Shirt</title>
-        <description>&lt;p&gt;Whether it’s for a friend or yourself, this turtle t-shirt will show you care. Since all the proceeds benefit the animals of Morris Animal Refuge, you can feel good about your purchase and look great!&lt;/p&gt;
-</description>
-        <pubDate>Tue, 20 Dec 2016 10:48:59 -0500</pubDate>
+        <pubDate>Sat, 28 Jan 2017 10:48:59 -0500</pubDate>
         <link>/product/tshirt/</link>
         <guid isPermaLink="true">/product/tshirt/</guid>
         
@@ -212,7 +143,20 @@
         
         <category>hero</category>
         
-        <category>staffPickRight</category>
+      </item>
+    
+      <item>
+        <title>Row House T-Shirt</title>
+        <description>&lt;p&gt;Our row house t-shirt captures the history of America’s first animal refuge, Morris Animal Refuge. Keep history alive and look great doing it with our Row House T-Shirt!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 28 Jan 2017 10:48:59 -0500</pubDate>
+        <link>/product/tshirt/</link>
+        <guid isPermaLink="true">/product/tshirt/</guid>
+        
+        
+        <category>people</category>
+        
+        <category>hero</category>
         
       </item>
     
