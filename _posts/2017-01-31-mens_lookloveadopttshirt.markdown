@@ -3,7 +3,7 @@ layout: post
 title:  "Look. Love. Adopt. T-Shirt"
 slug: tshirt
 date:   2017-1-31 10:48:59 -0500
-categories: people hero 
+categories: people hero staffPickRight 
 
 img: "mens_lookloveadopt.png"
 price: "22"
