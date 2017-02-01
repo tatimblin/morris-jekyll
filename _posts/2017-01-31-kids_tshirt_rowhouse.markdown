@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Kids Row House"
-slug: kids rowhouse tshirt
+slug: kids_tshirt_rowhouse
 date:   2017-1-31 6:48:59 -0500
 categories: people hero
 
