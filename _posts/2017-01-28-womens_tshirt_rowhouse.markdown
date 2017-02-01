@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Row House T-Shirt"
-slug: womens rowhouse tshirt
+slug: womens_tshirt_rowhouse
 date:   2017-1-28 10:48:59 -0500
 categories: people hero
 
