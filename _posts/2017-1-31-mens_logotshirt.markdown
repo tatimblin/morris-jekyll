@@ -8,4 +8,4 @@ categories: people hero
 img: "logo_menstshirt.jpg"
 price: "17"
 ---
-Our row house t-shirt captures the history of America's first animal refuge, Morris Animal Refuge. Keep history alive and look great doing it with our Row House T-Shirt!
+Support your favorite animal refuge with this classic t-shirt, its simple style is right for everyone!
