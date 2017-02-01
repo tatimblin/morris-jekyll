@@ -6,9 +6,39 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 31 Jan 2017 17:05:14 -0500</pubDate>
-    <lastBuildDate>Tue, 31 Jan 2017 17:05:14 -0500</lastBuildDate>
+    <pubDate>Tue, 31 Jan 2017 22:10:30 -0500</pubDate>
+    <lastBuildDate>Tue, 31 Jan 2017 22:10:30 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Stackable Mug</title>
+        <description>&lt;p&gt;Add some color to your day with the row house stackable mug! Not only is it colorful, but its shape allows for easy stacking and less clutter in your cabinets.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 Jan 2017 14:30:59 -0500</pubDate>
+        <link>/product/mug/</link>
+        <guid isPermaLink="true">/product/mug/</guid>
+        
+        
+        <category>people</category>
+        
+        <category>hero</category>
+        
+      </item>
+    
+      <item>
+        <title>Tote Bag</title>
+        <description>
+</description>
+        <pubDate>Tue, 31 Jan 2017 12:48:59 -0500</pubDate>
+        <link>/product/bag/</link>
+        <guid isPermaLink="true">/product/bag/</guid>
+        
+        
+        <category>people</category>
+        
+        <category>hero</category>
+        
+      </item>
     
       <item>
         <title>MAR T-Shirt</title>
@@ -71,6 +101,36 @@
       </item>
     
       <item>
+        <title>Kids Row House</title>
+        <description>&lt;p&gt;Our row house t-shirt captures the history of America’s first animal refuge, Morris Animal Refuge. Keep history alive and look great doing it by purchasing our colorful tee!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 Jan 2017 06:48:59 -0500</pubDate>
+        <link>/product/tshirt/</link>
+        <guid isPermaLink="true">/product/tshirt/</guid>
+        
+        
+        <category>people</category>
+        
+        <category>hero</category>
+        
+      </item>
+    
+      <item>
+        <title>Car Magnet</title>
+        <description>&lt;p&gt;Have a little fun with this adorable magnet while supporting our animals! This magnet is perfect for your car, fridge, or anywhere you’d like!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 Jan 2017 05:48:59 -0500</pubDate>
+        <link>/product/magnet/</link>
+        <guid isPermaLink="true">/product/magnet/</guid>
+        
+        
+        <category>people</category>
+        
+        <category>hero</category>
+        
+      </item>
+    
+      <item>
         <title>Row House T-Shirt</title>
         <description>&lt;p&gt;Our row house t-shirt captures the history of America’s first animal refuge, Morris Animal Refuge. Keep history alive and look great doing it with our Row House T-Shirt!&lt;/p&gt;
 </description>
@@ -92,69 +152,6 @@
         <pubDate>Sat, 28 Jan 2017 10:48:59 -0500</pubDate>
         <link>/product/tshirt/</link>
         <guid isPermaLink="true">/product/tshirt/</guid>
-        
-        
-        <category>people</category>
-        
-        <category>hero</category>
-        
-      </item>
-    
-      <item>
-        <title>Look. Love. Adopt. T-Shirt</title>
-        <description>&lt;p&gt;Spread an important message with our baseball t-shirt! The modern design looks awesome and supports the animals of Morris Animal Refuge!&lt;/p&gt;
-</description>
-        <pubDate>Sat, 28 Jan 2017 10:48:59 -0500</pubDate>
-        <link>/product/tshirt/</link>
-        <guid isPermaLink="true">/product/tshirt/</guid>
-        
-        
-        <category>people</category>
-        
-        <category>hero</category>
-        
-        <category>staffPickRight</category>
-        
-      </item>
-    
-      <item>
-        <title>Bandana</title>
-        <description>&lt;p&gt;Product Description&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 12 Jan 2017 14:39:20 -0500</pubDate>
-        <link>/product/bandana/</link>
-        <guid isPermaLink="true">/product/bandana/</guid>
-        
-        
-        <category>pet</category>
-        
-        <category>hero</category>
-        
-      </item>
-    
-      <item>
-        <title>Water Bottle</title>
-        <description>&lt;p&gt;product description&lt;/p&gt;
-</description>
-        <pubDate>Thu, 12 Jan 2017 14:30:59 -0500</pubDate>
-        <link>/product/waterbottle/</link>
-        <guid isPermaLink="true">/product/waterbottle/</guid>
-        
-        
-        <category>people</category>
-        
-        <category>hero</category>
-        
-      </item>
-    
-      <item>
-        <title>Hat</title>
-        <description>&lt;p&gt;Product description of a hat&lt;/p&gt;
-</description>
-        <pubDate>Thu, 12 Jan 2017 05:48:59 -0500</pubDate>
-        <link>/product/hat/</link>
-        <guid isPermaLink="true">/product/hat/</guid>
         
         
         <category>people</category>
