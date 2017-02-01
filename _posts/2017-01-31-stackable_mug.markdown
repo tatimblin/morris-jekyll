@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Stackable Mug"
-slug: mug
+slug: stackable mug
 date:   2017-01-31 14:30:59 -0500
 categories: people hero staffPickLeft
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dog T-Shirt"
-slug: tshirt
+slug: dog_tshirt
 date:   2017-1-31 6:48:59 -0500
 categories: pet hero staffPickLeft
 
