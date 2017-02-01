@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Row House T-Shirt"
-slug: mens rowhouse tshirt
+slug: mens_tshirt_rowhouse
 date:   2017-1-28 10:48:59 -0500
 categories: people hero staffPickRight
 
