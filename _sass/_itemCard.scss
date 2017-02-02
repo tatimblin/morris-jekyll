@@ -145,6 +145,7 @@
   border: 3px solid $title-color;
   border-radius: 5px 30px 5px;
   text-align: center;
+  color: $title-color;
 }
 
 @include media-query(800px) {
