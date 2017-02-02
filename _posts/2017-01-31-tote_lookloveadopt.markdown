@@ -8,3 +8,4 @@ categories: people hero
 img: "lookloveadopt_tote.png"
 price: "14"
 ---
+Add this fun tote to your collection to support the animals of Morris Animal Refuge while spreading an important message!
