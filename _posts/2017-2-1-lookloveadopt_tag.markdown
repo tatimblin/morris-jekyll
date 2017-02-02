@@ -2,7 +2,7 @@
 layout: post
 title:  "Look. Love. Adopt. Tag"
 slug: lookloveadopt_tag
-date:   2017-2-1 6:48:59 -0500
+date:   2017-2-1 2:48:59 -0500
 categories: pet hero 
 
 img: "lookloveadopt_tag.png"

@@ -135,6 +135,18 @@
     }
 }
 
+#new {
+  position: absolute;
+  top: -10px;
+  right: -25px;
+  transform: rotate(25deg);
+  background-color: $pink;
+  padding: 5% 15% 5% 15%;
+  border: 3px solid $title-color;
+  border-radius: 5px 30px 5px;
+  text-align: center;
+}
+
 @include media-query(800px) {
     .product {
 	    width: 45%;
