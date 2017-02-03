@@ -19,7 +19,23 @@
 
   <body>
 
-    <div class="mobile-header">
+    
+<!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This is the structure for the site header
+            - Styling located in _sass/_header.scss
+            - Default jekyll header is commented out below for referencing.
+            - This was created mobile first
+        Instructions:
+            1) Navigation is hardcoded in except for the categories
+            2) Category links are given an id of their slug. You can reference this is in the css.
+            
+###############
+-->
+
+<div class="mobile-header">
 	<div class="mobile-header-top">
 		<div class="mobile-header-top_ham">
 			<img src="https://veronicaqubrossi.com/wp-content/themes/genesis-meta-child/images/gmct/mobile-menu.png">
@@ -225,7 +241,24 @@
         File created by Tristan Timblin.
         Purpose:
             This file controls the homepage of the our site.
-            Its layout is 'default' (see above) and the information here gets pulled into layout/default.html where <div class="section-title">
+            Its layout is 'default' (see above) and the information here gets pulled into layout/default.html where <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - Custom created layout
+            - To SECTION off the different product categories
+        Instructions:
+            1) To create a new category section create a new .md file on the main level
+            2) File will only contain frontmatter
+            3) Have (layout: section) to use this template
+            4) Include a unique slug
+            5) Reference current main level .md files for reference on other frontmatter attributes.
+            6) Add items to the section by creating new posts with the FIRST category listed as the new slug.
+            
+###############
+-->
+
+<div class="section-title">
     <h2>For Both</h2>
 </div>
 
@@ -237,7 +270,22 @@
 
 
 
-  <p><div class="banner">
+  <p><!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This is the first banner, it has a dog popup and then blink.
+            - The file can be used as a template.
+        Instructions:
+            1) Duplicate file.
+            2) Remove content in '.banner-content-icon' and '.banner-content-copy h1'
+            3) Place your new svg and tagline
+            4) Add animation styling to _sass/_banner.scss
+            
+###############
+-->
+
+<div class="banner">
 	
 	<div class="banner-content">
 		<div class="banner-content-icon">
@@ -354,6 +402,22 @@
         
     </div>
 </div>
+<!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This is the first banner, it has a dog popup and then blink.
+            - The file can be used as a template.
+        Instructions:
+            1) Duplicate file.
+            2) Remove content in '.banner-content-icon' and '.banner-content-copy h1'
+            3) Place your new svg and tagline
+            4) Add animation styling to _sass/_banner.scss
+            
+###############
+-->
+
+
 <div class="banner">
 	
 	<div class="banner-content">
@@ -398,7 +462,18 @@
   <div class="post-list">
     <div class="product_wrap">
         
-             
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
 
 <div class="product">
    <a href="/product/mug/">
@@ -429,7 +504,18 @@
             </h2>
           </li>-->
         
-             
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
 
 <div class="product">
    <a href="/product/bag/">
@@ -460,7 +546,18 @@
             </h2>
           </li>-->
         
-             
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
 
 <div class="product">
    <a href="/product/tshirt/">
@@ -491,7 +588,18 @@
             </h2>
           </li>-->
         
-             
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
 
 <div class="product">
    <a href="/product/tshirt/">
@@ -522,7 +630,18 @@
             </h2>
           </li>-->
         
-             
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
 
 <div class="product">
    <a href="/product/mug/">
@@ -553,7 +672,18 @@
             </h2>
           </li>-->
         
-             
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
 
 <div class="product">
    <a href="/product/hat/">
@@ -584,7 +714,18 @@
             </h2>
           </li>-->
         
-             
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
 
 <div class="product">
    <a href="/product/tshirt/">
@@ -615,7 +756,18 @@
             </h2>
           </li>-->
         
-             
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
 
 <div class="product">
    <a href="/product/magnet/">
@@ -646,7 +798,18 @@
             </h2>
           </li>-->
         
-             
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
 
 <div class="product">
    <a href="/product/tshirt/">
@@ -677,7 +840,18 @@
             </h2>
           </li>-->
         
-             
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
 
 <div class="product">
    <a href="/product/tshirt/">
@@ -708,7 +882,18 @@
             </h2>
           </li>-->
         
-             
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
 
 <div class="product">
    <a href="/product/tshirt/">
@@ -739,7 +924,18 @@
             </h2>
           </li>-->
         
-             
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
 
 <div class="product">
    <a href="/product/bandana/">
@@ -770,7 +966,18 @@
             </h2>
           </li>-->
         
-             
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
 
 <div class="product">
    <a href="/product/hat/">
@@ -801,7 +1008,18 @@
             </h2>
           </li>-->
         
-             
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
 
 <div class="product">
    <a href="/product/bowl/">
@@ -832,7 +1050,18 @@
             </h2>
           </li>-->
         
-             
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
 
 <div class="product">
    <a href="/product/sweatshirt/">
@@ -863,7 +1092,18 @@
             </h2>
           </li>-->
         
-             
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
 
 <div class="product">
    <a href="/product/mug/">
