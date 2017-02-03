@@ -240,90 +240,8 @@
 ###############
         File created by Tristan Timblin.
         Purpose:
-            This file controls the homepage of the our site.
-            Its layout is 'default' (see above) and the information here gets pulled into layout/default.html where <!--
-###############
-        File created by Tristan Timblin.
-        Purpose:
-            - Custom created layout
-            - To SECTION off the different product categories
-        Instructions:
-            1) To create a new category section create a new .md file on the main level
-            2) File will only contain frontmatter
-            3) Have (layout: section) to use this template
-            4) Include a unique slug
-            5) Reference current main level .md files for reference on other frontmatter attributes.
-            6) Add items to the section by creating new posts with the FIRST category listed as the new slug.
-            
-###############
--->
-
-<div class="section-title">
-    <h2>For Both</h2>
-</div>
-
-<div class="text-justify">
-    
-        <p>There are no posts in this category.</p>
-    
-</div>
-
-
-
-  <p><!--
-###############
-        File created by Tristan Timblin.
-        Purpose:
-            - This is the first banner, it has a dog popup and then blink.
-            - The file can be used as a template.
-        Instructions:
-            1) Duplicate file.
-            2) Remove content in '.banner-content-icon' and '.banner-content-copy h1'
-            3) Place your new svg and tagline
-            4) Add animation styling to _sass/_banner.scss
-            
-###############
--->
-
-<div class="banner">
-	
-	<div class="banner-content">
-		<div class="banner-content-icon">
-
-<svg id="Layer_1" class="banner-dog" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 276.27 235.5">
-	<defs>
-		<style>
-			.cls-1{fill:#645240;}.cls-2{fill:#fff;}.cls-3{fill:#578ba8;}.cls-4{fill:#251d10;}.cls-5{fill:#ee3d74;}
-		</style>
-	</defs>
-	<title>jakeDog</title>
-	<path class="cls-1" d="M46.42,166.86s27-42,50.53-47.39c-11.68-13.31-59.6-70.9-59.6-70.9S-25.54,96.9,46.42,166.86Z" transform="translate(-11.9 -48.57)" />
-	<path class="cls-1 dog-ear" d="M253.58,169.46s-24.95-43.19-47.44-48.92c11.5-13.43,58.75-71.61,58.75-71.61S324.16,99,253.58,169.46Z" transform="translate(-11.9 -48.57)" />
-	<ellipse class="cls-2" cx="135.1" cy="138.43" rx="117.06" ry="97.07" />
-	<ellipse class="cls-1" cx="77.93" cy="128.66" rx="47.5" ry="45.77" />
-	<circle class="cls-3 dog-eye" cx="188.43" cy="138.43" r="23" /><path class="cls-4" d="M133.33,223.35S120,210,138,210s34,.67,24.67,13C148.53,243.49,133.33,223.35,133.33,223.35Z" transform="translate(-11.9 -48.57)" />
-	<circle class="cls-3 dog-eye" cx="81.76" cy="138.43" r="23" />
-	<circle class="cls-2 dog-eye" cx="75.1" cy="135.59" r="8.67" />
-	<circle class="cls-2 dog-eye" cx="90.83" cy="147.1" r="4.18" />
-	<circle class="cls-2 dog-eye" cx="182.8" cy="134.92" r="8.67" />
-	<circle class="cls-2 dog-eye" cx="198.54" cy="146.43" r="4.18" />
-
-	<path id="tounge" class="cls-5" d="M136.94,245.16s-.91,21.18,9.53,21.41,9.91-19.78,9.91-19.78a23.2,23.2,0,0,1-9.69-14.94C145.54,238.7,136.94,245.16,136.94,245.16Z" transform="translate(-11.9 -48.57)" />
-	<path class="cls-4" d="M146.49,228.09S144.94,258,180,245.23C168.38,247.86,150,253.77,146.49,228.09Z" transform="translate(-11.9 -48.57)" />
-	<path class="cls-4" d="M147.52,230.21c-1.56,1.21-3.28,19.18-29.12,16.6C130.67,247.88,143.76,247.77,147.52,230.21Z" transform="translate(-11.9 -48.57)" />
-	<path id="toungeLine" class="cls-4" d="M146.48,240.34s-1.94,14.81-.49,19.53C145.4,256,146.48,240.34,146.48,240.34Z" transform="translate(-11.9 -48.57)" />
-	
-</svg>
-		</div>
-		<div class="banner-content-copy">
-			<h1>
-				Spending $40 lets us take care of two dogs for a week.
-			</h1>
-		</div>
-	</div>
-</div>
-</p>
- is present.
+            This file controls the homepage of our site.
+            Its layout is 'default' (see above) and the information here gets pulled into layout/default.html where {_{_content_}_} is present.
         Instructions:
             1) You can edit the hero banner on this page using the front matter (above), for your convenience I put the brand colors below. You can edit:
                 - The color
@@ -359,17 +277,17 @@
     <div class="staff-item">
         
                 <a href="">
-                   <div class="staff-item-img" style="background-image: url('../img/products/placeholder.jpg'); background-size: cover;"></div>
+                   <div class="staff-item-img" style="background-image: url('/img/products/stackable_mug.png'); background-size: cover;"></div>
                     
-                    <h1>Dog Bowl...</h1>
-                    <p>$10</p>
+                    <h1>Stackable Mug...</h1>
+                    <p>$12</p>
                 </a>
         
                 <a href="">
-                   <div class="staff-item-img" style="background-image: url('../img/products/'); background-size: cover;"></div>
+                   <div class="staff-item-img" style="background-image: url('/img/products/dog_rowhouse.png'); background-size: cover;"></div>
                     
-                    <h1>Mug</h1>
-                    <p>$17</p>
+                    <h1>Dog T-Shirt...</h1>
+                    <p>$20</p>
                 </a>
         
     </div>
@@ -389,15 +307,15 @@
     <div class="staff-item">
         
                 <a href="">
-                    <div class="staff-item-img" style="background-image:url('../img/products/womens_lookloveadopt.png'); background-size: cover;"></div>
+                    <div class="staff-item-img" style="background-image:url('../img/products/mens_lookloveadopt.png'); background-size: cover;"></div>
                     <h1>Look. Love. Adopt. T-Shirt</h1>
                     <p>$22</p>
                 </a>
         
                 <a href="">
-                    <div class="staff-item-img" style="background-image:url('../img/products/'); background-size: cover;"></div>
-                    <h1>Sweatshirt</h1>
-                    <p>$14</p>
+                    <div class="staff-item-img" style="background-image:url('../img/products/mens_rowhouse.png'); background-size: cover;"></div>
+                    <h1>Row House T-Shirt</h1>
+                    <p>$20</p>
                 </a>
         
     </div>
@@ -476,14 +394,98 @@
 --> 
 
 <div class="product">
-   <a href="/product/mug/">
+   <a href="/product/orange-tag/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_pet"></div>
+    <div class="product-img" id="bowl" style="background-image:url('/img/products/orange_tag.png');">
+
+    </div>
+    <div class="product-buy" id="purple">
+        <h5>VIEW MORE</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Orange Tag</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$20</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Feb 1, 2017</span>
+
+            <h2>
+              <a class="post-link" href="/product/orange-tag/">Orange Tag</a>
+            </h2>
+          </li>-->
+        
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/lookloveadopt-tag/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_pet"></div>
+    <div class="product-img" id="bowl" style="background-image:url('/img/products/lookloveadopt_tag.png');">
+
+    </div>
+    <div class="product-buy" id="purple">
+        <h5>VIEW MORE</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Look. Love. Adopt. Tag</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$20</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Feb 1, 2017</span>
+
+            <h2>
+              <a class="post-link" href="/product/lookloveadopt-tag/">Look. Love. Adopt. Tag</a>
+            </h2>
+          </li>-->
+        
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/stackable-mug/">
     <div class="product-dropshadow"></div>
     <div class="product-backdrop product-backdrop_people"></div>
     <div class="product-img" id="bowl" style="background-image:url('/img/products/stackable_mug.png');">
 
     </div>
     <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
+        <h5>VIEW MORE</h5>
     </div>
     <div class="product-content">
         <div class="product-content-title">
@@ -500,7 +502,7 @@
             <span class="post-meta">Jan 31, 2017</span>
 
             <h2>
-              <a class="post-link" href="/product/mug/">Stackable Mug</a>
+              <a class="post-link" href="/product/stackable-mug/">Stackable Mug</a>
             </h2>
           </li>-->
         
@@ -518,14 +520,14 @@
 --> 
 
 <div class="product">
-   <a href="/product/bag/">
+   <a href="/product/tote-lookloveadopt/">
     <div class="product-dropshadow"></div>
     <div class="product-backdrop product-backdrop_people"></div>
     <div class="product-img" id="bowl" style="background-image:url('/img/products/lookloveadopt_tote.png');">
 
     </div>
     <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
+        <h5>VIEW MORE</h5>
     </div>
     <div class="product-content">
         <div class="product-content-title">
@@ -542,7 +544,7 @@
             <span class="post-meta">Jan 31, 2017</span>
 
             <h2>
-              <a class="post-link" href="/product/bag/">Tote Bag</a>
+              <a class="post-link" href="/product/tote-lookloveadopt/">Tote Bag</a>
             </h2>
           </li>-->
         
@@ -560,14 +562,56 @@
 --> 
 
 <div class="product">
-   <a href="/product/tshirt/">
+   <a href="/product/womens-logotshirt/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" id="bowl" style="background-image:url('/img/products/womens_MARtshirt.jpg');">
+
+    </div>
+    <div class="product-buy" id="purple">
+        <h5>VIEW MORE</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>MAR T-Shirt</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$18</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Jan 31, 2017</span>
+
+            <h2>
+              <a class="post-link" href="/product/womens-logotshirt/">MAR T-Shirt</a>
+            </h2>
+          </li>-->
+        
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/mens-logotshirt/">
     <div class="product-dropshadow"></div>
     <div class="product-backdrop product-backdrop_people"></div>
     <div class="product-img" id="bowl" style="background-image:url('/img/products/logo_menstshirt.jpg');">
 
     </div>
     <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
+        <h5>VIEW MORE</h5>
     </div>
     <div class="product-content">
         <div class="product-content-title">
@@ -584,7 +628,7 @@
             <span class="post-meta">Jan 31, 2017</span>
 
             <h2>
-              <a class="post-link" href="/product/tshirt/">MAR T-Shirt</a>
+              <a class="post-link" href="/product/mens-logotshirt/">MAR T-Shirt</a>
             </h2>
           </li>-->
         
@@ -602,14 +646,14 @@
 --> 
 
 <div class="product">
-   <a href="/product/tshirt/">
+   <a href="/product/mens-lookloveadopttshirt/">
     <div class="product-dropshadow"></div>
     <div class="product-backdrop product-backdrop_people"></div>
     <div class="product-img" id="bowl" style="background-image:url('/img/products/mens_lookloveadopt.png');">
 
     </div>
     <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
+        <h5>VIEW MORE</h5>
     </div>
     <div class="product-content">
         <div class="product-content-title">
@@ -626,7 +670,7 @@
             <span class="post-meta">Jan 31, 2017</span>
 
             <h2>
-              <a class="post-link" href="/product/tshirt/">Look. Love. Adopt. T-Shirt</a>
+              <a class="post-link" href="/product/mens-lookloveadopttshirt/">Look. Love. Adopt. T-Shirt</a>
             </h2>
           </li>-->
         
@@ -644,14 +688,14 @@
 --> 
 
 <div class="product">
-   <a href="/product/mug/">
+   <a href="/product/logo-mug/">
     <div class="product-dropshadow"></div>
     <div class="product-backdrop product-backdrop_people"></div>
     <div class="product-img" id="bowl" style="background-image:url('/img/products/log_mug.png');">
 
     </div>
     <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
+        <h5>VIEW MORE</h5>
     </div>
     <div class="product-content">
         <div class="product-content-title">
@@ -668,7 +712,7 @@
             <span class="post-meta">Jan 31, 2017</span>
 
             <h2>
-              <a class="post-link" href="/product/mug/">MAR Mug</a>
+              <a class="post-link" href="/product/logo-mug/">MAR Mug</a>
             </h2>
           </li>-->
         
@@ -686,14 +730,14 @@
 --> 
 
 <div class="product">
-   <a href="/product/hat/">
+   <a href="/product/logo-hat/">
     <div class="product-dropshadow"></div>
     <div class="product-backdrop product-backdrop_people"></div>
     <div class="product-img" id="bowl" style="background-image:url('/img/products/logo_hat.png');">
 
     </div>
     <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
+        <h5>VIEW MORE</h5>
     </div>
     <div class="product-content">
         <div class="product-content-title">
@@ -710,7 +754,7 @@
             <span class="post-meta">Jan 31, 2017</span>
 
             <h2>
-              <a class="post-link" href="/product/hat/">MAR Hat</a>
+              <a class="post-link" href="/product/logo-hat/">MAR Hat</a>
             </h2>
           </li>-->
         
@@ -728,14 +772,56 @@
 --> 
 
 <div class="product">
-   <a href="/product/tshirt/">
+   <a href="/product/dog-tshirt/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_pet"></div>
+    <div class="product-img" id="bowl" style="background-image:url('/img/products/dog_rowhouse.png');">
+
+    </div>
+    <div class="product-buy" id="purple">
+        <h5>VIEW MORE</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Dog T-Shirt</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$20</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Jan 31, 2017</span>
+
+            <h2>
+              <a class="post-link" href="/product/dog-tshirt/">Dog T-Shirt</a>
+            </h2>
+          </li>-->
+        
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/kids-tshirt-rowhouse/">
     <div class="product-dropshadow"></div>
     <div class="product-backdrop product-backdrop_people"></div>
     <div class="product-img" id="bowl" style="background-image:url('/img/products/kids_rowhouse.png');">
 
     </div>
     <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
+        <h5>VIEW MORE</h5>
     </div>
     <div class="product-content">
         <div class="product-content-title">
@@ -752,7 +838,7 @@
             <span class="post-meta">Jan 31, 2017</span>
 
             <h2>
-              <a class="post-link" href="/product/tshirt/">Kids Row House</a>
+              <a class="post-link" href="/product/kids-tshirt-rowhouse/">Kids Row House</a>
             </h2>
           </li>-->
         
@@ -773,18 +859,18 @@
    <a href="/product/magnet/">
     <div class="product-dropshadow"></div>
     <div class="product-backdrop product-backdrop_people"></div>
-    <div class="product-img" id="bowl" style="background-image:url('/img/products/bunny_mug.png');">
+    <div class="product-img" id="bowl" style="background-image:url('/img/products/bunny_magnet.png');">
 
     </div>
     <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
+        <h5>VIEW MORE</h5>
     </div>
     <div class="product-content">
         <div class="product-content-title">
             <h4>Car Magnet</h4>
         </div>
         <div class="product-content-cost">
-            <h5>$4.50</h5>
+            <h5>$4</h5>
         </div>
     </div>
     </a>
@@ -812,14 +898,14 @@
 --> 
 
 <div class="product">
-   <a href="/product/tshirt/">
+   <a href="/product/womens-tshirt-rowhouse/">
     <div class="product-dropshadow"></div>
     <div class="product-backdrop product-backdrop_people"></div>
     <div class="product-img" id="bowl" style="background-image:url('/img/products/womens_rowhouse.jpg');">
 
     </div>
     <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
+        <h5>VIEW MORE</h5>
     </div>
     <div class="product-content">
         <div class="product-content-title">
@@ -836,7 +922,7 @@
             <span class="post-meta">Jan 28, 2017</span>
 
             <h2>
-              <a class="post-link" href="/product/tshirt/">Row House T-Shirt</a>
+              <a class="post-link" href="/product/womens-tshirt-rowhouse/">Row House T-Shirt</a>
             </h2>
           </li>-->
         
@@ -854,14 +940,14 @@
 --> 
 
 <div class="product">
-   <a href="/product/tshirt/">
+   <a href="/product/mens-tshirt-rowhouse/">
     <div class="product-dropshadow"></div>
     <div class="product-backdrop product-backdrop_people"></div>
     <div class="product-img" id="bowl" style="background-image:url('/img/products/mens_rowhouse.png');">
 
     </div>
     <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
+        <h5>VIEW MORE</h5>
     </div>
     <div class="product-content">
         <div class="product-content-title">
@@ -878,7 +964,7 @@
             <span class="post-meta">Jan 28, 2017</span>
 
             <h2>
-              <a class="post-link" href="/product/tshirt/">Row House T-Shirt</a>
+              <a class="post-link" href="/product/mens-tshirt-rowhouse/">Row House T-Shirt</a>
             </h2>
           </li>-->
         
@@ -903,7 +989,7 @@
 
     </div>
     <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
+        <h5>VIEW MORE</h5>
     </div>
     <div class="product-content">
         <div class="product-content-title">
@@ -921,216 +1007,6 @@
 
             <h2>
               <a class="post-link" href="/product/tshirt/">Look. Love. Adopt. T-Shirt</a>
-            </h2>
-          </li>-->
-        
-           <!--
-###############
-        File created by Tristan Timblin.
-        Purpose:
-            - This file holds the structure for the product listing cards
-            - Some of the code is included for the cards post transition
-            - Styling is held in _sass/itemCard.scss
-        Instructions:
-            1) Loop grabs the first category of each post in order to identify a background color.
-            
-###############
---> 
-
-<div class="product">
-   <a href="/product/bandana/">
-    <div class="product-dropshadow"></div>
-    <div class="product-backdrop product-backdrop_pet"></div>
-    <div class="product-img" id="bowl" style="background-image:url('/img/products/placeholder.jpg');">
-
-    </div>
-    <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
-    </div>
-    <div class="product-content">
-        <div class="product-content-title">
-            <h4>Bandana</h4>
-        </div>
-        <div class="product-content-cost">
-            <h5>$10</h5>
-        </div>
-    </div>
-    </a>
-</div>
-
-           <!--<li>
-            <span class="post-meta">Jan 12, 2017</span>
-
-            <h2>
-              <a class="post-link" href="/product/bandana/">Bandana</a>
-            </h2>
-          </li>-->
-        
-           <!--
-###############
-        File created by Tristan Timblin.
-        Purpose:
-            - This file holds the structure for the product listing cards
-            - Some of the code is included for the cards post transition
-            - Styling is held in _sass/itemCard.scss
-        Instructions:
-            1) Loop grabs the first category of each post in order to identify a background color.
-            
-###############
---> 
-
-<div class="product">
-   <a href="/product/hat/">
-    <div class="product-dropshadow"></div>
-    <div class="product-backdrop product-backdrop_people"></div>
-    <div class="product-img" id="bowl" style="background-image:url('/img/products/placeholder.jpg');">
-
-    </div>
-    <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
-    </div>
-    <div class="product-content">
-        <div class="product-content-title">
-            <h4>Hat</h4>
-        </div>
-        <div class="product-content-cost">
-            <h5>$8</h5>
-        </div>
-    </div>
-    </a>
-</div>
-
-           <!--<li>
-            <span class="post-meta">Jan 12, 2017</span>
-
-            <h2>
-              <a class="post-link" href="/product/hat/">Hat</a>
-            </h2>
-          </li>-->
-        
-           <!--
-###############
-        File created by Tristan Timblin.
-        Purpose:
-            - This file holds the structure for the product listing cards
-            - Some of the code is included for the cards post transition
-            - Styling is held in _sass/itemCard.scss
-        Instructions:
-            1) Loop grabs the first category of each post in order to identify a background color.
-            
-###############
---> 
-
-<div class="product">
-   <a href="/product/bowl/">
-    <div class="product-dropshadow"></div>
-    <div class="product-backdrop product-backdrop_pet"></div>
-    <div class="product-img" id="bowl" style="background-image:url('/img/products/placeholder.jpg');">
-
-    </div>
-    <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
-    </div>
-    <div class="product-content">
-        <div class="product-content-title">
-            <h4>Dog Bowl</h4>
-        </div>
-        <div class="product-content-cost">
-            <h5>$10</h5>
-        </div>
-    </div>
-    </a>
-</div>
-
-           <!--<li>
-            <span class="post-meta">Jan 2, 2017</span>
-
-            <h2>
-              <a class="post-link" href="/product/bowl/">Dog Bowl</a>
-            </h2>
-          </li>-->
-        
-           <!--
-###############
-        File created by Tristan Timblin.
-        Purpose:
-            - This file holds the structure for the product listing cards
-            - Some of the code is included for the cards post transition
-            - Styling is held in _sass/itemCard.scss
-        Instructions:
-            1) Loop grabs the first category of each post in order to identify a background color.
-            
-###############
---> 
-
-<div class="product">
-   <a href="/product/sweatshirt/">
-    <div class="product-dropshadow"></div>
-    <div class="product-backdrop product-backdrop_people"></div>
-    <div class="product-img" id="bowl" style="background-image:url('/img/products/');">
-
-    </div>
-    <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
-    </div>
-    <div class="product-content">
-        <div class="product-content-title">
-            <h4>Sweatshirt</h4>
-        </div>
-        <div class="product-content-cost">
-            <h5>$14</h5>
-        </div>
-    </div>
-    </a>
-</div>
-
-           <!--<li>
-            <span class="post-meta">Jan 2, 2017</span>
-
-            <h2>
-              <a class="post-link" href="/product/sweatshirt/">Sweatshirt</a>
-            </h2>
-          </li>-->
-        
-           <!--
-###############
-        File created by Tristan Timblin.
-        Purpose:
-            - This file holds the structure for the product listing cards
-            - Some of the code is included for the cards post transition
-            - Styling is held in _sass/itemCard.scss
-        Instructions:
-            1) Loop grabs the first category of each post in order to identify a background color.
-            
-###############
---> 
-
-<div class="product">
-   <a href="/product/mug/">
-    <div class="product-dropshadow"></div>
-    <div class="product-backdrop product-backdrop_people"></div>
-    <div class="product-img" id="bowl" style="background-image:url('/img/products/');">
-
-    </div>
-    <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
-    </div>
-    <div class="product-content">
-        <div class="product-content-title">
-            <h4>Mug</h4>
-        </div>
-        <div class="product-content-cost">
-            <h5>$17</h5>
-        </div>
-    </div>
-    </a>
-</div>
-
-           <!--<li>
-            <span class="post-meta">Dec 20, 2016</span>
-
-            <h2>
-              <a class="post-link" href="/product/mug/">Mug</a>
             </h2>
           </li>-->
         

@@ -6,32 +6,64 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 Feb 2017 10:13:13 -0500</pubDate>
-    <lastBuildDate>Fri, 03 Feb 2017 10:13:13 -0500</lastBuildDate>
+    <pubDate>Fri, 03 Feb 2017 10:24:08 -0500</pubDate>
+    <lastBuildDate>Fri, 03 Feb 2017 10:24:08 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
-        <title>Stackable Mug</title>
-        <description>&lt;p&gt;Add some color to your day with the row house stackable mug! Not only is it colorful, but its shape allows for easy stacking and less clutter in your cabinets.&lt;/p&gt;
+        <title>Orange Tag</title>
+        <description>&lt;p&gt;Attach this fun yet simple tag to your pets collar to add a little color to their day. It’s the perfect purchase to complete your pets look while supporting the animals of Morris Animal Refuge!&lt;/p&gt;
 </description>
-        <pubDate>Tue, 31 Jan 2017 14:30:59 -0500</pubDate>
-        <link>/product/mug/</link>
-        <guid isPermaLink="true">/product/mug/</guid>
+        <pubDate>Wed, 01 Feb 2017 02:48:59 -0500</pubDate>
+        <link>/product/orange-tag/</link>
+        <guid isPermaLink="true">/product/orange-tag/</guid>
         
         
-        <category>people</category>
+        <category>pet</category>
         
         <category>hero</category>
         
       </item>
     
       <item>
+        <title>Look. Love. Adopt. Tag</title>
+        <description>&lt;p&gt;Attach this fun tag to bring style your pets collar. It’s the perfect purchase to complete your pets look while supporting the animals of Morris Animal Refuge!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Feb 2017 02:48:59 -0500</pubDate>
+        <link>/product/lookloveadopt-tag/</link>
+        <guid isPermaLink="true">/product/lookloveadopt-tag/</guid>
+        
+        
+        <category>pet</category>
+        
+        <category>hero</category>
+        
+      </item>
+    
+      <item>
+        <title>Stackable Mug</title>
+        <description>&lt;p&gt;Add some color to your day with the row house stackable mug! Not only is it colorful, but its shape allows for easy stacking and less clutter in your cabinets.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 Jan 2017 14:30:59 -0500</pubDate>
+        <link>/product/stackable-mug/</link>
+        <guid isPermaLink="true">/product/stackable-mug/</guid>
+        
+        
+        <category>people</category>
+        
+        <category>hero</category>
+        
+        <category>staffPickLeft</category>
+        
+      </item>
+    
+      <item>
         <title>Tote Bag</title>
-        <description>
+        <description>&lt;p&gt;Add this fun tote to your collection to support the animals of Morris Animal Refuge while spreading an important message!&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Jan 2017 12:48:59 -0500</pubDate>
-        <link>/product/bag/</link>
-        <guid isPermaLink="true">/product/bag/</guid>
+        <link>/product/tote-lookloveadopt/</link>
+        <guid isPermaLink="true">/product/tote-lookloveadopt/</guid>
         
         
         <category>people</category>
@@ -42,11 +74,26 @@
     
       <item>
         <title>MAR T-Shirt</title>
-        <description>&lt;p&gt;Our row house t-shirt captures the history of America’s first animal refuge, Morris Animal Refuge. Keep history alive and look great doing it with our Row House T-Shirt!&lt;/p&gt;
+        <description>&lt;p&gt;Support your favorite animal refuge with this classic t-shirt, its simple style is right for everyone!&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Jan 2017 10:48:59 -0500</pubDate>
-        <link>/product/tshirt/</link>
-        <guid isPermaLink="true">/product/tshirt/</guid>
+        <link>/product/womens-logotshirt/</link>
+        <guid isPermaLink="true">/product/womens-logotshirt/</guid>
+        
+        
+        <category>people</category>
+        
+        <category>hero</category>
+        
+      </item>
+    
+      <item>
+        <title>MAR T-Shirt</title>
+        <description>&lt;p&gt;Support your favorite animal refuge with this classic t-shirt, its simple style is right for everyone!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 Jan 2017 10:48:59 -0500</pubDate>
+        <link>/product/mens-logotshirt/</link>
+        <guid isPermaLink="true">/product/mens-logotshirt/</guid>
         
         
         <category>people</category>
@@ -60,13 +107,15 @@
         <description>&lt;p&gt;Spread an important message with our baseball t-shirt! The modern design looks awesome and supports the animals of Morris Animal Refuge!&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Jan 2017 10:48:59 -0500</pubDate>
-        <link>/product/tshirt/</link>
-        <guid isPermaLink="true">/product/tshirt/</guid>
+        <link>/product/mens-lookloveadopttshirt/</link>
+        <guid isPermaLink="true">/product/mens-lookloveadopttshirt/</guid>
         
         
         <category>people</category>
         
         <category>hero</category>
+        
+        <category>staffPickRight</category>
         
       </item>
     
@@ -75,8 +124,8 @@
         <description>&lt;p&gt;Start your morning with Morris Animal Refuge by purchasing this adorable mug! The cat ears and tail are a fun addition to our classic mug.&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Jan 2017 10:48:59 -0500</pubDate>
-        <link>/product/mug/</link>
-        <guid isPermaLink="true">/product/mug/</guid>
+        <link>/product/logo-mug/</link>
+        <guid isPermaLink="true">/product/logo-mug/</guid>
         
         
         <category>people</category>
@@ -87,11 +136,11 @@
     
       <item>
         <title>MAR Hat</title>
-        <description>
+        <description>&lt;p&gt;Sport this classic style while representing America’s oldest animal refuge! The animals at Morris Animal Refuge will be sure to thank you as they receive all the profits from your purchase.&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Jan 2017 10:48:59 -0500</pubDate>
-        <link>/product/hat/</link>
-        <guid isPermaLink="true">/product/hat/</guid>
+        <link>/product/logo-hat/</link>
+        <guid isPermaLink="true">/product/logo-hat/</guid>
         
         
         <category>people</category>
@@ -101,62 +150,19 @@
       </item>
     
       <item>
-        <title>Kids Row House</title>
-        <description>&lt;p&gt;Our row house t-shirt captures the history of America’s first animal refuge, Morris Animal Refuge. Keep history alive and look great doing it by purchasing our colorful tee!&lt;/p&gt;
+        <title>Dog T-Shirt</title>
+        <description>&lt;p&gt;Step up your furry friends wardrobe with our row house t-shirt which captures the history of America’s first animal refuge, Morris Animal Refuge.&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Jan 2017 06:48:59 -0500</pubDate>
-        <link>/product/tshirt/</link>
-        <guid isPermaLink="true">/product/tshirt/</guid>
+        <link>/product/dog-tshirt/</link>
+        <guid isPermaLink="true">/product/dog-tshirt/</guid>
         
         
-        <category>people</category>
-        
-        <category>hero</category>
-        
-      </item>
-    
-      <item>
-        <title>Car Magnet</title>
-        <description>&lt;p&gt;Have a little fun with this adorable magnet while supporting our animals! This magnet is perfect for your car, fridge, or anywhere you’d like!&lt;/p&gt;
-</description>
-        <pubDate>Tue, 31 Jan 2017 05:48:59 -0500</pubDate>
-        <link>/product/magnet/</link>
-        <guid isPermaLink="true">/product/magnet/</guid>
-        
-        
-        <category>people</category>
+        <category>pet</category>
         
         <category>hero</category>
         
-      </item>
-    
-      <item>
-        <title>Row House T-Shirt</title>
-        <description>&lt;p&gt;Our row house t-shirt captures the history of America’s first animal refuge, Morris Animal Refuge. Keep history alive and look great doing it with our Row House T-Shirt!&lt;/p&gt;
-</description>
-        <pubDate>Sat, 28 Jan 2017 10:48:59 -0500</pubDate>
-        <link>/product/tshirt/</link>
-        <guid isPermaLink="true">/product/tshirt/</guid>
-        
-        
-        <category>people</category>
-        
-        <category>hero</category>
-        
-      </item>
-    
-      <item>
-        <title>Row House T-Shirt</title>
-        <description>&lt;p&gt;Our row house t-shirt captures the history of America’s first animal refuge, Morris Animal Refuge. Keep history alive and look great doing it with our Row House T-Shirt!&lt;/p&gt;
-</description>
-        <pubDate>Sat, 28 Jan 2017 10:48:59 -0500</pubDate>
-        <link>/product/tshirt/</link>
-        <guid isPermaLink="true">/product/tshirt/</guid>
-        
-        
-        <category>people</category>
-        
-        <category>hero</category>
+        <category>staffPickLeft</category>
         
       </item>
     
