@@ -1,3 +1,6 @@
+
+
+// Content controls slideout mobile nav
 $('.mobile-header-top_ham').on('click', function() {
 	$('.header').toggleClass('header-hide');
 });
@@ -5,3 +8,4 @@ $('.mobile-header-top_ham').on('click', function() {
 $('.nav-link_item_inner_hide').on('click', function() {
 	$('.header').toggleClass('header-hide');
 });
+// ################

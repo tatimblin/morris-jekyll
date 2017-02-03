@@ -1,3 +1,19 @@
+/*
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - Styles the individual product listing posts
+            - Card transition code is here
+            - Structure is held in _includes/itemCard.html
+        Instructions:
+            1) .product-dropshadow - Uses a background image instead of an actual shadow to give it the diagonal line effect.
+            2) &:hover .product-dropshadow - Has a unique transition-delay allowing it to transition out faster than it transitions in.
+            3) &:hover .product-backdrop_people - This class holds the category color to change the background of the specific category, If you want to change the whole categoories color edit the variable instead.
+            
+###############
+*/
+
+
 .product_wrap {
     width:90%;
     max-width:$content-width;
