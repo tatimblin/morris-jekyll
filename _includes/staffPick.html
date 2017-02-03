@@ -6,7 +6,7 @@
     <div class="staff-item">
         {% for post in site.categories.staffPickLeft limit: 2 %}
                 <a href="">
-                   <div class="staff-item-img" style="background-image: url('{{ site.baseurl }}/img/products/{{ post.img }}'); background-size: cover;"></div>
+                   <div class="staff-item-img" style="background-image: url('{{ site.baseurl }}/img/products/{{ post.img }}'); background-size: contain; background-repeat: no-repeat; background-position: center center;"></div>
                     
                     <h1>{{ post.title | truncatewords: 2}}</h1>
                     <p>${{ post.price }}</p>
@@ -29,7 +29,7 @@
     <div class="staff-item">
         {% for post in site.categories.staffPickRight limit: 2 %}
                 <a href="">
-                    <div class="staff-item-img" style="background-image:url('../img/products/{{ post.img }}'); background-size: cover;"></div>
+                    <div class="staff-item-img" style="background-image: url('{{ site.baseurl }}/img/products/{{ post.img }}'); background-size: contain; background-repeat: no-repeat; background-position: center center;"></div>
                     <h1>{{ post.title }}</h1>
                     <p>${{ post.price }}</p>
                 </a>
