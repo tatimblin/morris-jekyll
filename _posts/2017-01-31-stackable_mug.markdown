@@ -2,9 +2,9 @@
 
 layout: post
 title:  "Stackable Mug"
-slug: mug
+slug: stackable_mug
 date:   2017-01-31 14:30:59 -0500
-categories: people hero
+categories: people hero staffPickLeft
 
 img: "stackable_mug.png"
 price: "12"

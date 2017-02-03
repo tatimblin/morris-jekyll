@@ -1,20 +1,8 @@
-<!--
-###############
-        File created by Tristan Timblin.
-        Purpose:
-            - This file holds the structure for the product listing cards
-            - Some of the code is included for the cards post transition
-            - Styling is held in _sass/itemCard.scss
-        Instructions:
-            1) Loop grabs the first category of each post in order to identify a background color.
-            
-###############
---> 
-
 <div class="product">
    <a href="{{ site.baseurl}}{{ post.url }}">
     <div class="product-dropshadow"></div>
     <div class="product-backdrop product-backdrop_{{post.categories[0]}}"></div>
+    <div id="new"><p>New!</p></div>
     <div class="product-img" id="bowl" style="background-image:url('{{ site.baseurl }}/img/products/{{ post.img }}');">
 
     </div>
