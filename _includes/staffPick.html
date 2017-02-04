@@ -14,6 +14,7 @@
     </div>
     <div class="staff-item staff-item-card">
         {% for blog in site.categories.blog  limit:4 %}
+            <a href="{{ blog.url }}">
             <div class="staff-item-card_slide">
                 <div class="staff-item-card-img" style="background-image: url('{{site.baseurl}}/img/hero/{{ blog.img }}'); background-size: contain; background-repeat: no-repeat; background-position: center center;">
 
@@ -27,6 +28,7 @@
                     </div>
                 </div>
             </div>
+            </a>
         {% endfor %}
         <div class="dot-container">
             <span class="staff-item-card-dot" id="dot1" onclick="currentSlide(1)"></span> 
