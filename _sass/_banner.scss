@@ -31,7 +31,7 @@ body {
     }
 }
 
-.banner-content-icon {
+.banner-content-icon-dog {
 	animation: 
 			banner-dog-peak 
 			3s 
@@ -105,6 +105,94 @@ body {
 			translateX(-15px)
 			rotate(10deg);
 	}
+}
+
+/* ############
+BUNNY
+############## */
+
+$drop-time: 1s;
+.banner-bunny {
+    height:250px;
+    #Carrot1 {
+      transform: translateY(-600px);
+      transform-origin: 80% 80%;
+      animation: banner-bunny-drop $drop-time linear 2s 1 normal forwards;
+
+    }
+
+    #Carrot2 {
+      transform: translateY(-600px);
+      transform-origin: 80% 80%;
+      animation: banner-bunny-drop $drop-time linear 9s 1 normal forwards;
+
+    }
+
+    #Carrot3 {
+      transform: translateY(-600px);
+      transform-origin: 80% 80%;
+      animation: banner-bunny-drop $drop-time linear 5s 1 normal forwards;
+
+    }
+
+    .shadow {
+      animation: banner-bunny-shadow $drop-time linear 1 normal forwards;
+      transform-origin: 80% 80%;
+      transform:scale(0);
+    }
+
+    .shadow1 {
+      animation-delay: 2s;
+    }
+
+    .shadow2 {
+      animation-delay: 9s;
+    }
+
+    .shadow3 {
+      animation-delay: 5s;
+    }
+
+    .water {
+      animation: banner-bunny-fill 1s linear 4s 1 normal forwards;
+      transform:translateX(-530px) translateY(-95px);
+    }
+}
+
+@keyframes banner-bunny-drop {
+  0% {
+    transform: translateY(-600px) rotate(80deg);
+  }
+  83% {
+    transform: translateY(0px) rotate(15deg);
+  }
+  94% {
+    transform: translateY(-15px) rotate(5deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+@keyframes banner-bunny-shadow {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes banner-bunny-fill {
+  0% {
+    transform:translateX(-530px) translateY(-95px);
+  }
+  100% {
+    transform:translateX(-530px) translateY(-103px);
+  }
 }
 
 
