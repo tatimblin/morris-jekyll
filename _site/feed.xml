@@ -6,9 +6,43 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Feb 2017 14:30:46 -0500</pubDate>
-    <lastBuildDate>Sat, 04 Feb 2017 14:30:46 -0500</lastBuildDate>
+    <pubDate>Sat, 04 Feb 2017 18:33:06 -0500</pubDate>
+    <lastBuildDate>Sat, 04 Feb 2017 18:33:06 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Sample Blog</title>
+        <description>&lt;p&gt;This is the sample blog content. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
+
+&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
+
+&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 02 Feb 2017 02:28:59 -0500</pubDate>
+        <link>/product/sample-blog/</link>
+        <guid isPermaLink="true">/product/sample-blog/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Another Blog</title>
+        <description>&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
+
+&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
+
+&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 02 Feb 2017 02:28:59 -0500</pubDate>
+        <link>/product/another-blog/</link>
+        <guid isPermaLink="true">/product/another-blog/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Orange Tag</title>
@@ -131,38 +165,6 @@
         <category>people</category>
         
         <category>hero</category>
-        
-      </item>
-    
-      <item>
-        <title>MAR Hat</title>
-        <description>&lt;p&gt;Sport this classic style while representing America’s oldest animal refuge! The animals at Morris Animal Refuge will be sure to thank you as they receive all the profits from your purchase.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 31 Jan 2017 10:48:59 -0500</pubDate>
-        <link>/product/logo-hat/</link>
-        <guid isPermaLink="true">/product/logo-hat/</guid>
-        
-        
-        <category>people</category>
-        
-        <category>hero</category>
-        
-      </item>
-    
-      <item>
-        <title>Dog T-Shirt</title>
-        <description>&lt;p&gt;Step up your furry friends wardrobe with our row house t-shirt which captures the history of America’s first animal refuge, Morris Animal Refuge.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 31 Jan 2017 06:48:59 -0500</pubDate>
-        <link>/product/dog-tshirt/</link>
-        <guid isPermaLink="true">/product/dog-tshirt/</guid>
-        
-        
-        <category>pet</category>
-        
-        <category>hero</category>
-        
-        <category>staffPickLeft</category>
         
       </item>
     

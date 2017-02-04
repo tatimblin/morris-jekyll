@@ -273,17 +273,17 @@
     <h2>Staff Picks</h2>
 </div>
 <div class="staff-wrap">
-    <div class="staff-item">
+    <div class="staff-item staff-item-prod">
         
                 <a href="">
-                   <div class="staff-item-img" style="background-image: url('/img/products/stackable_mug.png'); background-size: contain; background-repeat: no-repeat; background-position: center center;"></div>
+                   <div class="staff-item-prod-img" style="background-image: url('/img/products/stackable_mug.png'); background-size: cover; background-repeat: no-repeat; background-position: center center;"></div>
                     
                     <h1>Stackable Mug...</h1>
                     <p>$12</p>
                 </a>
         
                 <a href="">
-                   <div class="staff-item-img" style="background-image: url('/img/products/dog_rowhouse.png'); background-size: contain; background-repeat: no-repeat; background-position: center center;"></div>
+                   <div class="staff-item-prod-img" style="background-image: url('/img/products/dog_rowhouse.png'); background-size: cover; background-repeat: no-repeat; background-position: center center;"></div>
                     
                     <h1>Dog T-Shirt...</h1>
                     <p>$20</p>
@@ -291,28 +291,52 @@
         
     </div>
     <div class="staff-item staff-item-card">
-            <div class="staff-item-card-img">
-                img
-            </div>
-            <div class="staff-item-card-desc">
-                <div class="staff-item-card-desc_title">
-                    <h1>Title</h1>
+        
+            <div class="staff-item-card_slide">
+                <div class="staff-item-card-img" style="background-image: url('/img/hero/catInBox.png'); background-size: contain; background-repeat: no-repeat; background-position: center center;">
+
                 </div>
-                <div class="staff-item-card-desc_body">
-                    <p>Body.</p>
+                <div class="staff-item-card-desc">
+                    <div class="staff-item-card-desc_title">
+                        <h1>Sample Blog</h1>
+                    </div>
+                    <div class="staff-item-card-desc_body">
+                        <p><p>This is the sample blog content. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum...</p>
+                    </div>
                 </div>
             </div>
+        
+            <div class="staff-item-card_slide">
+                <div class="staff-item-card-img" style="background-image: url('/img/hero/catInBox.png'); background-size: contain; background-repeat: no-repeat; background-position: center center;">
+
+                </div>
+                <div class="staff-item-card-desc">
+                    <div class="staff-item-card-desc_title">
+                        <h1>Another Blog</h1>
+                    </div>
+                    <div class="staff-item-card-desc_body">
+                        <p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy...</p>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="dot-container">
+            <span class="staff-item-card-dot" id="dot1" onclick="currentSlide(1)"></span> 
+            <span class="staff-item-card-dot"  id="dot2"onclick="currentSlide(2)"></span> 
+            <span class="staff-item-card-dot" id="dot3"onclick="currentSlide(3)"></span>
+            <span class="staff-item-card-dot" id="dot3"onclick="currentSlide(4)"></span> 
+        </div>
     </div>
-    <div class="staff-item">
+    <div class="staff-item staff-item-prod">
         
                 <a href="">
-                    <div class="staff-item-img" style="background-image: url('/img/products/mens_lookloveadopt.png'); background-size: contain; background-repeat: no-repeat; background-position: center center;"></div>
+                    <div class="staff-item-prod-img" style="background-image: url('/img/products/mens_lookloveadopt.png'); background-size: contain; background-repeat: no-repeat; background-position: center center;"></div>
                     <h1>Look. Love. Adopt. T-Shirt</h1>
                     <p>$22</p>
                 </a>
         
                 <a href="">
-                    <div class="staff-item-img" style="background-image: url('/img/products/mens_rowhouse.png'); background-size: contain; background-repeat: no-repeat; background-position: center center;"></div>
+                    <div class="staff-item-prod-img" style="background-image: url('/img/products/mens_rowhouse.png'); background-size: contain; background-repeat: no-repeat; background-position: center center;"></div>
                     <h1>Row House T-Shirt</h1>
                     <p>$20</p>
                 </a>
@@ -350,7 +374,7 @@
 	<path class="guilt-cls-1" d="M46.42,166.86s27-42,50.53-47.39c-11.68-13.31-59.6-70.9-59.6-70.9S-25.54,96.9,46.42,166.86Z" transform="translate(-11.9 -48.57)"/>
 	<path class="guilt-cls-1 dog-ear" d="M253.58,169.46s-24.95-43.19-47.44-48.92c11.5-13.43,58.75-71.61,58.75-71.61S324.16,99,253.58,169.46Z" transform="translate(-11.9 -48.57)"/>
 	<ellipse class="guilt-cls-2" cx="135.1" cy="138.43" rx="117.06" ry="97.07"/>
-	<ellipse class="cls-1" cx="77.93" cy="128.66" rx="47.5" ry="45.77"/>
+	<ellipse class="guilt-cls-1" cx="77.93" cy="128.66" rx="47.5" ry="45.77"/>
 	<circle class="guilt-cls-3 dog-eye" cx="188.43" cy="138.43" r="23"/><path class="guilt-cls-4" d="M133.33,223.35S120,210,138,210s34,.67,24.67,13C148.53,243.49,133.33,223.35,133.33,223.35Z" transform="translate(-11.9 -48.57)"/>
 	<circle class="guilt-cls-3 dog-eye" cx="81.76" cy="138.43" r="23"/>
 	<circle class="guilt-cls-2 dog-eye" cx="75.1" cy="135.59" r="8.67"/>
@@ -378,6 +402,90 @@
 
   <div class="post-list">
     <div class="product_wrap">
+        
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/sample-blog/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_blog"></div>
+    <div class="product-img" id="bowl" style="background-image:url('/img/products/catInBox.png');">
+
+    </div>
+    <div class="product-buy" id="purple">
+        <h5>VIEW MORE</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Sample Blog</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$20</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Feb 2, 2017</span>
+
+            <h2>
+              <a class="post-link" href="/product/sample-blog/">Sample Blog</a>
+            </h2>
+          </li>-->
+        
+           <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/another-blog/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_blog"></div>
+    <div class="product-img" id="bowl" style="background-image:url('/img/products/catInBox.png');">
+
+    </div>
+    <div class="product-buy" id="purple">
+        <h5>VIEW MORE</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Another Blog</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$20</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Feb 2, 2017</span>
+
+            <h2>
+              <a class="post-link" href="/product/another-blog/">Another Blog</a>
+            </h2>
+          </li>-->
         
            <!--
 ###############
