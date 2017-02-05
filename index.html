@@ -52,7 +52,9 @@ hero-orient: "row"
   <div class="post-list">
     <div class="product_wrap">
         {% for post in site.posts %}
-           {% include itemCard.html %}
+            {% unless post.categories contains 'blog' %}
+                {% include itemCard.html %}
+            {% endunless %}
            <!--<li>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 

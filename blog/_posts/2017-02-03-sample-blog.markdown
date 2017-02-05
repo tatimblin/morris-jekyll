@@ -3,7 +3,7 @@ layout: blog
 title:  "Sample Blog"
 slug: sample-blog
 date:   2017-2-2 2:28:59 -0500
-categories: blog 
+categories: blog
 
 img: "catInBox.png"
 price: "20"
