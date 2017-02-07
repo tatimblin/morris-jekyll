@@ -48,14 +48,14 @@
     position:relative;
     align-self: center;
     width:300px;
-    background: $title-color;
+    background: #eeeeee;
     border-radius: 3px;
-    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 5px rgba(0, 0, 0, 0.1) inset;
     &:before {
         content:"";
         position:absolute; 
         z-index:-1;
-        box-shadow:0 0 20px rgba(0,0,0,0.6);
+        //box-shadow:0 0 20px rgba(0,0,0,0.6);
         top:50%;
         bottom:0;
         left:10px;
@@ -66,7 +66,7 @@
         content:"";
         position:absolute; 
         z-index:-1;
-        box-shadow:0 0 20px rgba(0,0,0,0);
+        //box-shadow:0 0 20px rgba(0,0,0,0);
         top:50%;
         bottom:0;
         left:10px;
@@ -79,7 +79,7 @@
         border-radius: 3px 3px 0 0;
     }
     &-desc {
-        padding:0 10px;
+        padding:20px;
         &_title {
             h1 {
                 max-width: none;

@@ -16,7 +16,7 @@
         {% for blog in site.categories.blog  limit:4 %}
             <a href="{{ site.baseurl}}{{ blog.url }}">
             <div class="staff-item-card_slide">
-                <div class="staff-item-card-img" style="background-image: url('{{site.baseurl}}/img/hero/{{ blog.img }}'); background-size: contain; background-repeat: no-repeat; background-position: center center;">
+                <div class="staff-item-card-img" style="background-image: url('{{site.baseurl}}/img/hero/{{ blog.img }}'); background-size: cover; background-repeat: no-repeat; background-position: center center;">
 
                 </div>
                 <div class="staff-item-card-desc">
