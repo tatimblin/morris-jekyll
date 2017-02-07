@@ -1,0 +1,44 @@
+.wrapper {
+    padding: 0;
+}
+
+.blog {
+    padding: 0 $spacing-unit;
+    background: $green;
+    &-content {
+        padding:100px 0;
+        &-img {
+            float:left;
+            width:100%; height:33vw;
+            margin: 0 $spacing-unit 0 0;
+        }
+        &-copy {
+            max-width: $content-width;
+            margin:0 auto;
+            color: $title-color;
+            h1 {
+                line-height: 1.2em;
+                padding: .5em 0 .5em 0;
+            }
+            p {
+                font-size:1.2em;
+                line-height: 1.7em;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $mobile) {
+    .wrapper {
+        padding: 0;
+    }
+    .blog {
+        padding: 0;
+        &-content {
+            &-img {
+                border-radius: 0 10px 10px 0;
+                width:45vw;
+            }
+        }
+    }
+}

@@ -6,21 +6,17 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Feb 2017 09:28:35 -0500</pubDate>
-    <lastBuildDate>Tue, 07 Feb 2017 09:28:35 -0500</lastBuildDate>
+    <pubDate>Tue, 07 Feb 2017 11:32:30 -0500</pubDate>
+    <lastBuildDate>Tue, 07 Feb 2017 11:32:30 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
-        <title>Sample Blog</title>
-        <description>&lt;p&gt;This is the sample blog content. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
-
-&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
-
-&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
+        <title>Proceeds</title>
+        <description>&lt;p&gt;Every purchase at our store helps an animal in need at Morris Animal Refuge! Our animals come from a variety of backgrounds and some need more help than others. The proceeds from your purchases will cover costs ranging from food to medical care. We promise to to always put our animals first so you can feel good about every purchase you make at the Morris Animal Refuge store!&lt;/p&gt;
 </description>
-        <pubDate>Thu, 02 Feb 2017 02:28:59 -0500</pubDate>
-        <link>/product/sample-blog/</link>
-        <guid isPermaLink="true">/product/sample-blog/</guid>
+        <pubDate>Sun, 05 Feb 2017 02:28:59 -0500</pubDate>
+        <link>/product/proceeds-blog/</link>
+        <guid isPermaLink="true">/product/proceeds-blog/</guid>
         
         
         <category>blog</category>
@@ -28,16 +24,12 @@
       </item>
     
       <item>
-        <title>Another Blog</title>
-        <description>&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
-
-&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
-
-&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
+        <title>Amazon Wishlist</title>
+        <description>&lt;p&gt;Check out our Amazon Wishlist to see what we are in need of for our animals. The list includes items such as toys, food, beds and more! By utilizing the wishlist, Morris Animal Refuge will receive the items they need and you can know exactly what your donation contributes to the refuge. The Amazon Wishlist can be accessed through the store’s navigation bar!&lt;/p&gt;
 </description>
-        <pubDate>Thu, 02 Feb 2017 02:28:59 -0500</pubDate>
-        <link>/product/another-blog/</link>
-        <guid isPermaLink="true">/product/another-blog/</guid>
+        <pubDate>Sun, 05 Feb 2017 02:28:59 -0500</pubDate>
+        <link>/product/amazonwishlist-blog/</link>
+        <guid isPermaLink="true">/product/amazonwishlist-blog/</guid>
         
         
         <category>blog</category>
