@@ -24,6 +24,7 @@
 .staff-item-prod {
     text-align: center;
     margin:30px 0;
+    width:200px;
     &-img {
         width:150px; height:200px;
         margin:0 auto;
@@ -34,13 +35,18 @@
     h1 {
         max-width: 200px; height:2em;
         margin: 5px 0;
-        font-size:1.5em;
+        font-size:1em;
+        font-weight: 600;
         line-height: 1em;
     }
     p {
         font-size:1em;
+        font-weight: 300;
         line-height: 1em;
         padding:0 0 $spacing-unit 0;
+        &:first-child {
+            margin:0 0 20px 0;
+        }
     }
 }
 
@@ -62,6 +68,7 @@
             h1 {
                 max-width: none;
                 font-size: 1.5em;
+                font-weight: 600;
                 text-align: left;
                 line-height: 2em;
                 color:$text-color;
@@ -72,6 +79,8 @@
                 text-align: left;
                 margin: 0;
                 padding: 0;
+                line-height: 2em;
+                font-weight: 300;
                 color:$text-color;
             }
         }

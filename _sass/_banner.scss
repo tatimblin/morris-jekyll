@@ -19,6 +19,18 @@ body {
     }
 }
 
+.banner-content-copy {
+	max-width:70%;
+	h1 {
+		font-family: $base-font-family;
+		font-weight:300;
+        font-size:2em;
+		color: $title-color;
+        margin-bottom: 0; //Set elsewhere
+	}
+}
+
+
 @include media-query($on-palm) {
     .banner {
         &-content {
@@ -195,15 +207,3 @@ $drop-time: 1s;
   }
 }
 
-
-
-.banner-content-copy {
-	max-width:70%;
-	h1 {
-		font-family: $base-font-family;
-		font-weight:700;
-		font-size:2em;
-		color: $title-color;
-        margin-bottom: 0; //Set elsewhere
-	}
-}
