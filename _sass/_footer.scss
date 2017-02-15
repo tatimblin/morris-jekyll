@@ -57,6 +57,7 @@ footer {
 		a:not(:last-child):after {
 			padding: 0 10px;
 			content: '|';
+            text-decoration: none;
 		}
 		&-partner {
 			display:flex;

@@ -6,13 +6,26 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Feb 2017 11:32:30 -0500</pubDate>
-    <lastBuildDate>Tue, 07 Feb 2017 11:32:30 -0500</lastBuildDate>
+    <pubDate>Mon, 13 Feb 2017 21:13:13 -0500</pubDate>
+    <lastBuildDate>Mon, 13 Feb 2017 21:13:13 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
+        <title>Valentine&#39;s Day</title>
+        <description>&lt;p&gt;Valentine’s Day is right around the corner and we have the perfect gift! Show you care with one of our signature, limited edition items!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Feb 2017 02:28:59 -0500</pubDate>
+        <link>/product/valentinesday-blog/</link>
+        <guid isPermaLink="true">/product/valentinesday-blog/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
         <title>Proceeds</title>
-        <description>&lt;p&gt;Every purchase at our store helps an animal in need at Morris Animal Refuge! Our animals come from a variety of backgrounds and some need more help than others. The proceeds from your purchases will cover costs ranging from food to medical care. We promise to to always put our animals first so you can feel good about every purchase you make at the Morris Animal Refuge store!&lt;/p&gt;
+        <description>&lt;p&gt;Every purchase at our store helps an animal in need at Morris Animal Refuge! The proceeds from your purchases will cover costs ranging from food to medical care. With every purchase you make, we put our animals first!&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Feb 2017 02:28:59 -0500</pubDate>
         <link>/product/proceeds-blog/</link>
@@ -25,7 +38,7 @@
     
       <item>
         <title>Amazon Wishlist</title>
-        <description>&lt;p&gt;Check out our Amazon Wishlist to see what we are in need of for our animals. The list includes items such as toys, food, beds and more! By utilizing the wishlist, Morris Animal Refuge will receive the items they need and you can know exactly what your donation contributes to the refuge. The Amazon Wishlist can be accessed through the store’s navigation bar!&lt;/p&gt;
+        <description>&lt;p&gt;Check out our Amazon Wishlist to see what we are in need of for our animals. By utilizing the wishlist, Morris Animal Refuge will receive the items they need and you can know exactly what your donation contributes to the refuge!&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Feb 2017 02:28:59 -0500</pubDate>
         <link>/product/amazonwishlist-blog/</link>
@@ -142,21 +155,6 @@
         <category>hero</category>
         
         <category>staffPickRight</category>
-        
-      </item>
-    
-      <item>
-        <title>MAR Mug</title>
-        <description>&lt;p&gt;Start your morning with Morris Animal Refuge by purchasing this adorable mug! The cat ears and tail are a fun addition to our classic mug.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 31 Jan 2017 10:48:59 -0500</pubDate>
-        <link>/product/logo-mug/</link>
-        <guid isPermaLink="true">/product/logo-mug/</guid>
-        
-        
-        <category>people</category>
-        
-        <category>hero</category>
         
       </item>
     
