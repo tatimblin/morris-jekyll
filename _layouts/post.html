@@ -22,18 +22,47 @@ hero-orient: "row"
         
     </p>
     <p>${{ page.price }}.00</p>
-    <hr>
-    <div class="post-item_content">
-        {{ content }}
+    <h2>Colors</h2>
+    <div class="post-item-select">
+        <div class="post-item-select-item">
+            <div class="post-item-select-item_circle" id="post-item-select-item_circle_white">
+                <!-- Color Select -->
+            </div>
+            <div class="post-item-select-item_lab">
+                White
+            </div>
+        </div>
+        
+        <div class="post-item-select-item">
+            <div class="post-item-select-item_circle" id="post-item-select-item_circle_black">
+                <!-- Color Select -->
+            </div>
+            <div class="post-item-select-item_lab">
+                Black
+            </div>
+        </div>
+        
+        <div class="post-item-select-item">
+            <div class="post-item-select-item_circle" id="post-item-select-item_circle_violet">
+                <!-- Color Select -->
+            </div>
+            <div class="post-item-select-item_lab">
+                Violet
+            </div>
+        </div>
     </div>
-    <div class="post-item_addCart">
-       Qty.
-       <select>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
+    <div class="post-item-qty">
+        <h2>Quantity</h2>
+        <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
         </select>
+    </div>
+    
+    <div class="post-item_addCart">
+        
         <div class="btn-cta">
             Add To Cart
         </div>
