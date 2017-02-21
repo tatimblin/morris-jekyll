@@ -356,6 +356,20 @@
     }
 }
 
+@include media-query($on-palm) {
+    .post {
+        flex-direction: column;
+        &-item {
+            width:90%;
+            margin:20px auto;
+            &_img {
+                width:100%;
+            }
+        }
+    }
+}
+
+
 
 
 
