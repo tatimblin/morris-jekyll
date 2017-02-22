@@ -146,6 +146,24 @@
             margin-bottom: 0;
 		}
 	}
+    .product-buy_people {
+        border:1px solid $forPeople;
+        h5 {
+            color: $forPeople;
+        }
+    }
+    .product-buy_pet {
+        border:1px solid $forPet;
+        h5 {
+            color: $forPet;
+        }
+    }
+    .product-buy_both {
+        border:1px solid $forBoth;
+        h5 {
+            color: $forBoth;
+        }
+    }
 	&:hover .product-buy{
 		opacity:1;
 		transform: translateY(-35px);
