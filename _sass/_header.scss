@@ -65,8 +65,10 @@ body {
 	display: flex;
 	justify-content:space-between;
 	align-items:center;
-    &-logo {
-		background:#ccc;
+    &-logo img{
+		width: 100%;
+	    	display: block;
+	    	margin: auto;
 	}
 	&-link {
 		width:65%;
