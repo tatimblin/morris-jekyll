@@ -31,14 +31,16 @@ footer {
 }
 
 .foot-line {
-    fill: $title-color;
-	border-style: dotted;
-	border-color: rgba(255, 255, 255, 1);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-width: 0 0 13px 0;
+    // Technique from:
+    // http://codepen.io/luclemo/pen/xbMdEx?editors=0110
 	border-image-source: url('../img/assets/dots.svg');
-	//border-image-slice: 33% 33%;
-	border-image-repeat: round;
-	
-	border-width: 0 0 8px 0;
+	border-style: dotted;
+    border-color: rgba(213, 126, 0, 1);
+    border-image-slice: 33% 33%;
+    border-image-repeat: round;
 }
 
 .foot-link {

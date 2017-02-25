@@ -6,7 +6,10 @@ date:   2017-1-28 10:48:59 -0500
 categories: people hero 
 type: "t-shirt"
 
+banner:
+
 img: "womens_lookloveadopt.png"
 price: "22"
 ---
+
 Spread an important message with our baseball t-shirt! The modern design looks awesome and supports the animals of Morris Animal Refuge!
