@@ -18,14 +18,12 @@ footer {
 		display:flex;
 		margin:50px 0;
 		&_icon {
-			width:40px; height:40px;
+			width:30%;
 			margin:0 20px 0 0;
 			background:#ccc;
 		}
 		img {
-			width:200px; height:200px;
-			
-			background:#ccc;
+			width:30%;
 		}
 	}
 }
