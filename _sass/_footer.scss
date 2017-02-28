@@ -18,10 +18,10 @@ footer {
 		display:flex;
 		margin:50px 0;
 		img {
-			width:50%;
-			height: auto;
+			width:auto;
+			height: 200px;
 		}
-		&_icon1, _icon2 {
+		&_icon1 {
 			width:30%;
 			height:auto;
 			margin:0 20px 0 0;
@@ -29,6 +29,17 @@ footer {
 				width: auto;
 				height: 100px;
 			}
+			
+		}
+		&_icon2 {
+			width:30%;
+			height:auto;
+			margin:0 20px 0 0;
+			img{
+				width: auto;
+				height: 80px;
+			}
+			
 		}
 	}
 }
