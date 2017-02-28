@@ -17,7 +17,7 @@
 .product_wrap {
     width:90%;
     max-width:$content-width;
-	margin: 100px auto;
+	margin: 40px auto;
 	display:flex;
 	justify-content:space-between;
 	flex-wrap: wrap;
@@ -84,7 +84,7 @@
 		width:90%; height:15vw;
 		margin:15px auto;
 		border-radius:5px;
-		background:#ccc;
+		background:#fff;
 		background-size:cover;
 		
 		z-index:10;
@@ -126,9 +126,9 @@
 	}
 	.product-buy {
 		position: absolute;
-		width:40%;
+		//width:50%;
 		right:5%;
-		padding:5px 5px;
+		padding:5px 15px;
 		border:1px solid $purple;
 		border-radius:30px;
 		background: $title-color;
@@ -141,7 +141,8 @@
 		}
 		h5 {
 			text-align: center;
-			font-size:1em;
+			font-size:.75em;
+            font-weight: 600;
 			color: $purple;
             margin-bottom: 0;
 		}
@@ -166,7 +167,7 @@
     }
 	&:hover .product-buy{
 		opacity:1;
-		transform: translateY(-35px);
+		transform: translateY(-30px);
 	}
     a {
         text-decoration:none;

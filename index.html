@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 
 hero-img: "catInBox.png"
 hero-title: "Take Me Home"
@@ -44,17 +44,30 @@ hero-orient: "row"
 
 <div class="home">
 {% include staffPick.html %}
-{% include banner/guilt.html %}
     <div class="section-title">
         <h2>Items</h2>
     </div>
-
   <div class="post-list">
     <div class="product_wrap">
         {% for post in site.posts %}
-            {% unless post.categories contains 'blog' %}
-                {% include itemCard.html %}
-            {% endunless %}
+          {% unless post.categories contains 'blog' %}
+           
+            <!-- Attempting to put a banner after every 12 product posts, but the include isn't working -->
+            {% assign loopindex = forloop.index | modulo: 12 %}
+            {% if loopindex == 0 %}
+                   
+                    {% include itemCard.html %}
+                    </div>
+                
+                {% include banner/guilt.html %}
+                
+                <div class="product_wrap">
+                
+            {% else %}
+                
+                    {% include itemCard.html %}
+                
+            {% endif %}
            <!--<li>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -62,6 +75,7 @@ hero-orient: "row"
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
           </li>-->
+          {% endunless %}
         {% endfor %}
     </div>
   </div>

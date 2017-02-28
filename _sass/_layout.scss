@@ -188,20 +188,27 @@
 }
 
 .section-title {
-    margin: $spacing-unit 0;
+    max-width:300px;
+    margin: $spacing-unit auto;
     text-align: center;
     h2 {
         font-weight: 300;
         font-size: 2em;
     }
-    &-dots {
-        fill: $text-color;
-        border-image-source: url(../img/assets/dots.svg);
-    }
+    padding-bottom: .5em;
+    //margin-bottom: 2rem;
+    border-width: 0 0 8px 0;
+    // Technique from:
+    // http://codepen.io/luclemo/pen/xbMdEx?editors=0110
+	border-image-source: url('../img/assets/dotsTitle.svg');
+	border-style: dotted;
+    border-color: rgba(213, 126, 0, 1);
+    border-image-slice: 33% 33%;
+    border-image-repeat: round;
 }
 
 .post-list {
-    margin-left: 0;
+    margin: 100px auto;
     list-style: none;
 
     > li {
@@ -352,6 +359,27 @@
         .btn-cta {
             display: inline-block;
             margin:2em 0;
+        }
+    }
+}
+
+.post-desc {
+    background: $purple;
+    border-radius: 4px;
+    max-width: $content-width;
+    margin: 0 auto 100px auto;
+    &-inner {
+        padding:5%;
+        color: $title-color;
+        h1 {
+            margin:0px 0 10px 0;
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+        p {
+            font-size: .8em;
+            font-weight: 300;
+            line-height: 2em;
         }
     }
 }
