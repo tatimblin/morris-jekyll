@@ -17,14 +17,18 @@ footer {
 	&-item {
 		display:flex;
 		margin:50px 0;
-		&_icon {
-			width:30%;
-			height:auto;
-			margin:0 20px 0 0;
-		}
 		img {
 			width:50%;
 			height: auto;
+		}
+		&_icon1, _icon2 {
+			width:30%;
+			height:auto;
+			margin:0 20px 0 0;
+			img{
+				width: auto;
+				height: 100px;
+			}
 		}
 	}
 }
