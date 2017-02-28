@@ -22,22 +22,26 @@ footer {
 			height: 200px;
 		}
 		&_icon1 {
-			width:30%;
+			width:33%;
 			height:auto;
-			margin:0 20px 0 0;
+			margin:0 10px 0 0;
 			img{
-				width: auto;
-				height: 100px;
+				width: 100%;
+				height: auto;
+				display: block;
+				margin: auto;
 			}
 			
 		}
 		&_icon2 {
-			width:30%;
+			width:33%;
 			height:auto;
-			margin:0 20px 0 0;
+			margin:0 10px 0 0;
 			img{
-				width: auto;
-				height: 80px;
+				width: 80%;
+				height: auto;
+				display: block;
+				margin: auto;
 			}
 			
 		}
