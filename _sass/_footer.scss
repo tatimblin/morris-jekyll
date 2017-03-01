@@ -91,6 +91,15 @@ footer {
 					width:100%;
 				}
 			}
+			&_large{
+				width: 30%;
+				height: auto;
+				img{
+					width: 75%;
+					display: block;
+					margin: auto;
+				}
+			}
 		}
 		&-more {
 			font-weight:900;
