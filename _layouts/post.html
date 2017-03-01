@@ -9,6 +9,7 @@ hero-action: "Action"
 hero-color: "9E4771"
 hero-orient: "row"
 ---
+{% include banner/guilt.html %}
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
 <div class="post-item">
@@ -16,11 +17,9 @@ hero-orient: "row"
 </div>
 <div class="post-item">
     <h1>{{ page.title }}</h1>
-    <p>
-        <!-- Trying to add a product type-->
-            {{ page.type }}
-        
-    </p>
+<!--
+    <p>{{ page.type }}</p>
+-->
     <p>${{ page.price }}.00</p>
     <h2>Colors</h2>
     <div class="post-item-select">
@@ -68,7 +67,7 @@ hero-orient: "row"
         </div>
     </div>
 </div>
-
+    
 <!--  <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
@@ -81,3 +80,30 @@ hero-orient: "row"
   </div>-->
 
 </article>
+
+<div class="post-desc">
+    <div class="post-desc-inner">
+        <h1>About This Item</h1>
+        {{ content }}
+    </div>
+</div>
+
+<div class="section-title">
+    <h2>Related Items</h2>
+</div>
+
+<div class="post-list">
+<div class="product_wrap">
+    {% for post in site.categories.people limit:3 %}
+        {% include itemCard.html %}
+    {% endfor %}
+</div>
+</div>
+
+
+
+
+
+
+
+

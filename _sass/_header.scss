@@ -36,12 +36,17 @@ body {
 	&-site {
 		width:40%;
 		min-width:350px;
+        max-width: 450px;
 		&_item {
 			
 		}
 	}
 	&-social {
 		width:10%;
+		&_item img{
+			width: 40%;
+			
+		}
 	}
 	&-search {
 		width:10%;
