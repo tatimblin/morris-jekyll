@@ -85,8 +85,11 @@ footer {
 			justify-content:space-between;
             max-width:$desktop;
 			&_co {
-				width:200px; height:150px;
-				background:#ccc;
+				width:30%; 
+				height:auto;
+				img{
+					width:100%;
+				}
 			}
 		}
 		&-more {
