@@ -5,6 +5,7 @@ body {
 
 .banner {
 	width:100%; 
+    margin:0;
 	background: $green;
 	overflow:hidden;
 	&-content {
@@ -219,7 +220,7 @@ $drop-time: 1s;
     color: #fcfcf1;
     height: 250px;
     overflow: hidden;
-    margin: 10px 0;
+    margin: 0px 0;
 }
 .bnr h1{
     font-size: 1.7em;

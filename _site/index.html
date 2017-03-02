@@ -196,7 +196,53 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <!--
+        <!-- 
+    The code here is duplicated in order to be present for both page and layout types. Information is gathered from index.html and layout/post.html.
+-->
+
+
+
+
+<div class="hero" style="background:#9E4771;">
+    <div class="hero-content" style="flex-direction:row;">
+        
+            <div class="hero-content-img" style="background-image:url('/img/hero/catInBox.png'); margin:
+               
+                   0 0px 0 0
+               
+               
+            ;">
+               <!-- 
+                   Here we switch the margin of the image to be in between te image and text no matter the order.
+               -->
+                
+            </div>
+        
+        <div class="hero-content-cta">
+            <h1>Take Me Home</h1>
+            <p>Whether it's for a friend, your furry friend, or yourself, we have gifts and supplies for the whole gang.</p>
+            
+            
+                <div class="hero-content-cta-btn btn">
+                    Action
+                </div>
+            
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+
+  <div class="post-content">
+    <!--
 ###############
         File created by Tristan Timblin.
         Purpose:
@@ -324,80 +370,6 @@
     </div>
 </div>
 
-<!--
-###############
-        File created by Tristan Timblin.
-        Purpose:
-            - This is the first banner, it has a dog popup and then blink.
-            - The file can be used as a template.
-        Instructions:
-            1) Duplicate file.
-            2) Remove content in '.banner-content-icon' and '.banner-content-copy h1'
-            3) Place your new svg and tagline
-            4) Add animation styling to _sass/_banner.scss
-            
-###############
--->
-
-
-<div class="banner">
-	
-	<div class="banner-content">
-		<div class="banner-content-icon banner-content-icon-dog">
-
-<svg id="Layer_1" class="banner-dog" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 276.27 235.5">
-	<defs>
-		<style>
-			.guilt-cls-1{fill:#645240;}.guilt-cls-2{fill:#fff;}.guilt-cls-3{fill:#578ba8;}.guilt-cls-4{fill:#251d10;}.guilt-cls-5{fill:#ee3d74;}
-		</style>
-	</defs>
-	<title>jakeDog</title>
-	<path class="guilt-cls-1" d="M46.42,166.86s27-42,50.53-47.39c-11.68-13.31-59.6-70.9-59.6-70.9S-25.54,96.9,46.42,166.86Z" transform="translate(-11.9 -48.57)"/>
-	<path class="guilt-cls-1 dog-ear" d="M253.58,169.46s-24.95-43.19-47.44-48.92c11.5-13.43,58.75-71.61,58.75-71.61S324.16,99,253.58,169.46Z" transform="translate(-11.9 -48.57)"/>
-	<ellipse class="guilt-cls-2" cx="135.1" cy="138.43" rx="117.06" ry="97.07"/>
-	<ellipse class="guilt-cls-1" cx="77.93" cy="128.66" rx="47.5" ry="45.77"/>
-	<circle class="guilt-cls-3 dog-eye" cx="188.43" cy="138.43" r="23"/><path class="guilt-cls-4" d="M133.33,223.35S120,210,138,210s34,.67,24.67,13C148.53,243.49,133.33,223.35,133.33,223.35Z" transform="translate(-11.9 -48.57)"/>
-	<circle class="guilt-cls-3 dog-eye" cx="81.76" cy="138.43" r="23"/>
-	<circle class="guilt-cls-2 dog-eye" cx="75.1" cy="135.59" r="8.67"/>
-	<circle class="guilt-cls-2 dog-eye" cx="90.83" cy="147.1" r="4.18"/>
-	<circle class="guilt-cls-2 dog-eye" cx="182.8" cy="134.92" r="8.67"/>
-	<circle class="guilt-cls-2 dog-eye" cx="198.54" cy="146.43" r="4.18"/>
-
-	<path id="tounge" class="guilt-cls-5" d="M136.94,245.16s-.91,21.18,9.53,21.41,9.91-19.78,9.91-19.78a23.2,23.2,0,0,1-9.69-14.94C145.54,238.7,136.94,245.16,136.94,245.16Z" transform="translate(-11.9 -48.57)"/>
-	<path class="guilt-cls-4" d="M146.49,228.09S144.94,258,180,245.23C168.38,247.86,150,253.77,146.49,228.09Z" transform="translate(-11.9 -48.57)"/>
-	<path class="guilt-cls-4" d="M147.52,230.21c-1.56,1.21-3.28,19.18-29.12,16.6C130.67,247.88,143.76,247.77,147.52,230.21Z" transform="translate(-11.9 -48.57)"/>
-	<path id="toungeLine" class="guilt-cls-4" d="M146.48,240.34s-1.94,14.81-.49,19.53C145.4,256,146.48,240.34,146.48,240.34Z" transform="translate(-11.9 -48.57)"/>
-	
-</svg>
-		</div>
-		<div class="banner-content-copy">
-			<h1>
-				Spending $40 lets us take care of two dogs for a week.
-			</h1>
-		</div>
-	</div>
-</div>
-
-<div class="section-title">
-    <h2>We Are All Family</h2>
-</div>
-<div class="social">
-    <div class="social-item">
-      <a href="">
-        <img src="" alt="Facebook">
-      </a>
-    </div>
-    <div class="social-item">
-      <a href="">
-        <img src="" alt="Twitter">
-      </a>
-    </div>
-    <div class="social-item">
-      <a href="">
-        <img src="" alt="Instagram">
-      </a>
-    </div>
-</div>
  <div class="gray-bnr bnr" id="morris-dog">
     <div class="img-left bgcover"></div>
     <div class="bnr-content-right">
@@ -409,41 +381,41 @@
     </div>
         <div class="clearf"></div>
     </div>
+
+<div class="section-title">
+    <h2>We Are All Family</h2>
+</div>
+<div class="social">
+    <div class="social-item">
+      <a href="https://www.facebook.com/morrisanimalrefuge" target="_blank">
+        <img src="/img/assets/social/facebook.png" alt="Facebook">
+      </a>
+    </div>
+    <div class="social-item">
+      <a href="https://twitter.com/MorrisAnimal" target="_blank">
+        <img src="/img/assets/social/twitter.png" alt="Twitter">
+      </a>
+    </div>
+    <div class="social-item">
+      <a href="https://www.instagram.com/morrisanimalrefuge/" target="_blank">
+        <img src="/img/assets/social/instagram.png" alt="Instagram">
+      </a>
+    </div>
+</div>
     <div class="section-title">
         <h2>Items</h2>
     </div>
-
   <div class="post-list">
     <div class="product_wrap">
         
             
-           <!--<li>
-            <span class="post-meta">Feb 7, 2017</span>
-
-            <h2>
-              <a class="post-link" href="/product/valentinesday-blog/">Valentine's Day</a>
-            </h2>
-          </li>-->
         
             
-           <!--<li>
-            <span class="post-meta">Feb 5, 2017</span>
-
-            <h2>
-              <a class="post-link" href="/product/proceeds-blog/">Proceeds</a>
-            </h2>
-          </li>-->
         
             
-           <!--<li>
-            <span class="post-meta">Feb 5, 2017</span>
-
-            <h2>
-              <a class="post-link" href="/product/amazonwishlist-blog/">Amazon Wishlist</a>
-            </h2>
-          </li>-->
         
             
+                
                 <!--
 ###############
         File created by Tristan Timblin.
@@ -478,16 +450,16 @@
     </a>
 </div>
 
-            
            <!--<li>
             <span class="post-meta">Feb 1, 2017</span>
-
             <h2>
               <a class="post-link" href="/product/orange-tag/">Orange Tag</a>
             </h2>
           </li>-->
+            
         
             
+                
                 <!--
 ###############
         File created by Tristan Timblin.
@@ -522,16 +494,16 @@
     </a>
 </div>
 
-            
            <!--<li>
             <span class="post-meta">Feb 1, 2017</span>
-
             <h2>
               <a class="post-link" href="/product/lookloveadopt-tag/">Look. Love. Adopt. Tag</a>
             </h2>
           </li>-->
+            
         
             
+                
                 <!--
 ###############
         File created by Tristan Timblin.
@@ -566,16 +538,16 @@
     </a>
 </div>
 
-            
            <!--<li>
             <span class="post-meta">Jan 31, 2017</span>
-
             <h2>
               <a class="post-link" href="/product/stackable-mug/">Stackable Mug</a>
             </h2>
           </li>-->
+            
         
             
+                
                 <!--
 ###############
         File created by Tristan Timblin.
@@ -610,16 +582,16 @@
     </a>
 </div>
 
-            
            <!--<li>
             <span class="post-meta">Jan 31, 2017</span>
-
             <h2>
               <a class="post-link" href="/product/tote-lookloveadopt/">Tote Bag</a>
             </h2>
           </li>-->
+            
         
             
+                
                 <!--
 ###############
         File created by Tristan Timblin.
@@ -654,16 +626,16 @@
     </a>
 </div>
 
-            
            <!--<li>
             <span class="post-meta">Jan 31, 2017</span>
-
             <h2>
               <a class="post-link" href="/product/womens-logotshirt/">MAR T-Shirt</a>
             </h2>
           </li>-->
+            
         
             
+                
                 <!--
 ###############
         File created by Tristan Timblin.
@@ -698,16 +670,16 @@
     </a>
 </div>
 
-            
            <!--<li>
             <span class="post-meta">Jan 31, 2017</span>
-
             <h2>
               <a class="post-link" href="/product/mens-logotshirt/">MAR T-Shirt</a>
             </h2>
           </li>-->
+            
         
             
+                
                 <!--
 ###############
         File created by Tristan Timblin.
@@ -742,16 +714,16 @@
     </a>
 </div>
 
-            
            <!--<li>
             <span class="post-meta">Jan 31, 2017</span>
-
             <h2>
               <a class="post-link" href="/product/mens-lookloveadopttshirt/">Look. Love. Adopt. T-Shirt</a>
             </h2>
           </li>-->
+            
         
             
+                
                 <!--
 ###############
         File created by Tristan Timblin.
@@ -786,16 +758,16 @@
     </a>
 </div>
 
-            
            <!--<li>
             <span class="post-meta">Jan 31, 2017</span>
-
             <h2>
               <a class="post-link" href="/product/logo-mug/">MAR Mug</a>
             </h2>
           </li>-->
+            
         
             
+                
                 <!--
 ###############
         File created by Tristan Timblin.
@@ -830,16 +802,16 @@
     </a>
 </div>
 
-            
            <!--<li>
             <span class="post-meta">Jan 31, 2017</span>
-
             <h2>
               <a class="post-link" href="/product/logo-hat/">MAR Hat</a>
             </h2>
           </li>-->
+            
         
             
+                
                 <!--
 ###############
         File created by Tristan Timblin.
@@ -874,16 +846,16 @@
     </a>
 </div>
 
-            
            <!--<li>
             <span class="post-meta">Jan 31, 2017</span>
-
             <h2>
               <a class="post-link" href="/product/dog-tshirt/">Dog T-Shirt</a>
             </h2>
           </li>-->
+            
         
             
+                
                 <!--
 ###############
         File created by Tristan Timblin.
@@ -918,16 +890,16 @@
     </a>
 </div>
 
-            
            <!--<li>
             <span class="post-meta">Jan 31, 2017</span>
-
             <h2>
               <a class="post-link" href="/product/kids-tshirt-rowhouse/">Kids Row House</a>
             </h2>
           </li>-->
+            
         
             
+                
                 <!--
 ###############
         File created by Tristan Timblin.
@@ -962,16 +934,16 @@
     </a>
 </div>
 
-            
            <!--<li>
             <span class="post-meta">Jan 31, 2017</span>
-
             <h2>
               <a class="post-link" href="/product/magnet/">Car Magnet</a>
             </h2>
           </li>-->
+            
         
             
+                
                 <!--
 ###############
         File created by Tristan Timblin.
@@ -1006,16 +978,16 @@
     </a>
 </div>
 
-            
            <!--<li>
             <span class="post-meta">Jan 28, 2017</span>
-
             <h2>
               <a class="post-link" href="/product/womens-tshirt-rowhouse/">Row House T-Shirt</a>
             </h2>
           </li>-->
+            
         
             
+                
                 <!--
 ###############
         File created by Tristan Timblin.
@@ -1050,16 +1022,16 @@
     </a>
 </div>
 
-            
            <!--<li>
             <span class="post-meta">Jan 28, 2017</span>
-
             <h2>
               <a class="post-link" href="/product/mens-tshirt-rowhouse/">Row House T-Shirt</a>
             </h2>
           </li>-->
+            
         
             
+                
                 <!--
 ###############
         File created by Tristan Timblin.
@@ -1094,19 +1066,21 @@
     </a>
 </div>
 
-            
            <!--<li>
             <span class="post-meta">Jan 28, 2017</span>
-
             <h2>
               <a class="post-link" href="/product/tshirt/">Look. Love. Adopt. T-Shirt</a>
             </h2>
           </li>-->
+            
         
     </div>
   </div>
 
 </div>
+  </div>
+
+</article>
 
       </div>
     </div>
