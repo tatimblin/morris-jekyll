@@ -246,6 +246,7 @@
 }
 
 .post-content {
+    width:100%;
     margin-bottom: $spacing-unit;
 
     h2 {
@@ -275,8 +276,8 @@
 
 .post {
     display:flex;
-    justify-content: space-between;
-    max-width: $on-laptop;
+    justify-content: center;
+    //max-width: $on-laptop;
     margin: 100px auto;
     &-item {
         //width:400px - $spacing-unit/2;

@@ -110,6 +110,18 @@
   background-color: $pink;
 }
 
+
+.social {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 400px;
+    margin: 40px auto 100px auto;
+    img {
+        width: 100px;
+    }
+}
+
 @include media-query($on-palm) {
     .staff-item {
         text-align: center;
@@ -147,4 +159,12 @@
             }
         }
     }
+    .social {
+        flex-direction: column;
+        text-align: center;
+        &-item {
+            margin:10px 0;
+        }
+    }
 }
+
