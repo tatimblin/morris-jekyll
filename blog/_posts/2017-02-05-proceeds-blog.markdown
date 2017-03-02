@@ -2,7 +2,7 @@
 layout: blog
 title:  "Proceeds"
 slug: proceeds-blog
-date:   2017-2-5 2:28:59 -0500
+date:   2016-2-5 2:28:59 -0500
 categories: blog
 
 img: "MAR_dog2.JPG"
