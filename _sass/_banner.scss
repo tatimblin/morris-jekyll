@@ -5,6 +5,7 @@ body {
 
 .banner {
 	width:100%; 
+    margin:0;
 	background: $green;
 	overflow:hidden;
 	&-content {
@@ -207,3 +208,173 @@ $drop-time: 1s;
   }
 }
 
+
+
+
+
+
+/*General Banner*/
+.bnr{
+    width: 100%;
+    font-family: "Poppins";
+    color: #fcfcf1;
+    height: 250px;
+    overflow: hidden;
+    margin: 0px 0;
+}
+.bnr h1{
+    font-size: 1.7em;
+    font-weight: 800; 
+    line-height: 1.3em;
+    margin: 0 0;
+    letter-spacing: 2px;
+}
+.bnr p{
+    font-weight: 200;
+    font-size: 1em;
+    line-height: 1.8em;
+    margin-top: 0;
+    max-width: 500px;
+}
+.bnr a{
+    text-decoration: none;
+    color: #fcfcf1;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1em;
+    display: inline-block;
+    margin-top: 10px;
+}
+.bnr-content-right{
+    float: left;
+    width: 60%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 300px;
+}
+.bnr-words{
+    width: 80%;
+    padding-top: 60px;
+}
+.img-left{
+    height: 250px;
+    width: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+.half .img-left{
+    width: 50%;
+}
+.half .bnr-content-right{
+    width: 50%;
+}
+.bgcontain{
+    background-size: contain;
+}
+.bgcover{
+    background-size: cover;
+}
+.img-bottom{
+    background-position: bottom center;
+}
+/*Specific Banners*/
+
+/*Blue Banners*/
+.lightblue-bnr{
+    background-color: #41c5de;  
+}
+#bunnies .img-left{
+    background-image: url(../img/banner/bunnies.png);
+}
+#bunnies .bnr-content-right{
+  background-image:url(../img/banner/carrots.png);  
+}
+
+/*Purple Banners*/
+.purple-bnr{
+    background-color: #4a173e;
+}
+#paws .img-left{
+    background-image: url(../img/banner/cat-dog-gradient.png);
+}
+#paws .bnr-content-right{
+     background-image: url(../img/banner/paw_prints.png);
+}
+#cat-box .img-left{
+    background-image: url(../img/banner/catbox.png);
+}
+/*Gray Banners*/
+.gray-bnr{
+    background-color: #343d42;
+}
+#morris-dog .img-left{
+    background-image: url(../img/banner/dog-gradient.png);
+}
+#morris-dog .bnr-content-right{
+    background-image: url(../img/banner/morris-gray.png);
+}
+#turtle .img-left{
+    background-image: url(../img/banner/turtle-heart.png);
+}
+.clearf{
+    clear: both;
+    content: none;
+}
+
+/*Buttons*/
+.purplebtn a{
+    background-color: #9f4871;
+    border: 3px solid #4a173e;
+}
+.bluebtn a{
+    background-color: #41c5de;
+    border: 3px solid #097d8b;
+}
+.greenbtn a{
+    background-color: #94af2a;
+    border: 3px solid #005e15;
+}
+@media screen and (max-width: 968px){
+    .img-left{
+        width: 30%;
+        background-position: bottom right;
+    }
+    .bnr-content-right{
+        width: 70%;
+    }
+    .bnr-words p{
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 810px){
+    .img-left{
+        display: none;
+    }
+    .half .img-left{
+        display: inline-block;
+        width: 35%;
+        background-size: 350px;
+        background-position: right bottom;
+    }
+    .bnr-content-right{
+        width: 100%;
+    }
+    .half .bnr-content-right{
+        width: 65%;
+    }
+    .bnr-words{
+        padding-left: 5%;
+        width: 95%;
+    }
+}
+@media screen and (max-width: 572px){
+    .bnr-words{
+        padding-top: 20px;
+    }
+    .bnr-content-right{
+        background-size: 200px;
+    }
+}

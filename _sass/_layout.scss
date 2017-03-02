@@ -208,7 +208,7 @@
 }
 
 .post-list {
-    margin: 100px auto;
+    margin: 0px auto;
     list-style: none;
 
     > li {
@@ -246,7 +246,8 @@
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
+    width:100%;
+    //margin-bottom: $spacing-unit;
 
     h2 {
         font-size: 32px;
@@ -275,8 +276,8 @@
 
 .post {
     display:flex;
-    justify-content: space-between;
-    max-width: $on-laptop;
+    justify-content: center;
+    //max-width: $on-laptop;
     margin: 100px auto;
     &-item {
         //width:400px - $spacing-unit/2;

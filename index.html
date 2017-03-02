@@ -3,7 +3,7 @@ layout: page
 
 hero-img: "catInBox.png"
 hero-title: "Take Me Home"
-hero-body: "Wether it's for a friend, your furry friend, or yourself, we have gifts and supplies for the whole gang."
+hero-body: "Whether it's for a friend, your furry friend, or yourself, we have gifts and supplies for the whole gang."
 hero-action: "Action"
 
 hero-color: "9E4771"
@@ -50,32 +50,16 @@ hero-orient: "row"
   <div class="post-list">
     <div class="product_wrap">
         {% for post in site.posts %}
-          {% unless post.categories contains 'blog' %}
-           
-            <!-- Attempting to put a banner after every 12 product posts, but the include isn't working -->
-            {% assign loopindex = forloop.index | modulo: 12 %}
-            {% if loopindex == 0 %}
-                   
-                    {% include itemCard.html %}
-                    </div>
+            {% unless post.categories contains 'blog' %}
                 
-                {% include banner/guilt.html %}
-                
-                <div class="product_wrap">
-                
-            {% else %}
-                
-                    {% include itemCard.html %}
-                
-            {% endif %}
+                {% include itemCard.html %}
            <!--<li>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
             <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
           </li>-->
-          {% endunless %}
+            {% endunless %}
         {% endfor %}
     </div>
   </div>
