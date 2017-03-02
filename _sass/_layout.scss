@@ -188,15 +188,24 @@
 }
 
 .section-title {
-    max-width:300px;
+    position: relative;
+    max-width:450px;
     margin: $spacing-unit auto;
     text-align: center;
     h2 {
         font-weight: 300;
         font-size: 2em;
     }
-    padding-bottom: .5em;
-    //margin-bottom: 2rem;
+    padding-bottom: 1em;
+    margin-bottom: 1.5rem;
+    &:before {
+      content : "";
+      position: absolute;
+      left    : 35%;
+      bottom  : 0;
+      height  : 1px;
+      width   : 30%;  /* or 100px */
+      
     border-width: 0 0 8px 0;
     // Technique from:
     // http://codepen.io/luclemo/pen/xbMdEx?editors=0110
@@ -205,6 +214,7 @@
     border-color: rgba(213, 126, 0, 1);
     border-image-slice: 33% 33%;
     border-image-repeat: round;
+    }
 }
 
 .post-list {
@@ -284,7 +294,7 @@
         //background: #ccc;
         &_img {
             width:400px - $spacing-unit/2; height:400px;
-            margin: 0 $spacing-unit 0 0;
+            margin: 0 $spacing-unit*2 0 0;
             border-radius: 5px;
             background-position: center center;
             background-size: cover;
@@ -366,24 +376,51 @@
 }
 
 .post-desc {
+    position: relative;
     background: $purple;
     border-radius: 4px;
     max-width: $content-width;
     margin: 0 auto 100px auto;
-    &-inner {
-        padding:5%;
+    padding: 0 0 40px 0;
+    box-shadow: 1px 5px 15px -4px rgba(100,100,150,.30), 1px 4px 35px rgba(0,0,0,.18);
+    h1 {
+        padding:5% 0 0 5%;
+        margin:0px 0 5px 0;
         color: $title-color;
-        h1 {
-            margin:0px 0 10px 0;
-            font-size: 1.5em;
-            font-weight: 600;
-        }
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    &-inner {
+        display: flex;
+        width:90%;
+        padding:0 5%;
+        color: $title-color;
         p {
             font-size: .8em;
             font-weight: 300;
             line-height: 2em;
         }
+        &-item {
+            min-width:150px;
+        }
     }
+}
+
+.product-desc-inner-item_content {
+    margin-right: 1.5em;
+    padding-right: 1em;
+    border-width: 0 8px 0 0;
+    // Technique from:
+    // http://codepen.io/luclemo/pen/xbMdEx?editors=0110
+	border-image-source: url('../img/assets/dotsDesc.svg');
+	border-style: dotted;
+    border-color: rgba(213, 126, 0, 1);
+    border-image-slice: 33% 33%;
+    border-image-repeat: round;
+}
+
+.related-items {
+    margin:0 0 50px 0;
 }
 
 @include media-query($on-palm) {
@@ -392,10 +429,17 @@
         &-item {
             width:90%;
             margin:20px auto;
+            text-align: center;
             &_img {
                 width:100%;
             }
+            &-select {
+                justify-content: center;
+            }
         }
+    }
+    .post-desc {
+        border-radius: 0px;
     }
 }
 

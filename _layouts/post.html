@@ -82,9 +82,14 @@ hero-orient: "row"
 </article>
 
 <div class="post-desc">
+    <h1>About This Item</h1>
     <div class="post-desc-inner">
-        <h1>About This Item</h1>
-        {{ content }}
+        <div class="product-desc-inner-item product-desc-inner-item_content">
+            {{ content }}
+        </div>
+        <div class="product-desc-inner-item">
+            <p>All out products are dishwasher safe and machine wash. If you're not happy with your purchase you can exchange or refund your order. Thanks in supporting the Morris Animal Shelter.</p>
+        </div>
     </div>
 </div>
 
@@ -92,7 +97,7 @@ hero-orient: "row"
     <h2>Related Items</h2>
 </div>
 
-<div class="post-list">
+<div class="post-list related-items">
 <div class="product_wrap">
     {% for post in site.categories.people limit:3 %}
         {% include itemCard.html %}
