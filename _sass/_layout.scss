@@ -284,6 +284,7 @@
         //background: #ccc;
         &_img {
             width:400px - $spacing-unit/2; height:400px;
+            margin: 0 $spacing-unit 0 0;
             border-radius: 5px;
             background-position: center center;
             background-size: cover;
