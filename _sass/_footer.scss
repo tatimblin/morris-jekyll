@@ -17,15 +17,33 @@ footer {
 	&-item {
 		display:flex;
 		margin:50px 0;
-		&_icon {
-			width:40px; height:40px;
-			margin:0 20px 0 0;
-			background:#ccc;
-		}
 		img {
-			width:200px; height:200px;
+			width:auto;
+			height: 200px;
+		}
+		&_icon1 {
+			width:33%;
+			height:auto;
+			margin:0 10px 0 0;
+			img{
+				width: 100%;
+				height: auto;
+				display: block;
+				margin: auto;
+			}
 			
-			background:#ccc;
+		}
+		&_icon2 {
+			width:33%;
+			height:auto;
+			margin:0 10px 0 0;
+			img{
+				width: 80%;
+				height: auto;
+				display: block;
+				margin: auto;
+			}
+			
 		}
 	}
 }
@@ -67,8 +85,20 @@ footer {
 			justify-content:space-between;
             max-width:$desktop;
 			&_co {
-				width:200px; height:150px;
-				background:#ccc;
+				width:30%; 
+				height:auto;
+				img{
+					width:90%;
+				}
+			}
+			&_co_large{
+				width: 30%;
+				height: auto;
+				img{
+					width: 50%;
+					display: block;
+					margin: auto;
+				}
 			}
 		}
 		&-more {
