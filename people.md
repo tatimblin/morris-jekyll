@@ -5,8 +5,8 @@ slug: people
 permalink: /people/
 
 hero-img: "catInBox.png"
-hero-title: "Take Me Home"
-hero-body: "Wether it's for a friend, your furry friend, or yourself, we have gifts and supplies for the whole gang."
+hero-title: "Look Good. Feel Great."
+hero-body: "Not only will you look amazing in items like our baseball T, but you'll be feel great too."
 hero-action: "Action"
 
 hero-color: "9E4771"
