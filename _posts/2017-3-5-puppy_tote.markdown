@@ -9,4 +9,4 @@ categories: people hero staffPickLeft
 img: "new_puppyTote.png"
 price: "20"
 ---
-A puupt shirt with Morris iconic graphic. 
+Carry this lovely tote with you
