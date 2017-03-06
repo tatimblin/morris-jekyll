@@ -15,6 +15,7 @@
             flex-direction: column;
             justify-content: space-between;
             h1 {
+                width:200px;
                 font-size:2em;
             }
             p {
@@ -32,7 +33,7 @@
 
 .cart-item-info-ctrl {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     &-item {
         display: flex;
         &:before {
@@ -60,7 +61,39 @@
     text-align: center;
     font-size: 2em;
     font-weight: 300;
+    a {color:$text-color;}
 }
+
+@media screen and (min-width: $on-laptop) {
+    .cart {
+        max-width:800px;
+        &-item {
+            display: flex;
+            justify-content: flex-start;
+            margin: 50px 0;
+            &-img {
+                width:150px; height: 150px;
+                padding:0 60px 0 0;
+            }
+            &-info {
+                justify-content: space-between;
+                h1 {
+                    width:100%;
+                }
+                p {
+                    a {
+                        
+                    }
+                }
+                span {
+                    
+                }
+            }
+        }
+    }
+
+}
+
 
 /* ### Cart Summary ### */
 
@@ -87,12 +120,13 @@
 .cart-donation {
     max-width:1000px;
     margin: 0 auto;
-    padding:20px 0;
+    padding:40px 0;
     background: $light-blue;
     color: $title-color;
     text-align: center;
     h1 {
         font-size:2em;
+        line-height: 1.5em;
         font-weight:300;
     }
     &_wrap {
@@ -143,6 +177,12 @@
 
 /* ### Checkout ### */
 
+.checkout_wrap {
+    max-width:400px;
+    margin: 0 auto;
+    a {text-decoration: none;}
+}
+
 .checkout {
     max-width:400px;
     margin:0 auto;
@@ -164,6 +204,7 @@
 .checkout_wrap:hover .checkout{
     box-shadow: 1px 8px 15px -4px rgba(100,100,150,.20), 1px 6px 35px rgba(0,0,0,.18);
     transform: translateY(-10px) scale(1.05);
+    background: lighten($yellow, 5%);
 }
 
 
