@@ -9,4 +9,4 @@ categories: pet hero staffPickRight
 img: "new_heart_dogcloth.png"
 price: "17"
 ---
-Carry this lovely tote with you
+A puupt shirt with Morris iconic graphic.
