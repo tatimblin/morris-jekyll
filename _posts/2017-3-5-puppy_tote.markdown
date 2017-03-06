@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title:  "Puppies Tote"
+title:  "Puppy and Kitten Tote"
 slug: puppy_tote
 date:   2017-03-05 21:34:59 -0500
 categories: people hero staffPickLeft
