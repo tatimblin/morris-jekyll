@@ -9,4 +9,4 @@ categories: pet hero staffPickRight
 img: "new_heart_dogcloth.png"
 price: "17"
 ---
-A puupt shirt with Morris iconic graphic.
+A cute dog T-shirt with Morris iconic graphic.
