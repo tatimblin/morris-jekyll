@@ -17,7 +17,7 @@ description: > # this means to ignore newlines until "baseurl:"
   low-cost spay/neuter program, fostering, humane education and 
   more.
 
-baseurl: "/murder-mystery" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 
