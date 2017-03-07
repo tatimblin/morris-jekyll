@@ -65,12 +65,13 @@ body {
 
 .nav {
 	max-width: $desktop;
+	height: 90px;
 	margin:0px auto -10px auto;
 	display: flex;
 	justify-content:space-between;
-	align-items:baseline;
+	align-items:center;
     &-logo img{
-		width: 50%;
+		width: 60%;
 	    	display: block;
 	    	margin-top: -8%;
 	}
@@ -78,7 +79,8 @@ body {
 		width:75%;
 		display: flex;
 		justify-content:space-between;
-		align-items:baseline;
+		align-items:center;
+		margin-top: 2%;
         #people {
             color:$forPeople; 
             order:1;
