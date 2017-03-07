@@ -28,7 +28,7 @@ body {
 		justify-content:space-between;
 		margin:0 20px;
 		padding:5px 0;
-		
+		text-transform: uppercase;
 		font-family:$heading;
 		color: #FAFDF0;
 		font-size:.8em;
@@ -79,6 +79,7 @@ body {
 		width:75%;
 		display: flex;
 		justify-content:space-between;
+		text-transform: uppercase;
 		align-items:center;
 		margin-top: 3%;
         #people {
