@@ -1,6 +1,18 @@
 .cart {
+    position: relative;
     width:90%;
-    margin: 100px auto;
+    margin: 40px auto 100px auto;
+    &-total {
+        margin: 0 0 100px 0;
+        text-align: center;
+        font-weight: 300;
+        font-size: 1.2em;
+        span {
+            background: #eae7e7;
+            padding: 5px 10px;
+            border-radius: 2px;
+        }
+    }
     &-item {
         display: flex;
         justify-content: center;
@@ -16,7 +28,8 @@
             justify-content: space-between;
             h1 {
                 width:200px;
-                font-size:2em;
+                font-size:1.5em;
+                line-height: 1.4em;
             }
             p {
                 font-weight: 300;
@@ -58,27 +71,35 @@
 }
 
 .cart-continue {
+    margin: 0 0 50px 0;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 300;
-    a {color:$text-color;}
+    a {
+        color:$text-color;
+        text-decoration: underline;
+        &:after {
+            content: '?';
+        }
+    }
 }
 
 @media screen and (min-width: $on-laptop) {
     .cart {
-        max-width:800px;
+        max-width:700px;
         &-item {
             display: flex;
             justify-content: flex-start;
             margin: 50px 0;
             &-img {
                 width:150px; height: 150px;
-                padding:0 60px 0 0;
+                padding:0 80px 0 0;
             }
             &-info {
                 justify-content: space-between;
                 h1 {
                     width:100%;
+                    font-size:2em;
                 }
                 p {
                     a {
@@ -119,34 +140,73 @@
 
 .cart-donation {
     max-width:1000px;
-    margin: 0 auto;
+    margin: 50px auto;
     padding:40px 0;
     background: $light-blue;
     color: $title-color;
     text-align: center;
+    &-title {
+        position: relative;
+        max-width:650px;
+        margin: $spacing-unit auto;
+        text-align: center;
+        h2 {
+            font-weight: 300;
+            font-size: 2em;
+        }
+        padding-bottom: .5em;
+        margin-bottom: .5rem;
+        &:before {
+          content : "";
+          position: absolute;
+          left    : 35%;
+          bottom  : 0;
+          height  : 1px;
+          width   : 30%;  /* or 100px */
+
+            border-width: 0 0 8px 0;
+            // Technique from:
+            // http://codepen.io/luclemo/pen/xbMdEx?editors=0110
+            border-image-source: url('../img/assets/dots.svg');
+            border-style: dotted;
+            border-color: rgba(213, 126, 0, 1);
+            border-image-slice: 33% 33%;
+            border-image-repeat: round;
+        }
+    }
     h1 {
         font-size:2em;
         line-height: 1.5em;
         font-weight:300;
     }
     &_wrap {
+        flex-wrap: wrap;
         display: flex;
         justify-content: space-between;
     }
     &-item {
-        width:150px;
-        padding:15px 10px;
+        width:35%; height:80px;
+        margin: 20px;
+        padding:10px 5px;
         background: $green;
         &:nth-child(2) {background: $blue;}
         &:nth-child(3) {background: $purple;}
         &:nth-child(4) {background: $yellow;}
-        border-radius: 0px;
+        border-radius: 3px;
         h1 {
             font-weight: 600;
             line-height: 1em;
         }
         p {
-            font-size: .7em;
+            font-size: .9em;
+        }
+        transition: border 150ms ease-in-out;
+        input {
+            width:75px;
+            margin: auto;
+            padding:0;
+            text-align: center;
+            line-height: 3em;
         }
     }
 }
@@ -160,17 +220,29 @@
 
         }
         &_wrap {
+            flex-wrap: nowrap;
             width:90%;
             margin:30px auto;
         }
         &-item {
+            width:150px; height:none;
             border-radius: 3px;
+            border: 5px solid $green;
+        &:nth-child(2) {background: $blue;
+            border: 5px solid $blue;}
+        &:nth-child(3) {background: $purple;
+            border: 5px solid $purple;}
+        &:nth-child(4) {background: $yellow;
+            border: 5px solid $yellow;}
             h1 {
 
             }
             p {
 
             }
+        }
+        &:hover {
+            border: 5px solid $title-color;
         }
     }
 }
@@ -179,12 +251,14 @@
 
 .checkout_wrap {
     max-width:400px;
-    margin: 0 auto;
+    margin: 50px auto 150px auto;
+    text-align: center;
     a {text-decoration: none;}
 }
 
 .checkout {
-    max-width:400px;
+    //max-width:400px;
+    text-align: center;
     margin:0 auto;
     padding: 10px 0;
     background: $yellow;
