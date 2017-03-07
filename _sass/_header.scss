@@ -54,7 +54,7 @@ body {
 		svg {
 			display:block;
 			width:20px;
-			margin:5px auto 0;
+			margin:3px auto 0;
 		}
 	}
 }
@@ -79,7 +79,7 @@ body {
 		width:65%;
 		display: flex;
 		justify-content:space-between;
-		align-items:center;
+		align-items:baseline;
         #people {
             color:$forPeople; 
             order:1;
