@@ -31,7 +31,7 @@ body {
 		text-transform: uppercase;
 		font-family:$heading;
 		color: #FAFDF0;
-		font-size:.8em;
+		font-size:.6em;
 	}
 	&-site {
 		width:40%;
@@ -71,17 +71,18 @@ body {
 	justify-content:space-between;
 	align-items:center;
     &-logo img{
-		width: 60%;
+		width: 75%;
 	    	display: block;
 	    	margin-top: -6%;
 	}
 	&-link {
-		width:75%;
+		width:100%%;
 		display: flex;
 		justify-content:space-between;
 		text-transform: uppercase;
 		align-items:center;
 		margin-top: 3%;
+		font-size: .9em;
         #people {
             color:$forPeople; 
             order:1;
