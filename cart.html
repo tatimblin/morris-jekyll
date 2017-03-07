@@ -1,15 +1,9 @@
 ---
 layout: page
 
-hero-img: "catInBox.png"
-hero-title: "Support Us"
-hero-body: "The proceeds from your purchases will cover costs ranging from food to medical care. "
-hero-action: "Start Shopping"
-
-hero-color: "9E4771"
-hero-orient: "row"
 ---
 
+{% include banner/bunny2.html %}
 
 <div class="section-title">
     <h2>Cart Summary</h2>
@@ -17,6 +11,9 @@ hero-orient: "row"
 
 
 <div class="cart">
+  
+   <div class="cart-total"><span>Total items: 4</span></div>
+   
     <div class="cart-item">
         <div class="cart-item-img">
             <img src="../img/products/log_mug.png">
@@ -26,6 +23,7 @@ hero-orient: "row"
             <p>$ 7.99</p>
             <p>Color: <span>White</span></p>
             <div class="post-item-qty">
+               <p><span>Quantity</span></p>
                 <select>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -123,28 +121,12 @@ hero-orient: "row"
     </div> <!-- End Cart Item -->
 </div> 
 
-<h1 class="cart-continue"><a href="{{ site.baseurl }}">Continue Shopping?</a></h1>
-
-<div class="cart-sum">
-    <div class="cart-sum-item">
-        <p>Subtotal</p><span>$ 44.97</span>
-    </div>
-    <div class="cart-sum-item">
-        <p>Shipping</p><span>$ 4.99</span>
-    </div>
-    <div class="cart-sum-item">
-        <p>Tax</p><span>$ 3.93</span>
-    </div>
-    <hr>
-    <div class="cart-sum-item">
-        <p>Total</p><span>$ 53.89</span>
-    </div>
-</div>
+<h1 class="cart-continue"><a href="{{ site.baseurl }}">Continue Shopping</a></h1>
 
 {% include banner/guilt.html %}
 
 <div class="cart-donation">
-    <h1>Would you like to add a donation?</h1>
+    <h1 class="cart-donation-title">Would you like to add a donation?</h1>
     <div class="cart-donation_wrap">
         <div class="cart-donation-item">
             <h1>$5</h1>
@@ -160,6 +142,7 @@ hero-orient: "row"
         </div>
         <div class="cart-donation-item">
             <h1>Other</h1>
+            <input type="text" name="donate">
         </div>
     </div>
 </div>
@@ -181,11 +164,7 @@ hero-orient: "row"
 </div>
 
 <div class="checkout_wrap">
-<a href="">
-    <div class="checkout">
-            <h1>Checkout</h1>
-    </div>
-</a>
+<img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-large.png" alt="Check out with PayPal" />
 </div>
 
 
