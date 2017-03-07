@@ -30,7 +30,7 @@ body {
 		padding:5px 0;
 		
 		font-family:$heading;
-		color: lighten($black, 40%);
+		color: #FAFDF0;
 		font-size:.8em;
 	}
 	&-site {
@@ -53,8 +53,8 @@ body {
 		background: $light-blue;
 		svg {
 			display:block;
-			width:15px;
-			margin:3px auto 0;
+			width:20px;
+			margin:5px auto 0;
 		}
 	}
 }
