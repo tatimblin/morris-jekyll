@@ -23,29 +23,11 @@ function showSlides() {
     }
     slideIndex++;
     if (slideIndex> slides.length) {slideIndex = 1} 
-    //slides[slideIndex-1].style.display = "block"; 
+    slides[slideIndex-1].style.display = "block"; 
     setTimeout(showSlides, 7000); // Change image every 2 seconds
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  //dots[slideIndex-1].className += " active";
+  dots[slideIndex-1].className += " active";
 }
 // ################
-
-var acc = document.getElementsByClassName("filter-btn");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].onclick = function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  }
-}
-function clearform() {
-    document.getElementById("filter-form").reset();
-}
