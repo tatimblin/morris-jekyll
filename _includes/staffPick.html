@@ -4,7 +4,7 @@
 <div class="staff-wrap">
     <div class="staff-item staff-item-prod">
         {% for post in site.categories.staffPickLeft limit: 2 %}
-                <a href="">
+                <a href="{{ site.baseurl }}{{ post.url }}">
                    <div class="staff-item-prod-img" style="background-image: url('{{ site.baseurl }}/img/products/{{ post.img }}'); background-size: cover; background-repeat: no-repeat; background-position: center center;"></div>
                     
                     <h1>{{ post.title }}</h1>
@@ -39,7 +39,7 @@
     </div>
     <div class="staff-item staff-item-prod">
         {% for post in site.categories.staffPickRight limit: 2 %}
-                <a href="">
+                <a href="{{ site.baseurl }}{{ post.url }}">
                     <div class="staff-item-prod-img" style="background-image: url('{{ site.baseurl }}/img/products/{{ post.img }}'); background-size: contain; background-repeat: no-repeat; background-position: center center;"></div>
                     <h1>{{ post.title }}</h1>
                     <p>${{ post.price }}</p>
