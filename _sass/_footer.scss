@@ -26,7 +26,7 @@ footer {
 		 text-transform: uppercase;
 		}
 		p{
-		 font-size:.9em;
+		 font-size:.8em;
 		 font-weight: 300;
 		}
 		&_icon1 {
@@ -129,8 +129,6 @@ footer {
 .foot-biz {
 	padding:20px;
 	background: $black;
-	display: block;
-	margin: auto;
 	&-item {
 		font-weight: 300;
 		font-size: .75em;
