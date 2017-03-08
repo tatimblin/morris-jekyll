@@ -24,79 +24,8 @@ layout: default
 </div>
 
 <div class="section-wrap">
-    <div class="section-filter">
-    
-    <div id="filter">
-  <div class="filter_header">
-    <h2>&lt</h2>
-    <p><a href="#" onclick="clearform()">Clear all</a></p>
-   </div>
-   <div id="filter-wrap">
-  <h1>FILTER BY</h1>
-     <form id="filter-form">
-  <div class="filter_section">
-    <ul>
-      <li><p>Great Gifts <span>(0)</span></p> <input type="checkbox"></li>
-      <li><p>Best Value <span>(0)</span></p> <input type="checkbox"></li>
-      <li><p>Sale Items <span>(0)</span></p> <input type="checkbox"></li>
-      <li><p>New Arrivals <span>(0)</span></p> <input type="checkbox"></li>
-    </ul>
-  </div>  
-      <div class="filter_section">
-        <div class="filter-btn">
-        <h3>Price Range</h3>
-          <p>&#9661;</p>
-        </div> 
-     <div class="expand">   
-    <ul>
-      <li><p>Below $20 <span>(0)</span></p> <input type="checkbox"></li>
-      <li><p>$20 - $50 <span>(0)</span></p> <input type="checkbox"></li>
-      <li><p>Above $50 <span>(0)</span></p> <input type="checkbox"></li>
-    </ul>
-        </div>
-  </div>
-  <div class="filter_section">
-        <div class="filter-btn">
-        <h3>Color</h3>
-          <p>&#9661;</p>
-        </div> 
-     <div class="expand colors">   
-       <div class="wcolor"><div class="color" style="background-color:#000;"></div><p>Black</p></div>
-        <div class="wcolor"><div class="color" style="background-color:#2d13ea;"></div><p>Blue</p></div>
-        <div class="wcolor"><div class="color" style="background-color:#4c3412;"></div><p>Brown</p></div>
-        <div class="wcolor"><div class="color" style="background-color:#afac28;"></div><p>Gold</p></div>
-         <div class="wcolor"><div class="color" style="background-color:gray;"></div><p>Gray</p></div>
-        <div class="wcolor"><div class="color" style="background-color:#0da804;"></div><p>Green</p></div>
-        <div class="wcolor"><div class="color"></div><p>Multi</p></div>
-         <div class="wcolor"><div class="color" style="background-color:#dd6819;"></div><p>Orange</p></div>
-        <div class="wcolor"><div class="color" style="background-color:#e505bb;"></div><p>Pink</p></div>
-        <div class="wcolor"><div class="color" style="background-color:#690aa0;"></div><p>Purple</p></div>
-        <div class="wcolor"><div class="color" style="background-color:#dd1919;"></div><p>Red</p></div>
-       <div class="wcolor"><div class="color" style="background-color:#afafaf;"></div><p>Silver</p></div>
-        <div class="wcolor"><div class="color" style="background-color:#c6ac83;"></div><p>Tan</p></div>
-        <div class="wcolor"><div class="color" style="background-color:#fff;"></div><p>White</p></div>
-        <div class="wcolor"><div class="color" style="background-color:#eaea0a;"></div><p>Yellow</p></div>
-        </div>
-        </div>
-           <div class="filter_section">
-        <div class="filter-btn">
-        <h3>Sizes</h3>
-          <p>&#9661;</p>
-        </div> 
-     <div class="expand colors">   
-       <div class="size"><p>XS</p></div>
-       <div class="size"><p>S</p></div>
-       <div class="size"><p>M</p></div>
-       <div class="size"><p>L</p></div>
-       <div class="size"><p>XL</p></div>
-       <div class="size"><p>XXL</p></div>
-        </div>
-  </div>
-  </div> 
-</div> 
-     </form>
-</div>
-    
+
+    {% include filter.html %}
     
     <div class="text-justify section-list">
         {% if site.categories[page.slug] %}
@@ -107,6 +36,7 @@ layout: default
 
                         {% include itemCard.html %}
                         </div>
+                        
 
                     {% include banner/paws.html %}
 
