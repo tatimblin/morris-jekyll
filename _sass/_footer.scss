@@ -21,6 +21,14 @@ footer {
 			width:auto;
 			height: 200px;
 		}
+		h3{
+		 font-size:1em;
+		 text-transform: uppercase;
+		}
+		p{
+		 font-size:.9em;
+		 font-weight: 300;
+		}
 		&_icon1 {
 			width:33%;
 			height:auto;
@@ -38,7 +46,7 @@ footer {
 			height:auto;
 			margin:0 10px 0 0;
 			img{
-				width: 80%;
+				width: 35%;
 				height: auto;
 				display: block;
 				margin: auto;
@@ -79,7 +87,7 @@ footer {
 			font-family: $heading;
 			text-decoration: none;
 			line-height:1.5em;
-			font-size: .8em;
+			font-size: .75em;
 			font-weight: 300;
 			&:hover {
 				text-decoration: underline;
@@ -121,9 +129,12 @@ footer {
 .foot-biz {
 	padding:20px;
 	background: $black;
+	display: block;
+	margin: auto;
 	&-item {
 		font-weight: 300;
 		font-size: .75em;
+		text-align: center;
 	}
 }
 
