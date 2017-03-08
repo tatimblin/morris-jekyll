@@ -46,6 +46,15 @@ footer {
 			
 		}
 	}
+	&-item:nth-child(1){
+		width: 20%;
+	}
+	&-item:nth-child(2){
+		width: 30%;
+	}
+	&-item:nth-child(3){
+		width: 50%
+	}
 }
 
 .foot-line {
@@ -70,6 +79,8 @@ footer {
 			font-family: $heading;
 			text-decoration: none;
 			line-height:1.5em;
+			font-size: .8em;
+			font-weight: 300;
 			&:hover {
 				text-decoration: underline;
 			}
@@ -111,7 +122,8 @@ footer {
 	padding:20px;
 	background: $black;
 	&-item {
-		
+		font-weight: 300;
+		font-size: .75em;
 	}
 }
 
