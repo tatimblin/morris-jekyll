@@ -9,4 +9,4 @@ categories: people
 img: "new_blueMug.png"
 price: "22"
 ---
-Get this blue cute mug from Morris, decorated with many different lovely pets.
+Show your love for all animals with this blue Morris Animal Refuge mug! The cute design is sure to start your day off right.

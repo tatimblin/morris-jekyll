@@ -9,4 +9,4 @@ categories: both
 img: "matchingHoodie.png"
 price: "43"
 ---
-How about wearing a same outfit with your dog for a walk?
+Sport a matching hoodie with your pet so everyone knows who you're with! They keep you warm and show your support for your favorite animal refuge!

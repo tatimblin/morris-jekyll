@@ -9,4 +9,4 @@ categories: both
 img: "matchingHat.png"
 price: "30"
 ---
-Get a winter hat not only for yourself but also for your adorable pet. 
+Make you and your pet the envy of everyone you see with these matching winter hats! They'll keep you warm and stylish!

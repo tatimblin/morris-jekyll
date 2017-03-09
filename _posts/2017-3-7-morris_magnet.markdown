@@ -9,4 +9,4 @@ categories: people
 img: "new_magnet.png"
 price: "13"
 ---
-This magnet has Morris herat icon, show your love to morris. 
+Show your support for Morris Animal Refuge by adding it to your fridge or car! Like all our products, the proceeds will benefit the animals.

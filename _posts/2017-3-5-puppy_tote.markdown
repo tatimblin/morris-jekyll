@@ -9,4 +9,4 @@ categories: people hero staffPickLeft
 img: "new_puppyTote.png"
 price: "20"
 ---
-Carry this lovely tote with you
+Show off your love for animals with this fun tote bag! Those faces are too cute to pass up. 

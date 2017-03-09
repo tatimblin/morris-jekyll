@@ -9,4 +9,4 @@ categories: pet hero staffPickRight
 img: "new_petTreat.png"
 price: "10"
 ---
-Give your adorable pets a little sweet treat 
+Treat the furry friend in your life to a Morris Animal Refuge snack! It's delicious taste makes it the perfect reward. 

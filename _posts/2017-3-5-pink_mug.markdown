@@ -9,4 +9,4 @@ categories: people hero
 img: "new_pinkMug.png"
 price: "22"
 ---
-Take me home cat mug  
+Add this fun mug to your collection and the animals of Morris Animal refuge will thank you! All proceeds from your purchase will benefit the animals and its adorable design is too cute to pass up. 
