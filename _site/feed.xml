@@ -4,6 +4,7 @@
     <title>Morris Animal Refuge</title>
     <description>The Morris Animal Refuge is a 501(c)(3) open admission shelter  dedicated to helping the homeless, abandoned and unwanted pets of  the Philadelphia region.  Founded in 1874 by Elizabeth Morris, we  were the first organization dedicated to sheltering and rehoming  pets, and continue that legacy today by providing adoptions, a  low-cost spay/neuter program, fostering, humane education and  more.
 </description>
+<<<<<<< HEAD
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>Thu, 12 Jan 2017 14:32:58 -0500</pubDate>
@@ -32,7 +33,24 @@
         <pubDate>Mon, 02 Jan 2017 06:48:59 -0500</pubDate>
         <link>http://localhost:4000/product/bowl/</link>
         <guid isPermaLink="true">http://localhost:4000/product/bowl/</guid>
+=======
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 09 Mar 2017 15:12:09 -0500</pubDate>
+    <lastBuildDate>Thu, 09 Mar 2017 15:12:09 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Puppy and Kitten Tote</title>
+        <description>&lt;p&gt;Show off your love for animals with this fun tote bag! Those faces are too cute to pass up.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Mar 2017 21:34:59 -0500</pubDate>
+        <link>/product/puppy-tote/</link>
+        <guid isPermaLink="true">/product/puppy-tote/</guid>
+>>>>>>> 57488f9e32ae21dbc2c3c24ef5a43ae88cd7a644
         
+        
+        <category>people</category>
         
         <category>hero</category>
         
@@ -41,6 +59,7 @@
       </item>
     
       <item>
+<<<<<<< HEAD
         <title>Sweatshirt</title>
         <description>&lt;p&gt;Wether it’s for a friend, your furry friend, or yourself, we have gifts and supplies for the whole gang.&lt;/p&gt;
 
@@ -62,7 +81,17 @@
         <pubDate>Mon, 02 Jan 2017 05:48:59 -0500</pubDate>
         <link>http://localhost:4000/product/sweatshirt/</link>
         <guid isPermaLink="true">http://localhost:4000/product/sweatshirt/</guid>
+=======
+        <title>Morris Pet Treat</title>
+        <description>&lt;p&gt;Treat the furry friend in your life to a Morris Animal Refuge snack! It’s delicious taste makes it the perfect reward.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Mar 2017 12:34:59 -0500</pubDate>
+        <link>/product/logo-pettreat/</link>
+        <guid isPermaLink="true">/product/logo-pettreat/</guid>
         
+>>>>>>> 57488f9e32ae21dbc2c3c24ef5a43ae88cd7a644
+        
+        <category>pet</category>
         
         <category>hero</category>
         
@@ -71,6 +100,7 @@
       </item>
     
       <item>
+<<<<<<< HEAD
         <title>Mug</title>
         <description>&lt;p&gt;Wether it’s for a friend, your furry friend, or yourself, we have gifts and supplies for the whole gang.&lt;/p&gt;
 
@@ -92,15 +122,76 @@
         <pubDate>Tue, 20 Dec 2016 12:48:59 -0500</pubDate>
         <link>http://localhost:4000/product/mug/</link>
         <guid isPermaLink="true">http://localhost:4000/product/mug/</guid>
+=======
+        <title>Morris Iconic Blue Mug</title>
+        <description>&lt;p&gt;Show your love for all animals with this blue Morris Animal Refuge mug! The cute design is sure to start your day off right.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Mar 2017 04:26:59 -0500</pubDate>
+        <link>/product/blue-pet-mug/</link>
+        <guid isPermaLink="true">/product/blue-pet-mug/</guid>
         
         
-        <category>hero</category>
-        
-        <category>staffPickLeft</category>
+        <category>people</category>
         
       </item>
     
       <item>
+        <title>Matching Winter Hat</title>
+        <description>&lt;p&gt;Make you and your pet the envy of everyone you see with these matching winter hats! They’ll keep you warm and stylish!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Mar 2017 03:29:59 -0500</pubDate>
+        <link>/product/matching-hat/</link>
+        <guid isPermaLink="true">/product/matching-hat/</guid>
+        
+        
+        <category>both</category>
+        
+      </item>
+    
+      <item>
+        <title>Morris Blue Magnet</title>
+        <description>&lt;p&gt;Show your support for Morris Animal Refuge by adding it to your fridge or car! Like all our products, the proceeds will benefit the animals.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Mar 2017 03:28:59 -0500</pubDate>
+        <link>/product/morris-magnet/</link>
+        <guid isPermaLink="true">/product/morris-magnet/</guid>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
+        <title>Morris Bunny Pin</title>
+        <description>&lt;p&gt;Add this adorable bunny pin to your bag or clothing to support the animals of Morris Animal Refuge! The bunnies will thank you!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Mar 2017 03:26:59 -0500</pubDate>
+        <link>/product/rabbit-pin/</link>
+        <guid isPermaLink="true">/product/rabbit-pin/</guid>
+        
+>>>>>>> 57488f9e32ae21dbc2c3c24ef5a43ae88cd7a644
+        
+        <category>people</category>
+        
+        <category>hero</category>
+        
+      </item>
+    
+      <item>
+        <title>Matching Keyring and Pet Tag</title>
+        <description>&lt;p&gt;Accessorize right by matching with your pet! This matching keyring and pet tag set are sure to impress all your friends.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Mar 2017 03:23:59 -0500</pubDate>
+        <link>/product/matching-keyring/</link>
+        <guid isPermaLink="true">/product/matching-keyring/</guid>
+        
+        
+        <category>both</category>
+        
+      </item>
+    
+      <item>
+<<<<<<< HEAD
         <title>T-Shirt</title>
         <description>&lt;p&gt;Wether it’s for a friend, your furry friend, or yourself, we have gifts and supplies for the whole gang.&lt;/p&gt;
 
@@ -122,15 +213,37 @@
         <pubDate>Tue, 20 Dec 2016 10:48:59 -0500</pubDate>
         <link>http://localhost:4000/product/tshirt/</link>
         <guid isPermaLink="true">http://localhost:4000/product/tshirt/</guid>
+=======
+        <title>Christmas Postcard</title>
+        <description>&lt;p&gt;Purchase this festive postcard to send to family and friends this holiday season! The adorable animals of Morris Animal Refuge will bring cheer to everyone.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Mar 2017 03:23:59 -0500</pubDate>
+        <link>/product/christmas-postcard/</link>
+        <guid isPermaLink="true">/product/christmas-postcard/</guid>
         
+>>>>>>> 57488f9e32ae21dbc2c3c24ef5a43ae88cd7a644
+        
+        <category>people</category>
         
         <category>hero</category>
-        
-        <category>staffPickRight</category>
         
       </item>
     
       <item>
+        <title>Matching Hoodie</title>
+        <description>&lt;p&gt;Sport a matching hoodie with your pet so everyone knows who you’re with! They keep you warm and show your support for your favorite animal refuge!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Mar 2017 03:22:59 -0500</pubDate>
+        <link>/product/matching-hoodie/</link>
+        <guid isPermaLink="true">/product/matching-hoodie/</guid>
+        
+        
+        <category>both</category>
+        
+      </item>
+    
+      <item>
+<<<<<<< HEAD
         <title>Welcome to Jekyll!</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
@@ -150,11 +263,21 @@
         <pubDate>Mon, 19 Dec 2016 22:48:59 -0500</pubDate>
         <link>http://localhost:4000/product/welcome-to-jekyll/</link>
         <guid isPermaLink="true">http://localhost:4000/product/welcome-to-jekyll/</guid>
+=======
+        <title>Morris Puppy T-Shirt</title>
+        <description>&lt;p&gt;Support Morris Animal Refuge with your pets wardrobe! This t-shirt is right for an furry friends in your life.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Mar 2017 02:34:59 -0500</pubDate>
+        <link>/product/logo-dogshirt/</link>
+        <guid isPermaLink="true">/product/logo-dogshirt/</guid>
+>>>>>>> 57488f9e32ae21dbc2c3c24ef5a43ae88cd7a644
         
         
-        <category>jekyll</category>
+        <category>pet</category>
         
-        <category>update</category>
+        <category>hero</category>
+        
+        <category>staffPickRight</category>
         
       </item>
     

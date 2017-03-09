@@ -1,0 +1,19 @@
+.section-wrap {
+    display: flex;
+    width: 1000px;
+    margin:0 auto;
+}
+
+.section-filter {
+    
+}
+
+.section-list {
+    margin: 0 auto;
+}
+
+@include media-query(1000px) {
+    .section-wrap {
+        width:auto;
+    }
+}

@@ -11,14 +11,159 @@
 ">
 
   <link rel="stylesheet" href="/css/main.css">
+<<<<<<< HEAD
   <link rel="canonical" href="http://localhost:4000/">
   <link rel="alternate" type="application/rss+xml" title="Morris Animal Refuge" href="http://localhost:4000/feed.xml">
+=======
+  <link rel="canonical" href="/">
+  <link rel="alternate" type="application/rss+xml" title="Morris Animal Refuge" href="/feed.xml">
+  
+>>>>>>> 57488f9e32ae21dbc2c3c24ef5a43ae88cd7a644
 </head>
 
 
   <body>
 
-    <header class="site-header">
+    
+<!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This is the structure for the site header
+            - Styling located in _sass/_header.scss
+            - Default jekyll header is commented out below for referencing.
+            - This was created mobile first
+        Instructions:
+            1) Navigation is hardcoded in except for the categories
+            2) Category links are given an id of their slug. You can reference this is in the css.
+            
+###############
+-->
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<div class="mobile-header">
+	<div class="mobile-header-top">
+		<div class="mobile-header-top_ham">
+			<img src="https://veronicaqubrossi.com/wp-content/themes/genesis-meta-child/images/gmct/mobile-menu.png">
+		</div>
+	</div>
+	<div class="mobile-header-bot">
+		<div class="mobile-header-bot_logo">
+			MORRIS
+		</div>
+	</div>
+</div>
+
+<div class="header header-hide">
+	<div class="topbar">
+		<div class="topbar-site">
+			<div class="topbar-site_item">
+				Home
+			</div>
+			<div class="topbar-site_item">
+				News
+			</div>
+			<div class="topbar-site_item">
+				Events
+			</div>
+			<div class="topbar-site_item">
+				Contacts
+			</div>
+			<div class="topbar-site_item">
+				Surrender
+			</div>
+			<div class="topbar-site_item">
+				About
+			</div>
+		</div>
+		<div class="topbar-social">
+			<div class="topbar-social_item">
+				<img src="/img/logos/instgram.png" alt="Morris Animal Refuge Instagram">
+			</div>
+			<div class="topbar-social_item">
+				<img src=" /img/logos/facebook.png" alt="Morris Animal Refuge Facebook">
+			</div>
+			<div class="topbar-social_item">
+				<img src= "/img/logos/twitter.png" alt="Morris Animal Refuge Twitter">
+			</div>
+			<div class="topbar-social_item">
+				<img src=" /img/logos/youtube.png" alt="Morris Animal Refuge Youtube">
+			</div>
+		</div>
+		<div class="topbar-search">
+			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve" fill="#fff">
+				<g><path d="M963.1,833.6L704.8,575.3c0,0,0,0-6.1,0c30.7-61.5,49.2-123,49.2-190.6c0-202.9-166-368.9-368.9-368.9S10,181.8,10,384.7c0,202.9,166,368.9,368.9,368.9c67.6,0,135.3-18.4,190.6-55.3l0,0l258.2,258.2c36.9,36.9,92.2,36.9,129.1,0C999.9,925.8,999.9,870.5,963.1,833.6z M133,384.7c0-135.3,110.7-245.9,245.9-245.9c135.3,0,245.9,110.7,245.9,245.9c0,135.3-110.7,246-245.9,246C243.7,630.7,133,520,133,384.7z"/></g>
+			</svg>
+		</div>
+	</div>
+	<div class="nav_wrap">
+		<div class="nav">
+			<a href="/">
+                <div class="nav-logo">
+                    <img src="/img/logos/MorrisLogo.png" alt="Morris Animal Refuge Logo">
+                </div>
+			</a>
+			<div class="nav-link">
+			
+            
+				<div class="nav-link_item nav-link_item1" id="both">
+					<a class="page-link" href="/both/">For Both</a>
+				</div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+				<div class="nav-link_item nav-link_item1" id="people">
+					<a class="page-link" href="/people/">For People</a>
+				</div>
+            
+            
+            
+				<div class="nav-link_item nav-link_item1" id="pet">
+					<a class="page-link" href="/pet/">For Pets</a>
+				</div>
+            
+            
+<!--            <div class="nav-link_item nav-link_item2">
+					For People
+				</div>
+				<div class="nav-link_item nav-link_item3">
+					For Both
+				</div>
+-->
+				<div class="nav-link_item nav-link_item4">
+					<img src="/img/assets/amazon_wishlist.png" alt="amazon wishlist">
+				</div>
+				<div class="nav-link_item nav-link_item5">
+					<div class="nav-link_item_inner nav-link_item_inner_hide">
+						<img src="http://vignette4.wikia.nocookie.net/education/images/d/d3/Icon-x.svg">
+					</div>
+					<div class="nav-link_item_inner">
+					    <a href="/cart">
+						<img src="http://image.flaticon.com/icons/svg/60/60992.svg">
+                        </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+  
+
+  
+  
+  
+  
+<!--<header class="site-header">
 
   <div class="wrapper">
 
@@ -36,13 +181,23 @@
       <div class="trigger">
         
           
-          <a class="page-link" href="/about/">About</a>
+          <a class="page-link" href="/both/">For Both</a>
           
         
           
         
           
         
+          
+        
+          
+        
+          
+          <a class="page-link" href="/people/">For People</a>
+          
+        
+          
+          <a class="page-link" href="/pet/">For Pets</a>
           
         
       </div>
@@ -50,15 +205,24 @@
 
   </div>
 
-</header>
+</header>-->
 
-    
-    <div class="hero" style="background:#9E4771;">
+
+    <div class="page-content">
+      <div class="wrapper">
+        <!-- 
+    The code here is duplicated in order to be present for both page and layout types. Information is gathered from index.html and layout/post.html.
+-->
+
+
+
+
+<div class="hero" style="background:#9E4771;">
     <div class="hero-content" style="flex-direction:row;">
         
-            <div class="hero-content-img" style="background-image:url('img/hero/catInBox.png'); margin:
+            <div class="hero-content-img" style="background-image:url('/img/hero/banner-img02.png'); margin:
                
-                   0 60px 0 0
+                   0 0px 0 0
                
                
             ;">
@@ -69,21 +233,49 @@
             </div>
         
         <div class="hero-content-cta">
-            <h1>Take Me Home</h1>
-            <p>Wether it's for a friend, your furry friend, or yourself, we have gifts and supplies for the whole gang.</p>
+            <h1>Support Us</h1>
+            <p>The proceeds from your purchases will cover costs ranging from food to medical care. </p>
             
             
                 <div class="hero-content-cta-btn btn">
-                    Action
+                    Start Shopping
                 </div>
+            
             
         </div>
     </div>
 </div>
 
-    <div class="page-content">
-      <div class="wrapper">
-        <!--
+
+
+
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+
+  <div class="post-content">
+    <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            This file controls the homepage of our site.
+            Its layout is 'default' (see above) and the information here gets pulled into layout/default.html where {_{_content_}_} is present.
+        Instructions:
+            1) You can edit the hero banner on this page using the front matter (above), for your convenience I put the brand colors below. You can edit:
+                - The color
+                - Title text
+                - Body text
+                - Select an image
+                - And switch the text and image sides
+            2) The homepage is a special place, a unique part of this page is the Staff Pick section (You can see it 'included' below). To put products here please give posts the category 'staffPickLeft' or 'staffPickRight' This will put the two most recent posts with that category up on the first page.
+            3) Next is the banner/guilt.html it was created to be used as a template and swapping out the content in a new file will easily create a new one
+            4) The secition-title class will hold an <h2> and present it as the header of a section. It is used throughout the site.
+            5) Finally we have a loop taking all the posts on the site and putting them on the front page, if our store gets too big we may need to limit the max number of loops. put 'Limit: x' at the end of the for to cap the loops.
+            
+###############
+   
     hero-color
         $light-blue: #41C3DB;
         $yellow: #FF9900;
@@ -100,239 +292,1550 @@
 <div class="section-title">
     <h2>Staff Picks</h2>
 </div>
-
 <div class="staff-wrap">
-    <div class="staff-item">
+    <div class="staff-item staff-item-prod">
         
-                <a href="">
-                   <div class="staff-item-img" style="background-image:url('../img/products/placeholder.jpg')"></div>
+                <a href="/product/puppy-tote/">
+                   <div class="staff-item-prod-img" style="background-image: url('/img/products/new_puppyTote.png'); background-size: cover; background-repeat: no-repeat; background-position: center center;"></div>
                     
-                    <h1>Dog Bowl</h1>
-                    <p>$10</p>
+                    <h1>Puppy and Kitten Tote</h1>
+                    <p>$20</p>
                 </a>
         
-                <a href="">
-                   <div class="staff-item-img" style="background-image:url('../img/products/')"></div>
+                <a href="/product/lovemorris-pin/">
+                   <div class="staff-item-prod-img" style="background-image: url('/img/products/new_morrisPin.png'); background-size: cover; background-repeat: no-repeat; background-position: center center;"></div>
                     
-                    <h1>Mug</h1>
-                    <p>$17</p>
+                    <h1>Love Morris Pin</h1>
+                    <p>$13</p>
                 </a>
         
     </div>
     <div class="staff-item staff-item-card">
-            <div class="staff-item-card-img">
-                img
-            </div>
-            <div class="staff-item-card-desc">
-                <div class="staff-item-card-desc_title">
-                    <h1>Title</h1>
-                </div>
-                <div class="staff-item-card-desc_body">
-                    <p>Body.</p>
-                </div>
-            </div>
-    </div>
-    <div class="staff-item">
         
-                <a href="">
-                    <div class="staff-item-img" style="background-image:url('../img/products/')"></div>
-                    <h1>Sweatshirt</h1>
-                    <p>$14</p>
+            <a href="/product/valentinesday-blog/">
+            <div class="staff-item-card_slide">
+                <div class="staff-item-card-img" style="background-image: url('/img/hero/vday_necklace.png'); background-size: cover; background-repeat: no-repeat; background-position: center center;">
+
+                </div>
+                <div class="staff-item-card-desc">
+                    <div class="staff-item-card-desc_title">
+                        <h1>Valentine's Day</h1>
+                    </div>
+                    <div class="staff-item-card-desc_body">
+                        <p><p>Valentine’s Day is right around the corner and we have the perfect gift! Show you care with one of our...</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        
+            <a href="/product/proceeds-blog/">
+            <div class="staff-item-card_slide">
+                <div class="staff-item-card-img" style="background-image: url('/img/hero/MAR_dog2.JPG'); background-size: cover; background-repeat: no-repeat; background-position: center center;">
+
+                </div>
+                <div class="staff-item-card-desc">
+                    <div class="staff-item-card-desc_title">
+                        <h1>Proceeds</h1>
+                    </div>
+                    <div class="staff-item-card-desc_body">
+                        <p><p>Every purchase at our store helps an animal in need at Morris Animal Refuge! The proceeds from your purchases will...</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        
+            <a href="/product/amazonwishlist-blog/">
+            <div class="staff-item-card_slide">
+                <div class="staff-item-card-img" style="background-image: url('/img/hero/MAR_dog1.JPG'); background-size: cover; background-repeat: no-repeat; background-position: center center;">
+
+                </div>
+                <div class="staff-item-card-desc">
+                    <div class="staff-item-card-desc_title">
+                        <h1>Amazon Wishlist</h1>
+                    </div>
+                    <div class="staff-item-card-desc_body">
+                        <p><p>Check out our Amazon Wishlist to see what we are in need of for our animals. By utilizing the wishlist,...</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        
+        <div class="dot-container">
+            <span class="staff-item-card-dot" id="dot1" onclick="currentSlide(1)"></span> 
+            <span class="staff-item-card-dot"  id="dot2"onclick="currentSlide(2)"></span> 
+            <span class="staff-item-card-dot" id="dot3"onclick="currentSlide(3)"></span>
+            <span class="staff-item-card-dot" id="dot3"onclick="currentSlide(4)"></span> 
+        </div>
+    </div>
+    <div class="staff-item staff-item-prod">
+        
+                <a href="/product/logo-pettreat/">
+                    <div class="staff-item-prod-img" style="background-image: url('/img/products/new_petTreat.png'); background-size: contain; background-repeat: no-repeat; background-position: center center;"></div>
+                    <h1>Morris Pet Treat</h1>
+                    <p>$10</p>
                 </a>
         
-                <a href="">
-                    <div class="staff-item-img" style="background-image:url('../img/products/')"></div>
-                    <h1>T-Shirt</h1>
-                    <p>$15</p>
+                <a href="/product/logo-dogshirt/">
+                    <div class="staff-item-prod-img" style="background-image: url('/img/products/new_heart_dogcloth.png'); background-size: contain; background-repeat: no-repeat; background-position: center center;"></div>
+                    <h1>Morris Puppy T-Shirt</h1>
+                    <p>$17</p>
                 </a>
         
     </div>
 </div>
-<div class="banner">
-	
-	<div class="banner-content">
-		<div class="banner-content-icon">
 
-<svg id="Layer_1" class="banner-dog" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 276.27 235.5">
-	<defs>
-		<style>
-			.cls-1{fill:#645240;}.cls-2{fill:#fff;}.cls-3{fill:#578ba8;}.cls-4{fill:#251d10;}.cls-5{fill:#ee3d74;}
-		</style>
-	</defs>
-	<title>jakeDog</title>
-	<path class="cls-1" d="M46.42,166.86s27-42,50.53-47.39c-11.68-13.31-59.6-70.9-59.6-70.9S-25.54,96.9,46.42,166.86Z" transform="translate(-11.9 -48.57)"/>
-	<path class="cls-1 dog-ear" d="M253.58,169.46s-24.95-43.19-47.44-48.92c11.5-13.43,58.75-71.61,58.75-71.61S324.16,99,253.58,169.46Z" transform="translate(-11.9 -48.57)"/>
-	<ellipse class="cls-2" cx="135.1" cy="138.43" rx="117.06" ry="97.07"/>
-	<ellipse class="cls-1" cx="77.93" cy="128.66" rx="47.5" ry="45.77"/>
-	<circle class="cls-3 dog-eye" cx="188.43" cy="138.43" r="23"/><path class="cls-4" d="M133.33,223.35S120,210,138,210s34,.67,24.67,13C148.53,243.49,133.33,223.35,133.33,223.35Z" transform="translate(-11.9 -48.57)"/>
-	<circle class="cls-3 dog-eye" cx="81.76" cy="138.43" r="23"/>
-	<circle class="cls-2 dog-eye" cx="75.1" cy="135.59" r="8.67"/>
-	<circle class="cls-2 dog-eye" cx="90.83" cy="147.1" r="4.18"/>
-	<circle class="cls-2 dog-eye" cx="182.8" cy="134.92" r="8.67"/>
-	<circle class="cls-2 dog-eye" cx="198.54" cy="146.43" r="4.18"/>
-
-	<path id="tounge" class="cls-5" d="M136.94,245.16s-.91,21.18,9.53,21.41,9.91-19.78,9.91-19.78a23.2,23.2,0,0,1-9.69-14.94C145.54,238.7,136.94,245.16,136.94,245.16Z" transform="translate(-11.9 -48.57)"/>
-	<path class="cls-4" d="M146.49,228.09S144.94,258,180,245.23C168.38,247.86,150,253.77,146.49,228.09Z" transform="translate(-11.9 -48.57)"/>
-	<path class="cls-4" d="M147.52,230.21c-1.56,1.21-3.28,19.18-29.12,16.6C130.67,247.88,143.76,247.77,147.52,230.21Z" transform="translate(-11.9 -48.57)"/>
-	<path id="toungeLine" class="cls-4" d="M146.48,240.34s-1.94,14.81-.49,19.53C145.4,256,146.48,240.34,146.48,240.34Z" transform="translate(-11.9 -48.57)"/>
-	
-</svg>
-		</div>
-		<div class="banner-content-copy">
-			<h1>
-				Spending $40 lets us take care of two dogs for a week.
-			</h1>
-		</div>
-	</div>
+<div class="section-title">
+    <h2>Sale Spotlight</h2>
 </div>
+<div class="post-list">
+<div class="product_wrap">
+    
+        
+
+            <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/puppy-tote/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/new_puppyTote.png');">
+
+    </div>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Puppy and Kitten Tote</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 20.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+       <!--<li>
+        <span class="post-meta">Mar 5, 2017</span>
+        <h2>
+          <a class="post-link" href="/product/puppy-tote/">Puppy and Kitten Tote</a>
+        </h2>
+      </li>-->
+        
+    
+        
+
+            <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/logo-pettreat/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_pet"></div>
+    <div class="product-img" style="background-image:url('/img/products/new_petTreat.png');">
+
+    </div>
+    <div class="product-buy product-buy_pet">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Morris Pet Treat</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 10.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+       <!--<li>
+        <span class="post-meta">Mar 5, 2017</span>
+        <h2>
+          <a class="post-link" href="/product/logo-pettreat/">Morris Pet Treat</a>
+        </h2>
+      </li>-->
+        
+    
+        
+
+            <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/blue-pet-mug/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/new_blueMug.png');">
+
+    </div>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Morris Iconic Blue Mug</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 22.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+       <!--<li>
+        <span class="post-meta">Mar 5, 2017</span>
+        <h2>
+          <a class="post-link" href="/product/blue-pet-mug/">Morris Iconic Blue Mug</a>
+        </h2>
+      </li>-->
+        
+    
+</div>
+</div>
+
+ <div class="gray-bnr bnr" id="morris-dog">
+    <div class="img-left bgcover"></div>
+    <div class="bnr-content-right">
+        <div class="bnr-words bluebtn">
+        <h1>Thank You</h1>
+        <p>Every dollar spent in store or donated goes directly to helping an animal in need smile and find a home. </p>
+        <a href="#">Donate</a>    
+        </div>
+    </div>
+        <div class="clearf"></div>
+    </div>
     <div class="section-title">
         <h2>Items</h2>
     </div>
-
-  <ul class="post-list">
+  <div class="post-list">
     <div class="product_wrap">
         
-           <div class="product">
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/puppy-tote/">
     <div class="product-dropshadow"></div>
-    <div class="product-backdrop product-backdrop_purple"></div>
-    <div class="product-img" id="bowl" style="background-image:url('img/products/placeholder.jpg');">
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/new_puppyTote.png');">
 
     </div>
-    <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
     </div>
     <div class="product-content">
         <div class="product-content-title">
-            <h4>Dog Bowl</h4>
+            <h4>Puppy and Kitten Tote</h4>
         </div>
         <div class="product-content-cost">
-            <h5>$10</h5>
+            <h5>$ 20.00</h5>
         </div>
     </div>
+    </a>
 </div>
-           <!--<li>
-            <span class="post-meta">Jan 2, 2017</span>
 
+           <!--<li>
+            <span class="post-meta">Mar 5, 2017</span>
             <h2>
-              <a class="post-link" href="/product/bowl/">Dog Bowl</a>
+              <a class="post-link" href="/product/puppy-tote/">Puppy and Kitten Tote</a>
             </h2>
           </li>-->
+            
         
-           <div class="product">
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/logo-pettreat/">
     <div class="product-dropshadow"></div>
-    <div class="product-backdrop product-backdrop_purple"></div>
-    <div class="product-img" id="bowl" style="background-image:url('img/products/');">
+    <div class="product-backdrop product-backdrop_pet"></div>
+    <div class="product-img" style="background-image:url('/img/products/new_petTreat.png');">
 
     </div>
-    <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
+    <div class="product-buy product-buy_pet">
+        <h5>View More</h5>
     </div>
     <div class="product-content">
         <div class="product-content-title">
-            <h4>Sweatshirt</h4>
+            <h4>Morris Pet Treat</h4>
         </div>
         <div class="product-content-cost">
-            <h5>$14</h5>
+            <h5>$ 10.00</h5>
         </div>
     </div>
+    </a>
 </div>
-           <!--<li>
-            <span class="post-meta">Jan 2, 2017</span>
 
+           <!--<li>
+            <span class="post-meta">Mar 5, 2017</span>
             <h2>
-              <a class="post-link" href="/product/sweatshirt/">Sweatshirt</a>
+              <a class="post-link" href="/product/logo-pettreat/">Morris Pet Treat</a>
             </h2>
           </li>-->
+            
         
-           <div class="product">
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/blue-pet-mug/">
     <div class="product-dropshadow"></div>
-    <div class="product-backdrop product-backdrop_purple"></div>
-    <div class="product-img" id="bowl" style="background-image:url('img/products/');">
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/new_blueMug.png');">
 
     </div>
-    <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
     </div>
     <div class="product-content">
         <div class="product-content-title">
-            <h4>Mug</h4>
+            <h4>Morris Iconic Blue Mug</h4>
         </div>
         <div class="product-content-cost">
-            <h5>$17</h5>
+            <h5>$ 22.00</h5>
         </div>
     </div>
+    </a>
 </div>
-           <!--<li>
-            <span class="post-meta">Dec 20, 2016</span>
 
+           <!--<li>
+            <span class="post-meta">Mar 5, 2017</span>
             <h2>
-              <a class="post-link" href="/product/mug/">Mug</a>
+              <a class="post-link" href="/product/blue-pet-mug/">Morris Iconic Blue Mug</a>
             </h2>
           </li>-->
+            
         
-           <div class="product">
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/matching-hat/">
     <div class="product-dropshadow"></div>
-    <div class="product-backdrop product-backdrop_purple"></div>
-    <div class="product-img" id="bowl" style="background-image:url('img/products/');">
+    <div class="product-backdrop product-backdrop_both"></div>
+    <div class="product-img" style="background-image:url('/img/products/matchingHat.png');">
 
     </div>
-    <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
+    <div class="product-buy product-buy_both">
+        <h5>View More</h5>
     </div>
     <div class="product-content">
         <div class="product-content-title">
-            <h4>T-Shirt</h4>
+            <h4>Matching Winter Hat</h4>
         </div>
         <div class="product-content-cost">
-            <h5>$15</h5>
+            <h5>$ 30.00</h5>
         </div>
     </div>
+    </a>
 </div>
-           <!--<li>
-            <span class="post-meta">Dec 20, 2016</span>
 
+           <!--<li>
+            <span class="post-meta">Mar 5, 2017</span>
             <h2>
-              <a class="post-link" href="/product/tshirt/">T-Shirt</a>
+              <a class="post-link" href="/product/matching-hat/">Matching Winter Hat</a>
             </h2>
           </li>-->
+            
         
-           <div class="product">
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/morris-magnet/">
     <div class="product-dropshadow"></div>
-    <div class="product-backdrop product-backdrop_purple"></div>
-    <div class="product-img" id="bowl" style="background-image:url('img/products/');">
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/new_magnet.png');">
 
     </div>
-    <div class="product-buy" id="purple">
-        <h5>BUY NOW</h5>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
     </div>
     <div class="product-content">
         <div class="product-content-title">
-            <h4>Welcome to Jekyll!</h4>
+            <h4>Morris Blue Magnet</h4>
         </div>
         <div class="product-content-cost">
-            <h5>$</h5>
+            <h5>$ 13.00</h5>
         </div>
     </div>
+    </a>
 </div>
-           <!--<li>
-            <span class="post-meta">Dec 19, 2016</span>
 
+           <!--<li>
+            <span class="post-meta">Mar 5, 2017</span>
             <h2>
-              <a class="post-link" href="/product/welcome-to-jekyll/">Welcome to Jekyll!</a>
+              <a class="post-link" href="/product/morris-magnet/">Morris Blue Magnet</a>
             </h2>
           </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/rabbit-pin/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/new_rabbitPin.png');">
+
+    </div>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Morris Bunny Pin</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 10.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Mar 5, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/rabbit-pin/">Morris Bunny Pin</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/matching-keyring/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_both"></div>
+    <div class="product-img" style="background-image:url('/img/products/MatchingRing.png');">
+
+    </div>
+    <div class="product-buy product-buy_both">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Matching Keyring and Pet Tag</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 20.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Mar 5, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/matching-keyring/">Matching Keyring and Pet Tag</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/christmas-postcard/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/new_postcard.png');">
+
+    </div>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Christmas Postcard</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 8.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Mar 5, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/christmas-postcard/">Christmas Postcard</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/matching-hoodie/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_both"></div>
+    <div class="product-img" style="background-image:url('/img/products/matchingHoodie.png');">
+
+    </div>
+    <div class="product-buy product-buy_both">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Matching Hoodie</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 43.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Mar 5, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/matching-hoodie/">Matching Hoodie</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/logo-dogshirt/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_pet"></div>
+    <div class="product-img" style="background-image:url('/img/products/new_heart_dogcloth.png');">
+
+    </div>
+    <div class="product-buy product-buy_pet">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Morris Puppy T-Shirt</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 17.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Mar 5, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/logo-dogshirt/">Morris Puppy T-Shirt</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/pink-mug/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/new_pinkMug.png');">
+
+    </div>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Pink Cat Mug</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 22.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Mar 5, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/pink-mug/">Pink Cat Mug</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/lovemorris-pin/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/new_morrisPin.png');">
+
+    </div>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Love Morris Pin</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 13.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Mar 5, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/lovemorris-pin/">Love Morris Pin</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/orange-tag/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_pet"></div>
+    <div class="product-img" style="background-image:url('/img/products/orange_tag.png');">
+
+    </div>
+    <div class="product-buy product-buy_pet">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Orange Tag</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 20.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Feb 1, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/orange-tag/">Orange Tag</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/lookloveadopt-tag/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_pet"></div>
+    <div class="product-img" style="background-image:url('/img/products/lookloveadopt_tag.png');">
+
+    </div>
+    <div class="product-buy product-buy_pet">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Look. Love. Adopt. Tag</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 20.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Feb 1, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/lookloveadopt-tag/">Look. Love. Adopt. Tag</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/stackable-mug/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/stackable_mug.png');">
+
+    </div>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Stackable Mug</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 12.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Jan 31, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/stackable-mug/">Stackable Mug</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/tote-lookloveadopt/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/lookloveadopt_tote.png');">
+
+    </div>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Tote Bag</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 14.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Jan 31, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/tote-lookloveadopt/">Tote Bag</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/womens-logotshirt/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/womens_MARtshirt.jpg');">
+
+    </div>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>MAR T-Shirt</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 18.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Jan 31, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/womens-logotshirt/">MAR T-Shirt</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/mens-logotshirt/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/logo_menstshirt.jpg');">
+
+    </div>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>MAR T-Shirt</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 17.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Jan 31, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/mens-logotshirt/">MAR T-Shirt</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/mens-lookloveadopttshirt/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/mens_lookloveadopt.png');">
+
+    </div>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Look. Love. Adopt. T-Shirt</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 22.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Jan 31, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/mens-lookloveadopttshirt/">Look. Love. Adopt. T-Shirt</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/logo-mug/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/log_mug.png');">
+
+    </div>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>MAR Mug</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 13.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Jan 31, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/logo-mug/">MAR Mug</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/logo-hat/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/logo_hat.png');">
+
+    </div>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>MAR Hat</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 16.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Jan 31, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/logo-hat/">MAR Hat</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/dog-tshirt/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_pet"></div>
+    <div class="product-img" style="background-image:url('/img/products/dog_rowhouse.png');">
+
+    </div>
+    <div class="product-buy product-buy_pet">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Dog T-Shirt</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 20.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Jan 31, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/dog-tshirt/">Dog T-Shirt</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/kids-tshirt-rowhouse/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/kids_rowhouse.png');">
+
+    </div>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Kids Row House</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 16.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Jan 31, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/kids-tshirt-rowhouse/">Kids Row House</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/magnet/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/bunny_magnet.png');">
+
+    </div>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Car Magnet</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 4.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Jan 31, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/magnet/">Car Magnet</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/womens-tshirt-rowhouse/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/womens_rowhouse.jpg');">
+
+    </div>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Row House T-Shirt</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 20.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Jan 28, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/womens-tshirt-rowhouse/">Row House T-Shirt</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/mens-tshirt-rowhouse/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/mens_rowhouse.png');">
+
+    </div>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Row House T-Shirt</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 20.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Jan 28, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/mens-tshirt-rowhouse/">Row House T-Shirt</a>
+            </h2>
+          </li>-->
+            
+        
+            
+                
+                <!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - This file holds the structure for the product listing cards
+            - Some of the code is included for the cards post transition
+            - Styling is held in _sass/itemCard.scss
+        Instructions:
+            1) Loop grabs the first category of each post in order to identify a background color.
+            
+###############
+--> 
+
+<div class="product">
+   <a href="/product/tshirt/">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_people"></div>
+    <div class="product-img" style="background-image:url('/img/products/womens_lookloveadopt.png');">
+
+    </div>
+    <div class="product-buy product-buy_people">
+        <h5>View More</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>Look. Love. Adopt. T-Shirt</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>$ 22.00</h5>
+        </div>
+    </div>
+    </a>
+</div>
+
+           <!--<li>
+            <span class="post-meta">Jan 28, 2017</span>
+            <h2>
+              <a class="post-link" href="/product/tshirt/">Look. Love. Adopt. T-Shirt</a>
+            </h2>
+          </li>-->
+            
+        
+            
+        
+            
+        
+            
         
     </div>
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+  </div>
 
 </div>
+
+
+<div class="section-title">
+    <h2>We Are All Family</h2>
+</div>
+<!-- Styling in _staffPick.scss -->
+<div class="social">
+    <div class="social-item">
+      <a href="https://www.facebook.com/morrisanimalrefuge" target="_blank">
+        <img src="img/assets/social/facebook.png" alt="Facebook">
+      </a>
+    </div>
+    <div class="social-item">
+      <a href="https://twitter.com/MorrisAnimal" target="_blank">
+        <img src="img/assets/social/twitter.png" alt="Twitter">
+      </a>
+    </div>
+    <div class="social-item">
+      <a href="https://www.instagram.com/morrisanimalrefuge/" target="_blank">
+        <img src="img/assets/social/instagram.png" alt="Instagram">
+      </a>
+    </div>
+</div>
+
+  </div>
+
+</article>
 
       </div>
     </div>
 
-    <footer class="site-footer">
+    <footer>
+	<div class="foot-inner foot-info">
+		<div class="foot-info-item">
+			<img src="/img/logos/condensedLogo.png" alt="Morris Animal Refuge Logo">
+		</div>
+		<div class="foot-info-item">
+			<div class="foot-info-item_icon1" id="location">
+				<img  src="/img/logos/locationIcon.png" alt="Morris Animal Refuge Location">
+			</div>
+			<div class="foot-info-item-content">
+				<h3>Contact Us</h3>
+				<p>1242 Lombard Street Philadelphia Pennsylvania 19147</p>
+				<p> 215 735 9570 </p>
+			</div>
+		</div>
+		<div class="foot-info-item">
+			<div class="foot-info-item_icon2" id="hours">
+				<img  src="/img/logos/clockIcon.png" alt="Morris Animal Refuge Hours">
+			</div>
+			<div class="foot-info-item-content">
+				<h3>Hours of Operation</h3>
+				<p>Monday, Tuesday, Saturday, Sunday <br> 11am – 4pm</p>
+				<p>Wednesday, Friday <br> 11am – 7pm</p>
+			</div>
+		</div>
+	</div>
+	
+    <div class="foot-line"></div>
+
+	<div class="foot-inner foot-link">
+		<div class="foot-link-item">
+			<a href="">Home</a>
+			<a href="">Adopt</a>
+			<a href="">Donate</a>
+			<a href="">Get Involved</a>
+			<a href="">Contact</a>
+			<a href="">About</a>
+			<a href="">Retail Store</a>
+			<a href="">Animal Welfare</a>
+			<a href="">Surrender</a>
+			<a href="">Programs</a>
+		</div>
+		<div class="foot-link-item">
+			<a href="">Admin Portal</a>
+			<a href="">Terms And Conditions</a>
+			<a href="">Privacy Policy</a>
+			<a href="">Sitemap</a>
+			<a href="">Join our Team</a>
+			<a href="">Newsletter Signup</a>
+		</div>
+	</div>
+	<div class="foot-biz">
+	<div class="foot-inner">
+		<div class="foot-biz-item">
+			<p>© 2017 Morris Animal Refuge &ensp; All Rights Reserved</p>
+		</div>
+	</div>
+	</div>
+</footer>
+  
+
+  
+  
+<!-- 
+<footer class="site-footer">
 
   <div class="wrapper">
 
@@ -375,6 +1878,10 @@
   </div>
 
 </footer>
+-->
+  <script src="/main.js"></script>
+  
+</html>
 
 
   </body>

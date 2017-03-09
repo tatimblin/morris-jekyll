@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "MAR Hat"
+slug: logo_hat
+date:   2017-1-31 10:48:59 -0500
+categories: people hero 
+
+img: "logo_hat.png"
+price: "16"
+---
+Sport this classic style while representing America's oldest animal refuge! The animals at Morris Animal Refuge will be sure to thank you as they receive all the profits from your purchase. 

@@ -1,0 +1,282 @@
+/*
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - Site header styling
+            - Mobile first
+        Instructions:
+            1) Categories are saved as id's
+            2) Colors and navigation order can be edited below.
+            
+###############
+*/
+
+body {
+	overflow-x:hidden;
+}
+
+.header {
+    z-index: 1000;
+}
+
+.topbar {
+	display:flex;
+	justify-content:flex-end;
+	background: $black;
+	&-site, &-social {
+		display: flex;
+		justify-content:space-between;
+		margin:0 20px;
+		padding:5px 0;
+		text-transform: uppercase;
+		font-family:$heading;
+		color: #FAFDF0;
+		font-size:.6em;
+	}
+	&-site {
+		width:40%;
+		min-width:350px;
+        max-width: 450px;
+		&_item {
+			
+		}
+	}
+	&-social {
+		width:10%;
+		&_item img{
+			width: 40%;
+			
+		}
+	}
+	&-search {
+		width:10%;
+		background: $light-blue;
+		svg {
+			display:block;
+			width:20px;
+			margin:3px auto 0;
+		}
+	}
+}
+
+.nav_wrap {
+	background: $title-color;
+}
+
+.nav {
+	max-width: $desktop;
+	height: 90px;
+	margin:0px auto -10px auto;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+    &-logo img{
+		width: 70%;
+	    	display: block;
+	    	margin-top: -10%;
+	}
+	&-link {
+		width:100%;
+		display: flex;
+		justify-content:space-between;
+		text-transform: uppercase;
+		align-items:center;
+		margin-top: 3%;
+		font-size: .9em;
+        #people {
+            color:$forPeople; 
+            order:1;
+            border-bottom: solid 3px $title-color;
+            transition: border-bottom 100ms ease-in-out;
+            &:hover {
+                border-bottom: solid 3px $forPeople;
+            }
+        }
+        #pet {
+            color:$forPet; 
+            order:2;
+            border-bottom: solid 3px $title-color;
+            transition: border-bottom 100ms ease-in-out;
+            &:hover {
+                border-bottom: solid 3px $forPet;
+            }
+        }
+    	#both {
+            color:$forBoth; 
+            order:3;
+            border-bottom: solid 3px $title-color;
+            transition: border-bottom 100ms ease-in-out;
+            &:hover {
+                border-bottom: solid 3px $forBoth;
+            }
+        }
+		&_item {
+			font-family: $heading;
+			font-weight:700;
+			&4 {
+				img {
+					width:75px;
+				}
+                order:4;
+			}
+			&5 {
+				img {
+					width:25px;
+				}
+                order:5;
+			}
+            a {
+                color: inherit;
+                text-decoration: none;
+            }
+		}
+	}
+}
+@media screen and (min-width: $mobile) {
+    .nav {
+        height:100px;
+    }
+}
+@media screen and (max-width: $mobile) {
+	.header {
+		position:absolute;
+		display:flex;
+		flex-direction:column-reverse;
+		max-width:400px;
+		top:0;
+		right:0;
+		
+		transform:translateX(0px);
+		transition: transform 400ms ease-in-out;
+		
+		border-radius:0 0 0 10px;
+		box-shadow: 0 3px 22px rgba(0, 0, 0, 0.23), 0 3px 32px rgba(0, 0, 0, 0.16);
+		background: $title-color;
+	}
+	
+	.header-hide {
+		transform:translateX(400px);
+		transition: none;
+	}
+	
+	.topbar {
+		flex-direction:column-reverse;
+		justify-content:center;
+		width:100%;
+		margin:0 auto;
+		
+		background:none;
+		&-site, &-social {
+			margin:0;
+			padding:0;
+		}
+		&-site {
+			flex-wrap:wrap;
+			justify-content:center;
+			width:100%;
+			margin:10px 0;
+			&_item {
+				width:25%;
+				margin:5px;
+				text-align:center;
+			}
+		}
+		&-social {
+			width:50%;
+			margin:10px auto;
+		}
+		&-search {
+			width:80%;
+			margin: 10px auto;
+			padding: 20px 0;
+			background: $light-blue;
+			border: 3px solid #3BB3CB;
+ 		 	border-radius:3px;
+			svg {
+				
+			}
+		}
+	}
+	
+	.nav {
+		max-width: $mobile;
+		margin:0 auto;
+
+		display: flex;
+		flex-direction:column;
+		justify-content:space-between;
+		align-items:center;
+		&-logo {
+			display:none;
+		}
+		&-link {
+			width:80%; 
+			display: flex;
+			flex-direction:column;
+			justify-content:space-between;
+			align-items:flex-start;
+            #people {order:2;}
+            #pet {order:3;}
+        	#both {order:4;}
+			&_item {
+				margin:20px 0;
+				font-family: $heading;
+				font-weight:700;
+				&4 {
+					order:5;
+					img {
+						width:75px;
+					}
+				}
+				&5 {
+					order:1;
+					//align-self:flex-end;
+					
+					display:flex;
+					justify-content:space-between;
+					width:100%;
+					img {
+						width:25px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: $mobile) {
+	.mobile-header, .nav-link_item_inner_hide {
+		display:none;
+	}
+}
+
+@media screen and (max-width: $mobile) {
+	.mobile-header {
+		display:block;
+		&-top {
+			position:relative;
+			display:flex;
+			justify-content:flex-end;
+			width:100%;
+			padding:5px 0;
+			background: $light-blue;
+			&_ham {
+				margin:2px 20px;
+				img {
+					width: 20px; height: 20px;
+				}
+			}
+		}
+		&-bot {
+			width:100%;
+			background:$black;
+			&_logo {
+				width:60%;
+				margin:0 auto;
+				padding:20px 0;
+				background:#ccc;
+				text-align:center;
+			}
+		}
+	}
+}

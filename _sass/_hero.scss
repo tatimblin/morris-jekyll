@@ -13,18 +13,27 @@
         &-img {
             align-self:flex-end;
             padding:0;
-            width:50%; height:200px;
+            width:600px; height:300px;
             background-size: contain;
             background-repeat: no-repeat;
+            background-position: center bottom;
         }
         &-cta {
-            align-self:flex-start;
-            padding:100px 0;
+            align-self:center;
+            margin:10px 0;
             h1 {
-                margin:0 0 .5em 0;
+                font-size: 2.5em;
+                line-height: 1em;
             }
             p {
-                line-height: 1.5em;
+                margin:1em 0;
+                font-size: .9em;
+                line-height: 1.7em;
+                font-weight: 300;
+            }
+            &-btn {
+                
+                text-transform: capitalize;
             }
         }
     }
@@ -38,10 +47,11 @@
         padding: 0 5%;
         flex-direction: column;
         &-img {
+            width:400px;
             display:none;
         }
         &-cta {
-
+            margin:100px 0;
         }
     }
 }

@@ -2,7 +2,10 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-
+/*
+    All variables are stored here
+    Partials linked below
+*/
 
 
 // Our variables
@@ -15,7 +18,7 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #404041;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
@@ -32,7 +35,7 @@ $pink: #F04C8B;
 $blue: #007EA4;
 $red: #ED1A23;
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,600,700');
 $title-color: #fafdf0;
 
 // Width of the content area
@@ -60,11 +63,18 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "aycStyling",
         "base",
         "layout",
         "syntax-highlighting",
+        "footer",
+        "header",
+        "section",
+        "filter",
         "hero",
         "staffPick",
         "banner",
-        "itemCard"
+        "itemCard",
+        "cart",
+        "blog"
 ;

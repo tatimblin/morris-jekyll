@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<!--
+###############
+        File created by Tristan Timblin.
+        Purpose:
+            - Custom created layout
+            - To SECTION off the different product categories
+        Instructions:
+            1) To create a new category section create a new .md file on the main level
+            2) File will only contain frontmatter
+            3) Have (layout: section) to use this template
+            4) Include a unique slug
+            5) Reference current main level .md files for reference on other frontmatter attributes.
+            6) Add items to the section by creating new posts with the FIRST category listed as the new slug.
+            
+###############
+-->
+{% include hero.html %}
+<div class="section-title">
+    <h2>{{ page.title }}</h2>
+</div>
+<div class="filter-popup">
+    <span>Filter +</span>
+</div>
+
+<div class="section-wrap">
+    {% include filter.html %}
+    
+    <div class="text-justify section-list">
+        {% if site.categories[page.slug] %}
+            <div class="product_wrap">
+                {% for post in site.categories[page.slug] %}
+                    {% assign loopindex = forloop.index | modulo: 12 %}
+                {% if loopindex == 0 %}
+
+                        {% include itemCard.html %}
+                        </div>
+                        
+
+                    {% include banner/paws.html %}
+
+                    <div class="product_wrap">
+
+                {% else %}
+
+                        {% include itemCard.html %}
+
+                {% endif %}
+                {% endfor %}
+            </div>
+            {% else %}
+            <p>There are no posts in this category.</p>
+        {% endif %}
+    </div>
+</div>
+
+
+{% unless page.content == '' %}
+  <p>{{ page.content }}</p>
+{% endunless %}
+
+
+<script src="{{ site.baseurl }}/filter.js"></script>

@@ -1,0 +1,21 @@
+<div class="product">
+   <a href="{{ site.baseurl}}{{ post.url }}">
+    <div class="product-dropshadow"></div>
+    <div class="product-backdrop product-backdrop_{{post.categories[0]}}"></div>
+    <div id="new"><p>New!</p></div>
+    <div class="product-img" id="bowl" style="background-image:url('{{ site.baseurl }}/img/products/{{ post.img }}');">
+
+    </div>
+    <div class="product-buy" id="purple">
+        <h5>VIEW MORE</h5>
+    </div>
+    <div class="product-content">
+        <div class="product-content-title">
+            <h4>{{ post.title }}</h4>
+        </div>
+        <div class="product-content-cost">
+            <h5>${{ post.price }}</h5>
+        </div>
+    </div>
+    </a>
+</div>

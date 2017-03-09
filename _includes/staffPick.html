@@ -1,12 +1,11 @@
 <div class="section-title">
     <h2>Staff Picks</h2>
 </div>
-
 <div class="staff-wrap">
-    <div class="staff-item">
+    <div class="staff-item staff-item-prod">
         {% for post in site.categories.staffPickLeft limit: 2 %}
-                <a href="">
-                   <div class="staff-item-img" style="background-image:url('../img/products/{{ post.img }}')"></div>
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                   <div class="staff-item-prod-img" style="background-image: url('{{ site.baseurl }}/img/products/{{ post.img }}'); background-size: cover; background-repeat: no-repeat; background-position: center center;"></div>
                     
                     <h1>{{ post.title }}</h1>
                     <p>${{ post.price }}</p>
@@ -14,25 +13,59 @@
         {% endfor %}
     </div>
     <div class="staff-item staff-item-card">
-            <div class="staff-item-card-img">
-                img
-            </div>
-            <div class="staff-item-card-desc">
-                <div class="staff-item-card-desc_title">
-                    <h1>Title</h1>
+        {% for blog in site.categories.blog  limit:4 %}
+            <a href="{{ site.baseurl}}{{ blog.url }}">
+            <div class="staff-item-card_slide">
+                <div class="staff-item-card-img" style="background-image: url('{{site.baseurl}}/img/hero/{{ blog.img }}'); background-size: cover; background-repeat: no-repeat; background-position: center center;">
+
                 </div>
-                <div class="staff-item-card-desc_body">
-                    <p>Body.</p>
+                <div class="staff-item-card-desc">
+                    <div class="staff-item-card-desc_title">
+                        <h1>{{ blog.title }}</h1>
+                    </div>
+                    <div class="staff-item-card-desc_body">
+                        <p>{{ blog.excerpt | truncatewords: 20}}</p>
+                    </div>
                 </div>
             </div>
+            </a>
+        {% endfor %}
+        <div class="dot-container">
+            <span class="staff-item-card-dot" id="dot1" onclick="currentSlide(1)"></span> 
+            <span class="staff-item-card-dot"  id="dot2"onclick="currentSlide(2)"></span> 
+            <span class="staff-item-card-dot" id="dot3"onclick="currentSlide(3)"></span>
+            <span class="staff-item-card-dot" id="dot3"onclick="currentSlide(4)"></span> 
+        </div>
     </div>
-    <div class="staff-item">
+    <div class="staff-item staff-item-prod">
         {% for post in site.categories.staffPickRight limit: 2 %}
-                <a href="">
-                    <div class="staff-item-img" style="background-image:url('../img/products/{{ post.img }}')"></div>
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                    <div class="staff-item-prod-img" style="background-image: url('{{ site.baseurl }}/img/products/{{ post.img }}'); background-size: contain; background-repeat: no-repeat; background-position: center center;"></div>
                     <h1>{{ post.title }}</h1>
                     <p>${{ post.price }}</p>
                 </a>
         {% endfor %}
     </div>
 </div>
+
+<div class="section-title">
+    <h2>Sale Spotlight</h2>
+</div>
+<div class="post-list">
+<div class="product_wrap">
+    {% for post in site.posts limit:3 %}
+        {% unless post.categories contains 'blog' %}
+
+            {% include itemCard.html %}
+       <!--<li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>-->
+        {% endunless %}
+    {% endfor %}
+</div>
+</div>
+
+{% include banner/morris_dog.html %}

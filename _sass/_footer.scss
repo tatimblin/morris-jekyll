@@ -1,0 +1,170 @@
+footer {
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background:$light-blue;
+    
+    color:$title-color;
+	.foot-inner {
+		padding:0 5%;
+	}
+}
+
+.foot-info {
+	display:flex;
+	flex-direction: column;
+	justify-content:flex-start;
+	&-item {
+		display:flex;
+		margin:50px 0;
+		line-height: 1.5;
+		img {
+			width:auto;
+			height: 200px;
+		}
+		h3{
+		 font-size:1em;
+		 text-transform: uppercase;
+		}
+		p{
+		 font-size:.8em;
+		 font-weight: 300;
+		}
+		&_icon1 {
+			width:33%;
+			height:auto;
+			margin:0 10px 0 0;
+			img{
+				width: 100%;
+				height: auto;
+				display: block;
+				margin: auto;
+			}
+			
+		}
+		&_icon2 {
+			width:33%;
+			height:auto;
+			margin:0 10px 0 0;
+			img{
+				width: 35%;
+				height: auto;
+				display: block;
+				margin: auto;
+			}
+			
+		}
+	}
+	&-item:nth-child(1){
+		width: 20%;
+	}
+	&-item:nth-child(2){
+		width: 30%;
+	}
+	&-item:nth-child(3){
+		width: 50%
+	}
+}
+
+.foot-line {
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-width: 0 0 13px 0;
+    // Technique from:
+    // http://codepen.io/luclemo/pen/xbMdEx?editors=0110
+	border-image-source: url('../img/assets/dots.svg');
+	border-style: dotted;
+    border-color: rgba(213, 126, 0, 1);
+    border-image-slice: 33% 33%;
+    border-image-repeat: round;
+}
+
+.foot-link {
+	&-item {
+		text-align: center;
+		margin:20px 0;
+		a {
+			color: $title-color;
+			font-family: $heading;
+			text-decoration: none;
+			line-height:1.5em;
+			font-size: .75em;
+			font-weight: 300;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+		a:not(:last-child):after {
+			padding: 0 10px;
+			content: '|';
+            text-decoration: none;
+		}
+		&-partner {
+			display:flex;
+			flex-direction:column;
+			justify-content:space-between;
+            max-width:$desktop;
+			&_co {
+				width:30%; 
+				height:auto;
+				img{
+					width:90%;
+				}
+			}
+			&_co_large{
+				width: 30%;
+				height: auto;
+				img{
+					width: 50%;
+					display: block;
+					margin: auto;
+				}
+			}
+		}
+		&-more {
+			font-weight:900;
+		}
+	}
+}
+
+.foot-biz {
+	padding:10px;
+	background: $black;
+	&-item {
+		font-weight: 300;
+		font-size: .75em;
+		text-align: center;
+	}
+}
+
+
+@media screen and (min-width: $desktop) {
+    .foot-inner {
+        max-width: $desktop;
+        margin:0 auto;
+    }
+    
+    .foot-info {
+		flex-direction: row;
+        &-item {
+            width:33%;
+        }
+		&-item:nth-child(2) {
+			margin: 50px 20px;
+		}
+	}
+	
+	.foot-link {
+
+		&-item {
+			&-partner {
+				flex-direction:row;
+			}
+		}
+	}
+}
+
+
+
+
+
