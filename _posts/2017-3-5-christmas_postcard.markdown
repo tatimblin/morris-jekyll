@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title:  "christmas Postcard"
+title:  "Christmas Postcard"
 slug: christmas_postcard
 date:   2017-03-05 3:23:59 -0500
 categories: people hero
@@ -9,4 +9,4 @@ categories: people hero
 img: "new_postcard.png"
 price: "8"
 ---
-share your love with your beloved ones. 
+Purchase this festive postcard to send to family and friends this holiday season! The adorable animals of Morris Animal Refuge will bring cheer to everyone.  
