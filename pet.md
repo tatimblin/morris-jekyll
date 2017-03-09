@@ -4,7 +4,7 @@ title: For Pets
 slug: pet
 permalink: /pet/
 
-hero-img: "catInBox.png"
+hero-img: "banner-img02.png"
 hero-title: "Get Me Some?"
 hero-body: "Did you know we have an amazon.com wishlist? You can order treats and toys (and supplies) for us."
 hero-action: "View Wishlist"
