@@ -9,4 +9,4 @@ categories: pet hero staffPickRight
 img: "new_heart_dogcloth.png"
 price: "17"
 ---
-A cute dog T-shirt with Morris iconic graphic.
+Support Morris Animal Refuge with your pets wardrobe! This t-shirt is right for an furry friends in your life.
