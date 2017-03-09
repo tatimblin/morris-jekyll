@@ -1,5 +1,5 @@
 
-$('#filter').on('click', function() {
+$('#filter_close').on('click', function() {
 	$('#filter').toggleClass('filter_show');
 });
 
