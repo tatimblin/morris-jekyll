@@ -9,4 +9,4 @@ categories: people hero staffPickLeft
 img: "new_morrisPin.png"
 price: "13"
 ---
-Show your enthuasiasm to Morris with this Pin
+Show your love and support for Morris Animal Refuge with this colorful pin! Add it to a bag or piece of clothing for a fun pop of color. 
