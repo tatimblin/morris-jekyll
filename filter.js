@@ -1,4 +1,13 @@
 
+$('#filter').on('click', function() {
+	$('#filter').toggleClass('filter_show');
+});
+
+$('.filter-popup').on('click', function() {
+    console.log('click');
+	$('#filter').toggleClass('filter_show');
+});
+
 var acc = document.getElementsByClassName("filter-btn");
 var i;
 
