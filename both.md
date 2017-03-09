@@ -5,7 +5,7 @@ slug: both
 category: both
 permalink: /both/
 
-hero-img: "catInBox.png"
+hero-img: "banner-img05.png"
 hero-title: "Take Me Home"
 hero-body: "Wether it's for a friend, your furry friend, or yourself, we have gifts and supplies for the whole gang."
 hero-action: "Action"
