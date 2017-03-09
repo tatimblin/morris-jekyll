@@ -10,6 +10,7 @@ $sec-border: solid 2px $lgray;
 }
 
 #filter{
+  display:block;
   background-color: $beige;
   font-family: $poppins;
   color: $dgray;
@@ -189,12 +190,11 @@ $sec-border: solid 2px $lgray;
         z-index:100;
         box-shadow: 5px 3px 35px 2px rgba(50,50,50,.24);
     }
+    
     .filter_show {
-        display:block;
+        display:block !important;
     }
 }
-
-
 
 
 
