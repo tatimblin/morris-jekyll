@@ -9,4 +9,4 @@ categories: people hero
 img: "new_rabbitPin.png"
 price: "10"
 ---
-Cute blue pin with bunny and carrots
+Add this adorable bunny pin to your bag or clothing to support the animals of Morris Animal Refuge! The bunnies will thank you!
