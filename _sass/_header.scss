@@ -65,7 +65,7 @@ body {
 
 .nav {
 	max-width: $desktop;
-	height: 90px;
+	height: 110px;
 	margin:0px auto -10px auto;
 	display: flex;
 	justify-content:space-between;
@@ -134,7 +134,7 @@ body {
 }
 @media screen and (min-width: $mobile) {
     .nav {
-        height:100px;
+        height:110px;
     }
 }
 @media screen and (max-width: $mobile) {
