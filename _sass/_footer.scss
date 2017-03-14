@@ -75,7 +75,8 @@ footer {
 	border-image-source: url('../img/assets/dots.svg');
 	border-style: dotted;
     border-color: rgba(213, 126, 0, 1);
-    border-image-slice: 33% 33%;
+   // border-image-slice: 33% 33%;
+    border-image-slice: 44% 33%;
     border-image-repeat: round;
 }
 
@@ -206,7 +207,7 @@ footer {
         margin: 15px 0;
     }
     .foot-line{
-        border-image-slice: 44% 23%;
+        border-image-slice: 44% 33%;
     }
 }
 
