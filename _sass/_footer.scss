@@ -20,7 +20,7 @@ footer {
 		line-height: 1.5;
 		img {
 			width:auto;
-			height: 200px;
+			height: 120px;
 		}
 		h3{
 		 font-size:1em;
@@ -162,6 +162,18 @@ footer {
 			}
 		}
 	}
+}
+
+@media screen and (max-width: $mobile) {
+    .foot-info {
+        align-items: center;
+    }
+    .foot-info-item{
+        margin: 15px 0;
+    }
+    .foot-line{
+        border-image-slice: 44% 23%;
+    }
 }
 
 

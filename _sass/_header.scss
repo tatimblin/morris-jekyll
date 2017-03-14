@@ -269,12 +269,11 @@ body {
 		}
 		&-bot {
 			width:100%;
-			background:$black;
+			background:$logo-background-color;
 			&_logo {
-				width:60%;
+				width:50%;
 				margin:0 auto;
-				padding:20px 0;
-				background:#ccc;
+				background:#fafdf1;
 				text-align:center;
 			}
 		}
