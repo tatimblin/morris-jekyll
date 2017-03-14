@@ -14,4 +14,3 @@ hero-orient: "row-reverse"
 
 ---
 
-{% include banner/bunny.html %}
