@@ -14,5 +14,3 @@ hero-color: "b0cb22"
 hero-orient: "row-reverse"
 
 ---
-
-{% include banner/guilt.html %}
