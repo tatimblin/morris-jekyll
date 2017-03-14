@@ -34,22 +34,9 @@ layout: default
         {% if site.categories[page.slug] %}
             <div class="product_wrap">
                 {% for post in site.categories[page.slug] %}
-                    {% assign loopindex = forloop.index | modulo: 12 %}
-                {% if loopindex == 0 %}
-
+        
                         {% include itemCard.html %}
-                        </div>
                         
-
-<!--                    {% include banner/banners.html %}-->
-
-                    <div class="product_wrap">
-
-                {% else %}
-
-                        {% include itemCard.html %}
-
-                {% endif %}
                 {% endfor %}
             </div>
             {% else %}
