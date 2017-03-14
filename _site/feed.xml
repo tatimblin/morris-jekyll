@@ -4,19 +4,19 @@
     <title>Morris Animal Refuge</title>
     <description>The Morris Animal Refuge is a 501(c)(3) open admission shelter  dedicated to helping the homeless, abandoned and unwanted pets of  the Philadelphia region.  Founded in 1874 by Elizabeth Morris, we  were the first organization dedicated to sheltering and rehoming  pets, and continue that legacy today by providing adoptions, a  low-cost spay/neuter program, fostering, humane education and  more.
 </description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 Mar 2017 16:15:15 -0500</pubDate>
-    <lastBuildDate>Thu, 09 Mar 2017 16:15:15 -0500</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 14 Mar 2017 13:59:20 -0400</pubDate>
+    <lastBuildDate>Tue, 14 Mar 2017 13:59:20 -0400</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
     
       <item>
         <title>Puppy and Kitten Tote</title>
         <description>&lt;p&gt;Show off your love for animals with this fun tote bag! Those faces are too cute to pass up.&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Mar 2017 21:34:59 -0500</pubDate>
-        <link>/product/puppy-tote/</link>
-        <guid isPermaLink="true">/product/puppy-tote/</guid>
+        <link>http://localhost:4000/product/puppy-tote/</link>
+        <guid isPermaLink="true">http://localhost:4000/product/puppy-tote/</guid>
         
         
         <category>people</category>
@@ -32,8 +32,8 @@
         <description>&lt;p&gt;Treat the furry friend in your life to a Morris Animal Refuge snack! It’s delicious taste makes it the perfect reward.&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Mar 2017 12:34:59 -0500</pubDate>
-        <link>/product/logo-pettreat/</link>
-        <guid isPermaLink="true">/product/logo-pettreat/</guid>
+        <link>http://localhost:4000/product/logo-pettreat/</link>
+        <guid isPermaLink="true">http://localhost:4000/product/logo-pettreat/</guid>
         
         
         <category>pet</category>
@@ -49,8 +49,8 @@
         <description>&lt;p&gt;Show your love for all animals with this blue Morris Animal Refuge mug! The cute design is sure to start your day off right.&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Mar 2017 04:26:59 -0500</pubDate>
-        <link>/product/blue-pet-mug/</link>
-        <guid isPermaLink="true">/product/blue-pet-mug/</guid>
+        <link>http://localhost:4000/product/blue-pet-mug/</link>
+        <guid isPermaLink="true">http://localhost:4000/product/blue-pet-mug/</guid>
         
         
         <category>people</category>
@@ -62,8 +62,8 @@
         <description>&lt;p&gt;Make you and your pet the envy of everyone you see with these matching winter hats! They’ll keep you warm and stylish!&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Mar 2017 03:29:59 -0500</pubDate>
-        <link>/product/matching-hat/</link>
-        <guid isPermaLink="true">/product/matching-hat/</guid>
+        <link>http://localhost:4000/product/matching-hat/</link>
+        <guid isPermaLink="true">http://localhost:4000/product/matching-hat/</guid>
         
         
         <category>both</category>
@@ -75,8 +75,8 @@
         <description>&lt;p&gt;Show your support for Morris Animal Refuge by adding it to your fridge or car! Like all our products, the proceeds will benefit the animals.&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Mar 2017 03:28:59 -0500</pubDate>
-        <link>/product/morris-magnet/</link>
-        <guid isPermaLink="true">/product/morris-magnet/</guid>
+        <link>http://localhost:4000/product/morris-magnet/</link>
+        <guid isPermaLink="true">http://localhost:4000/product/morris-magnet/</guid>
         
         
         <category>people</category>
@@ -88,8 +88,8 @@
         <description>&lt;p&gt;Add this adorable bunny pin to your bag or clothing to support the animals of Morris Animal Refuge! The bunnies will thank you!&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Mar 2017 03:26:59 -0500</pubDate>
-        <link>/product/rabbit-pin/</link>
-        <guid isPermaLink="true">/product/rabbit-pin/</guid>
+        <link>http://localhost:4000/product/rabbit-pin/</link>
+        <guid isPermaLink="true">http://localhost:4000/product/rabbit-pin/</guid>
         
         
         <category>people</category>
@@ -103,8 +103,8 @@
         <description>&lt;p&gt;Accessorize right by matching with your pet! This matching keyring and pet tag set are sure to impress all your friends.&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Mar 2017 03:23:59 -0500</pubDate>
-        <link>/product/matching-keyring/</link>
-        <guid isPermaLink="true">/product/matching-keyring/</guid>
+        <link>http://localhost:4000/product/matching-keyring/</link>
+        <guid isPermaLink="true">http://localhost:4000/product/matching-keyring/</guid>
         
         
         <category>both</category>
@@ -116,8 +116,8 @@
         <description>&lt;p&gt;Purchase this festive postcard to send to family and friends this holiday season! The adorable animals of Morris Animal Refuge will bring cheer to everyone.&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Mar 2017 03:23:59 -0500</pubDate>
-        <link>/product/christmas-postcard/</link>
-        <guid isPermaLink="true">/product/christmas-postcard/</guid>
+        <link>http://localhost:4000/product/christmas-postcard/</link>
+        <guid isPermaLink="true">http://localhost:4000/product/christmas-postcard/</guid>
         
         
         <category>people</category>
@@ -131,8 +131,8 @@
         <description>&lt;p&gt;Sport a matching hoodie with your pet so everyone knows who you’re with! They keep you warm and show your support for your favorite animal refuge!&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Mar 2017 03:22:59 -0500</pubDate>
-        <link>/product/matching-hoodie/</link>
-        <guid isPermaLink="true">/product/matching-hoodie/</guid>
+        <link>http://localhost:4000/product/matching-hoodie/</link>
+        <guid isPermaLink="true">http://localhost:4000/product/matching-hoodie/</guid>
         
         
         <category>both</category>
@@ -144,8 +144,8 @@
         <description>&lt;p&gt;Support Morris Animal Refuge with your pets wardrobe! This t-shirt is right for an furry friends in your life.&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Mar 2017 02:34:59 -0500</pubDate>
-        <link>/product/logo-dogshirt/</link>
-        <guid isPermaLink="true">/product/logo-dogshirt/</guid>
+        <link>http://localhost:4000/product/logo-dogshirt/</link>
+        <guid isPermaLink="true">http://localhost:4000/product/logo-dogshirt/</guid>
         
         
         <category>pet</category>

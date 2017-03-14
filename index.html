@@ -49,7 +49,7 @@ hero-orient: "row"
     </div>
   <div class="post-list">
     <div class="product_wrap">
-        {% for post in site.posts %}
+        {% for post in site.posts limit: 9 %}
             {% unless post.categories contains 'blog' %}
                 
                 {% include itemCard.html %}
@@ -63,6 +63,10 @@ hero-orient: "row"
         {% endfor %}
     </div>
   </div>
+
+    <div class="post-all">
+        <h2><a href="/all"><span>View All</span></a></h2>
+    </div>
 
 </div>
 
