@@ -10,7 +10,7 @@ hero-title: "Take Me Home"
 hero-body: "Whether it's for a friend, your furry friend, or yourself, we have gifts and supplies for the whole gang."
 hero-action: "Action"
 
-hero-color: "FF9900"
+hero-color: "b0cb22"
 hero-orient: "row-reverse"
 
 ---
