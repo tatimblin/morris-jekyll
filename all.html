@@ -15,7 +15,12 @@ hero-orient: "row"
     <div class="section-title">
         <h2>Items</h2>
     </div>
-  <div class="post-list">
+    <div class="filter-popup">
+        <span>Filter +</span>
+    </div>
+    
+  <div class="post-list section-wrap">
+   {% include filter.html %}
     <div class="product_wrap">
         {% for post in site.posts %}
             {% unless post.categories contains 'blog' %}
@@ -33,3 +38,6 @@ hero-orient: "row"
   </div>
 
 </div>
+
+
+<script src="{{ site.baseurl }}/filter.js"></script>
