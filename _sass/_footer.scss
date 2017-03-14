@@ -62,7 +62,7 @@ footer {
 		width: 30%;
 	}
 	&-item:nth-child(3){
-		width: 50%
+		width: 50%;
 	}
 }
 
@@ -167,7 +167,41 @@ footer {
 @media screen and (max-width: $mobile) {
     .foot-info {
         align-items: center;
-    }
+        &-item {
+          
+             &_icon1 {
+			width: 33%;
+			height:auto;
+			margin:0 23px 0 0;
+                img{
+                    width: 40%;
+                    height: auto;
+                    display: block;
+                    margin: auto;
+                    }
+			}
+             &_icon2 {
+			width: 28%;
+			height:auto;
+			margin:0 10px 0 0;
+                img{
+                    width: 25%;
+                    height: auto;
+                    display: block;
+                    margin: auto;
+                    }
+			}
+        }
+        
+  
+	&-item:nth-child(2){
+		width: 77%;
+	}
+	&-item:nth-child(3){
+		width: 80%;
+	}
+}
+    
     .foot-info-item{
         margin: 15px 0;
     }
