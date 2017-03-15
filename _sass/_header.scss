@@ -279,14 +279,18 @@ body {
 		}
 		&-bot {
 			width:100%;
+			 &_top{
+				background: #404040;
+				width: 100%;
+				height: 50px;
+			}
 			&_logo {
-				width:30%;
 				margin:0 auto;
 				padding:0px 0;
+				position: relative;
 				//background:#ccc;
 				text-align:center;
 				background: #FAFDF0;
-				width: 100%;
 				height: 80px;
 				text-align:center;
 				img{
@@ -296,11 +300,6 @@ body {
 					margin-right:auto;
 					margin-top: -15%;
 				}
-			}
-			 &_top{
-				background: #404040;
-				width: 100%;
-				height: 50px;
 			}
 
 		}
