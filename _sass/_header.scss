@@ -279,14 +279,44 @@ body {
 		}
 		&-bot {
 			width:100%;
-			background:$black;
 			&_logo {
 				width:30%;
 				margin:0 auto;
+
 				padding:0px 0;
 				//background:#ccc;
 				text-align:center;
 			}
+
+				padding:20px 0;
+				background: #FAFDF0;
+				width: 100%;
+				height: 80px;
+				text-align:center;
+				img{
+					width:60%;
+					display: block;
+					margin-left: auto;
+					margin-right:auto;
+					margin:top -15%;
+				}
+			}
+			&_top{
+				background: #404040;
+				width: 100%;
+				height: 50px;
+			
+
 		}
 	}
+
+		.mobile-topbar-search{
+				margin: 2px 20px;
+				svg{
+					width: 20px;
+					height: 20px;
+				}
+		}
+
+
 }

@@ -62,7 +62,7 @@ footer {
 		width: 30%;
 	}
 	&-item:nth-child(3){
-		width: 50%
+		width: 50%;
 	}
 }
 
@@ -166,20 +166,32 @@ footer {
 @media screen and (max-width: $mobile){
 	.foot-info-item{
 		display: block;
-		width: 80%;
+		width: 100%;
 		margin: auto;
 		&-item:nth-child(1) {
 			display: none;
 		}
-		&_icon1, _icon2{
+		&_icon1{
 			display: block;
 			width: 100%;
 			img{
-				width: 30%;
+				width: 10%;
 				display: block;
 				margin: auto;
 			}
 		}
+		&_icon2{
+			display: block;
+			width: 100%;
+			img{
+				width: 10%;
+				display: block;
+				margin: auto;
+			}
+		}
+	}
+	.foot-info-item-content{
+		line-height: 2.5em;
 	}
 	
 }
