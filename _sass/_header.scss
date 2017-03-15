@@ -65,7 +65,7 @@ body {
 
 .nav {
 	max-width: $desktop;
-	height: 90px;
+	//height: 90px;
 	margin:0px auto -10px auto;
 	display: flex;
 	justify-content:space-between;
@@ -138,10 +138,6 @@ body {
     }
 }
 @media screen and (max-width: $mobile) {
-	#mobile-wrapper {
-		overflow-x: hidden; 
-	}
-	
 	.header {
 		position:absolute;
 		display:flex;
@@ -159,6 +155,7 @@ body {
 	}
 	
 	.header-hide {
+        width:0px;
 		transform:translateX(400px);
 		transition: none;
 	}
@@ -183,11 +180,20 @@ body {
 				width:25%;
 				margin:5px;
 				text-align:center;
+                color: $text-color;
 			}
 		}
 		&-social {
-			width:50%;
+            display: flex;
+            justify-content: space-around;
+			width:60%;
 			margin:10px auto;
+            padding: 10px 5px;
+            background: lighten($text-color, 25%);
+            border-radius: 3px;
+            &-item {
+                width: 30px; height: 30px;
+            }
 		}
 		&-search {
 			width:80%;
@@ -255,15 +261,12 @@ body {
 }
 
 @media screen and (max-width: $mobile) {
-	.topbar-search{
-		display: none;
-	}
 	.mobile-header {
 		display:block;
 		&-top {
 			position:relative;
 			display:flex;
-			justify-content:space-between;
+			justify-content:flex-end;
 			width:100%;
 			padding:5px 0;
 			background: $light-blue;
@@ -277,7 +280,14 @@ body {
 		&-bot {
 			width:100%;
 			&_logo {
+				width:30%;
 				margin:0 auto;
+
+				padding:0px 0;
+				//background:#ccc;
+				text-align:center;
+			}
+
 				padding:20px 0;
 				background: #FAFDF0;
 				width: 100%;
@@ -296,9 +306,10 @@ body {
 				width: 100%;
 				height: 50px;
 			
+
 		}
-		
 	}
+
 		.mobile-topbar-search{
 				margin: 2px 20px;
 				svg{
@@ -306,5 +317,6 @@ body {
 					height: 20px;
 				}
 		}
+
 
 }
