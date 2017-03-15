@@ -255,6 +255,9 @@ body {
 }
 
 @media screen and (max-width: $mobile) {
+	.topbar-search{
+		display: none;
+	}
 	.mobile-header {
 		display:block;
 		&-top {
@@ -268,13 +271,6 @@ body {
 				margin:2px 20px;
 				img {
 					width: 20px; height: 20px;
-				}
-			}
-			&-search{
-				margin: 2px 20px;
-				svg{
-					width: 20px;
-					height: 20px
 				}
 			}
 		}
@@ -302,5 +298,12 @@ body {
 		}
 		
 	}
+		.mobile-topbar-search{
+				margin: 2px 20px;
+				svg{
+					width: 20px;
+					height: 20px
+				}
+		}
 
 }
