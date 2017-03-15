@@ -276,24 +276,25 @@ body {
 		}
 		&-bot {
 			width:100%;
-			background:$black;
 			&_logo {
 				margin:0 auto;
 				padding:20px 0;
 				background: #FAFDF0;
 				width: 100%;
-				height: 200px;
+				height: 80px;
 				text-align:center;
 				img{
 					width:60%;
 					display: block;
-					margin: auto;
+					margin-left: auto;
+					margin-right:auto;
+					margin:top -15%;
 				}
 			}
 			&_top{
-				background: $title-color;
+				background: #404040;
 				width: 100%;
-				height: 200px;
+				height: 50px;
 			
 		}
 		
