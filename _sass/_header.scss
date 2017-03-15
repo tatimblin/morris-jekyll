@@ -141,14 +141,7 @@ body {
 	#mobile-wrapper {
 		overflow-x: hidden; 
 	}
-	.mobile-header-bot_top{
-		background: $title-color;
-	}
-	.mobile-header-bot_logo{
-		background: #FAFDF0;
-		width: 100%;
-		height: 200px;
-	}
+	
 	.header {
 		position:absolute;
 		display:flex;
@@ -282,12 +275,25 @@ body {
 			width:100%;
 			background:$black;
 			&_logo {
-				width:60%;
 				margin:0 auto;
 				padding:20px 0;
-				background:#ccc;
+				background: #FAFDF0;
+				width: 100%;
+				height: 200px;
 				text-align:center;
+				img{
+					width:60%;
+					display: block;
+					margin: auto;
+				}
 			}
+			&_top{
+				background: $title-color;
+				width: 100%;
+				height: 200px;
+			
 		}
+		
 	}
+
 }
