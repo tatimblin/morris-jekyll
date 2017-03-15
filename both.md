@@ -15,4 +15,3 @@ hero-orient: "row-reverse"
 
 ---
 
-{% include banner/guilt.html %}
