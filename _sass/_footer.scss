@@ -163,6 +163,17 @@ footer {
 		}
 	}
 }
+@media screen and (max-width: $mobile){
+	.foot-info-item{
+		display: block;
+		width: 80%;
+		margin: auto;
+		&-item:nth-child(1) {
+			display: none;
+		}
+	}
+	
+}
 
 
 
