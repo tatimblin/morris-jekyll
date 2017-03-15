@@ -255,12 +255,15 @@ body {
 }
 
 @media screen and (max-width: $mobile) {
+	.topbar-search{
+		display: none;
+	}
 	.mobile-header {
 		display:block;
 		&-top {
 			position:relative;
 			display:flex;
-			justify-content:flex-end;
+			justify-content:space-between;
 			width:100%;
 			padding:5px 0;
 			background: $light-blue;
@@ -295,5 +298,12 @@ body {
 		}
 		
 	}
+		.mobile-topbar-search{
+				margin: 2px 20px;
+				svg{
+					width: 20px;
+					height: 20px
+				}
+		}
 
 }
