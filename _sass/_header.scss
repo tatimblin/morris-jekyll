@@ -15,11 +15,6 @@ body {
 	overflow-x:hidden;
 }
 
-#mobile-wrapper{
-	position: fixed;
-	overflow-x: hidden; 
-}
-
 .header {
     z-index: 1000;
 }
@@ -146,6 +141,10 @@ body {
     }
 }
 @media screen and (max-width: $mobile) {
+	#mobile-wrapper {
+		position: fixed;
+		overflow-x: hidden; 
+	}
 	.header {
 		position:absolute;
 		display:flex;
