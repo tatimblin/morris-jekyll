@@ -171,6 +171,15 @@ footer {
 		&-item:nth-child(1) {
 			display: none;
 		}
+		&_icon1, _icon2{
+			display: block;
+			width: 100%;
+			img{
+				width: 30%;
+				display: block;
+				margin: auto;
+			}
+		}
 	}
 	
 }
