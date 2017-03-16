@@ -25,45 +25,95 @@ $beige: #fafdf0;
   padding: 5%;
   h1{
   letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 3em;
-    margin: 0 0 0 0;
-    color: #016225;
+    margin: 0 0 20px 0;
+      padding-bottom: 10px;
+    position: relative;
+    color: $beige;
+    &:before {
+      content : "";
+      position: absolute;
+      left    : 35%;
+      bottom  : 0;
+      height  : 1px;
+      width   : 30%;  /* or 100px */
+      
+    border-width: 0 0 8px 0;
+    // Technique from:
+    // http://codepen.io/luclemo/pen/xbMdEx?editors=0110
+	border-image-source: url('../img/assets/dotsTitle.svg');
+	border-style: dotted;
+    border-color: $beige;
+    border-image-slice: 33% 33%;
+    border-image-repeat: round;
   }
+    }
   p{
-    line-height: 28px;
-    font-size: 1em;
+    line-height: 32px;
+//      width: 80%;
+    font-size: 1.1em;
     font-weight: 200;
+//      margin: 0 auto;
+//      text-align: justify;
+    margin: 25px 0 20px 0;
+  
   }
 }
 #summary{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+    color: #404041;
   p{
-    margin: 12px 0 0 0;
     line-height: 25px;
-    // text-align: center;
+    text-align: left;
     font-weight:200;
     text-transform: uppercase;
-    // font-size: 1.1em;
+     width: 80%;
+      margin: 0 auto;
+      font-size: 1em;
+      margin-bottom: 5px;
   }
   h2{
     margin: 20px 0 15px 0;
+    padding-bottom: 10px;
     font-size: 1.5em;
-    font-weight: 400;
-    border-bottom: solid 1px;
+    font-weight: 600;
     text-align: center;
-    color: #016225;
+//    border-bottom: solid 1px #404041;
+      position: relative;
+      &:before {
+      content : "";
+      position: absolute;
+      left    : 35%;
+      bottom  : 0;
+      height  : 1px;
+      width   : 30%;  /* or 100px */
+      
+    border-width: 0 0 8px 0;
+    // Technique from:
+    // http://codepen.io/luclemo/pen/xbMdEx?editors=0110
+	border-image-source: url('../img/assets/dotsTitle.svg');
+	border-style: dotted;
+    border-color: $beige;
+    border-image-slice: 33% 33%;
+    border-image-repeat: round;
+      }
+      
   }
   
   div{
-    text-align: left;
     width:35%;
-    // padding: 0 5%;
+    background-color: $beige;
+    border-radius: 25px;
+     padding: 2% 0;
+      width: 350px;
+      margin: 20px 0;
+      box-shadow: 1px 5px 15px -4px rgba(100,100,150,0.2), 1px 4px 35px rgba(0,0,0,0.12);
    
   }
-  }
+}
 #bottom-content{
  height: 300px;
   background-position: bottom center;
@@ -88,7 +138,10 @@ $beige: #fafdf0;
   // color: #016225;
   text-transform: lowercase;
 }
-@media (max-width: 600px){
+@media (max-width: 800px){
+  #content h1{
+    font-size: 2em;    
+  }
   #summary{
     display:block;
   }
