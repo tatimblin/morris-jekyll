@@ -70,6 +70,7 @@ $sec-border: solid 2px $lgray;
   }
   h2{
     font-size: 1.5em;
+      visibility: hidden;
   }
 }
 .filter_section{
@@ -164,7 +165,6 @@ $sec-border: solid 2px $lgray;
 }
 }
 
-
 @include media-query(1000px) {
     .filter-popup {
         display:block;
@@ -180,7 +180,9 @@ $sec-border: solid 2px $lgray;
             text-transform: uppercase;
         }
     }
-    
+    .filter_header h2{
+        visibility: visible;
+    }
     #filter {
         position: absolute;
         display:none;
@@ -196,6 +198,8 @@ $sec-border: solid 2px $lgray;
         display:block !important;
     }
 }
+
+
 
 
 

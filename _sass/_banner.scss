@@ -222,8 +222,10 @@ $drop-time: 1s;
     color: #fcfcf1;
     height: 250px;
     overflow: hidden;
-    margin: 0px 0;
+    margin: 0px auto;
     display:none;
+    max-width: 1500px;
+//    border-radius: 15px;
 }
 .bnr h1{
     font-size: 1.7em;

@@ -20,7 +20,7 @@ footer {
 		line-height: 1.5;
 		img {
 			width:auto;
-			height: 200px;
+			height: 120px;
 		}
 		h3{
 		 font-size:1em;
@@ -33,7 +33,7 @@ footer {
 		&_icon1 {
 			width:33%;
 			height:auto;
-			margin:0 10px 0 0;
+			margin:0 50px 0 0;
 			img{
 				width: 100%;
 				height: auto;
@@ -47,7 +47,7 @@ footer {
 			height:auto;
 			margin:0 10px 0 0;
 			img{
-				width: 35%;
+				width: 25%;
 				height: auto;
 				display: block;
 				margin: auto;
@@ -75,7 +75,8 @@ footer {
 	border-image-source: url('../img/assets/dots.svg');
 	border-style: dotted;
     border-color: rgba(213, 126, 0, 1);
-    border-image-slice: 33% 33%;
+   // border-image-slice: 33% 33%;
+    border-image-slice: 44% 33%;
     border-image-repeat: round;
 }
 
@@ -163,37 +164,51 @@ footer {
 		}
 	}
 }
-@media screen and (max-width: $mobile){
-	.foot-info-item{
-		display: block;
-		width: 100%;
-		margin: auto;
-		&-item:nth-child(1) {
-			display: none;
-		}
-		&_icon1{
-			display: block;
-			width: 100%;
-			img{
-				width: 10%;
-				display: block;
-				margin: auto;
+
+@media screen and (max-width: 790px) {
+    .foot-info {
+        align-items: center;
+        &-item {
+          
+             &_icon1 {
+			width: 33%;
+			height:auto;
+			margin:0 23px 0 0;
+                img{
+                    width: 40%;
+                    height: auto;
+                    display: block;
+                    margin: auto;
+                    }
 			}
-		}
-		&_icon2{
-			display: block;
-			width: 100%;
-			img{
-				width: 10%;
-				display: block;
-				margin: auto;
+             &_icon2 {
+			width: 28%;
+			height:auto;
+			margin:0 10px 0 0;
+                img{
+                    width: 25%;
+                    height: auto;
+                    display: block;
+                    margin: auto;
+                    }
 			}
-		}
+        }
+        
+  
+	&-item:nth-child(2){
+		width: 77%;
 	}
-	.foot-info-item-content{
-		line-height: 2.5em;
+	&-item:nth-child(3){
+		width: 80%;
 	}
-	
+}
+    
+    .foot-info-item{
+        margin: 15px 0;
+    }
+    .foot-line{
+        border-image-slice: 44% 33%;
+    }
 }
 
 
