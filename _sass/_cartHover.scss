@@ -1,0 +1,99 @@
+.button {
+	display:flex;
+	justify-content: center;
+	position: relative;
+	width: 20px; //height: 20px;
+	margin: 0px auto;
+}
+
+.cart-summary {
+	flex-shrink: 0;
+	position:absolute;
+	width:200px; min-height:300px;
+	top:45px;
+	margin: 0px auto;
+	padding:5px 8px;
+	background:rgba(233,233,233,1);
+	border-radius:7px;
+	box-shadow: 2px 15px 40px -5px rgba(0,0,0,0.2);
+	z-index:2;
+	&-item {
+		margin:10px 0;
+		padding:20px 10px;
+		background: #fefefe;
+		border-radius:7px;
+	}
+	&-total {
+		text-align: right;
+        h4 {
+            font-size: 1em;
+            font-weight: 300;
+        }
+		span {
+			font-weight:600;
+		}
+	}
+	&-prod {
+		display:flex;
+		justify-content: space-between;
+		align-items: center;
+		&-img {
+			width:60px; height:60px;
+			background: url('https://tatimblin.github.io/morris-jekyll/img/products/log_mug.png');
+			background-size: cover;
+			background-position:center center;
+		}
+		&-desc {
+			line-height:2em;
+			text-align: right;
+            h4 {
+                font-size: 1em;
+                font-weight: 300;
+            }
+		}
+	}
+	&-checkout {
+		text-align: center;
+		background: $light-blue;
+		h1 {
+			color: $title-color;
+            line-height:1em;
+            font-size: 1.5em;
+		}
+		cursor: pointer;
+		border: 5px solid $light-blue;
+		transition: border 100ms ease-in;
+		&:hover {
+			border: 5px solid $blue;
+		}
+	}
+}
+
+select {
+	width: 100%;
+	border-radius: 0px;
+}
+
+.carrot {
+	position: absolute;
+	width:30px; height: 30px;
+	left:93px;
+	right:93px;
+	background:rgba(233,233,233,1);
+	transform: translateY(-20px) rotate(45deg);
+	z-index:-1;
+}
+
+// Modal action
+.cart-summary {
+	height:20px;
+	transform: scale(.6) translateY(-120px);
+	opacity:0;
+	transition:all 400ms ease-in-out;
+}
+
+.button:hover .cart-summary {
+	height:auto;
+	transform: scale(1) translateY(0px);
+	opacity:1;
+}
