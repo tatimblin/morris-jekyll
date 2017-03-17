@@ -142,7 +142,7 @@ body {
 		position:absolute;
 		display:flex;
 		flex-direction:column-reverse;
-		max-width:400px;
+		max-width:300px;
 		top:0;
 		right:0;
 		
@@ -155,8 +155,9 @@ body {
 	}
 	
 	.header-hide {
+        display: none;
         width:0px;
-		transform:translateX(400px);
+		transform:translateX(300px);
 		transition: none;
 	}
 	
