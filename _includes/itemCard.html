@@ -10,11 +10,19 @@
             
 ###############
 --> 
-
+{% assign thedate = '' %}
 <div class="product">
    <a href="{{ site.baseurl}}{{ post.url }}">
     <div class="product-dropshadow"></div>
     <div class="product-backdrop product-backdrop_{{post.categories[0]}}"></div>
+    
+    {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
+	{% capture current %}{{ site.time | date: '%m%Y' }}{% endcapture %}
+    
+    {% if month == current %}
+    <div id="new"><p>New!</p></div>
+    {% endif %}
+    
     <div class="product-img" style="background-image:url('{{ site.baseurl }}/img/products/{{ post.img }}');">
 
     </div>
