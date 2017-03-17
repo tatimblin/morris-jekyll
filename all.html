@@ -21,6 +21,7 @@ hero-orient: "row"
     
   <div class="post-list section-wrap">
    {% include filter.html %}
+   <div class="section-list">
     <div class="product_wrap">
         {% for post in site.posts %}
             {% unless post.categories contains 'blog' %}
@@ -34,6 +35,7 @@ hero-orient: "row"
           </li>-->
             {% endunless %}
         {% endfor %}
+    </div>
     </div>
   </div>
 
