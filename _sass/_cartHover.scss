@@ -86,8 +86,9 @@ select {
 
 // Modal action
 .cart-summary {
+    transform: scale(.1) translateY(-220px);
+    transform-origin: top;
 	height:20px;
-	transform: scale(.6) translateY(-120px);
 	opacity:0;
 	transition:all 400ms ease-in-out;
 }
