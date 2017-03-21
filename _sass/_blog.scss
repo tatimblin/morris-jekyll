@@ -18,10 +18,10 @@
         margin: 0 auto 50px auto;
     }
     &-content {
+        margin: 100px auto;
         padding:25px;
         display: flex;
         max-width: 900px;
-        margin: 0 auto;
         background-color: $title-color;
         border-radius: 15px;
         &-img {

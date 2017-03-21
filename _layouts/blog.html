@@ -5,17 +5,21 @@ layout: default
 ---
 <article class="blog">
     <h3>Current Events and Promotions</h3>
+    
+    {% for blog in site.categories.blog  limit:4 %}
     <div class="blog-content">
-        <div class="blog-content-img" style="background-image:url('{{ site.baseurl }}/img/hero/{{ page.img }}'); background-size: cover; background-repeat: no-repeat; background-position: center center;">
+        <div class="blog-content-img" style="background-image:url('{{site.baseurl}}/img/hero/{{ blog.img }}'); background-size: cover; background-repeat: no-repeat; background-position: center center;">
 
         </div>
         <div class="blog-content-copy">
-            <h1>{{ page.title }}</h1>
-            <p>{{ content }}</p>
+            <h1>{{ blog.title }}</h1>
+            <p>{{ blog.content }}</p>
             
     <div class="post-all">
         <h2><a href="http://www.morrisanimalrefuge.org/upcoming-events/month.calendar/2017/03/20/-"><span>Learn More</span></a></h2>
     </div>
         </div>
     </div>
+    {% endfor %}
+    
 </article>

@@ -16,11 +16,18 @@
     <div class="product-dropshadow"></div>
     <div class="product-backdrop product-backdrop_{{post.categories[0]}}"></div>
     
-    {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
-	{% capture current %}{{ site.time | date: '%m%Y' }}{% endcapture %}
+    {% if post.categories contains 'sale' %}
+        <div class="new sale"><p>Sale!</p></div>  
+    {% else %}
     
-    {% if month == current %}
-    <div id="new"><p>New!</p></div>
+        {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
+        {% capture current %}{{ site.time | date: '%m%Y' }}{% endcapture %}
+
+        {% if month == current %}
+        <div class="new"><p>
+        New!
+        </p></div>
+        {% endif %}
     {% endif %}
     
     <div class="product-img" style="background-image:url('{{ site.baseurl }}/img/products/{{ post.img }}');">
