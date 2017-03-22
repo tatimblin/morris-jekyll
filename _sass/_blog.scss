@@ -5,45 +5,67 @@
 
 .blog {
     padding: 50px $spacing-unit;
-//    padding: 300px;
     margin: 0 auto;
-    background: $green;
-//    background-image: url(../img/assets/morris-mural.png);
     background-size: cover;
-//     padding:50px 0;
     h3{
-        color: $title-color;
-        font-size: 3em;
+        color: $black;
+        font-size: 2em;
+        text-align: center;
         max-width: $content-width;
+        font-weight: 200;
         margin: 0 auto 50px auto;
+        position: relative;
+        padding: 0 0 20px 0;
+         &:before {
+      content : "";
+      position: absolute;
+      left    : 40%;
+      bottom  : 0;
+      height  : 1px;
+      width   : 20%;  /* or 100px */
+      
+    border-width: 0 0 8px 0;
+	border-image-source: url('../img/assets/dotsTitle.svg');
+	border-style: dotted;
+    border-color: rgba(213, 126, 0, 1);
+    border-image-slice: 33% 33%;
+    border-image-repeat: round;
+    }
+        
     }
     &-content {
+        display: flex;
+        max-width: 800px;
+        margin: 0 auto;
+         background-color: $purple;
         margin: 100px auto;
         padding:25px;
         display: flex;
         max-width: 900px;
         background-color: $title-color;
         border-radius: 15px;
+         box-shadow: 1px 5px 15px -4px rgba(100,100,150,0.2), 1px 4px 35px rgba(0,0,0,0.12);
         &-img {
-//            float:left;
             width: 100%; height: 300px;
             margin: 0 $spacing-unit 0 0;
-            border-radius: 10px;
+            border-radius: 10px 0 0 10px;
             
         }
         &-copy {
             max-width: $content-width;
+            max-height: 300px;
             margin:0 auto;
-            color: $black;
-             padding: 0 $spacing-unit;
+            color: $title-color;
+             padding: 0 $spacing-unit 0 0;
             h1 {
                 font-size: 2.2em;
                 line-height: 1em;
-                font-weight: 100;
-                padding: .5em 0 .2em 0;
+                font-weight: 800;
+                padding: 1em 0 .5em 0;
+                
             }
             p {
-                font-size:1em;
+                font-size:.9em;
                 line-height: 1.5em;
                 font-weight: 200;
             }
@@ -54,16 +76,20 @@
         padding: 10px 0 0 0;
     }
 }
-@media screen and (max-width: $mobile) {
+@media screen and (max-width: 720px) {
     .wrapper {
         padding: 0;
     }
     .blog {
-//        padding: 0;
         &-content {
+            display: block;
+            height: 100%;
             &-img {
-//                border-radius: 0 10px 10px 0;
-//                width:500px;
+                height: 150px;
+                border-radius: 10px 10px 0 0;
+            }
+            &-copy {
+                padding: 0 20px;
             }
         }
     }
