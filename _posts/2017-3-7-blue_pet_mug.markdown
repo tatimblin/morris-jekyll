@@ -4,7 +4,7 @@ layout: post
 title:  "Morris Iconic Blue Mug"
 slug: blue_pet_mug
 date:   2017-03-05 4:26:59 -0500
-categories: people 
+categories: people sale
 
 img: "new_blueMug.png"
 price: "22"
