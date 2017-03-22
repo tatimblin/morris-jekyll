@@ -6,26 +6,26 @@
 .blog {
     padding: 50px $spacing-unit;
     margin: 0 auto;
-    background-size: cover;
+    background-color: $green;
     h3{
-        color: $black;
-        font-size: 2em;
+        color: $title-color;
+        font-size: 2.5em;
         text-align: center;
         max-width: $content-width;
-        font-weight: 200;
-        margin: 0 auto 50px auto;
+        font-weight: 800;
+        margin: 25px auto 50px auto;
         position: relative;
         padding: 0 0 20px 0;
          &:before {
       content : "";
       position: absolute;
-      left    : 40%;
+      left    : 35%;
       bottom  : 0;
       height  : 1px;
-      width   : 20%;  /* or 100px */
+      width   : 30%;  /* or 100px */
       
     border-width: 0 0 8px 0;
-	border-image-source: url('../img/assets/dotsTitle.svg');
+	border-image-source: url('../img/assets/dots.svg');
 	border-style: dotted;
     border-color: rgba(213, 126, 0, 1);
     border-image-slice: 33% 33%;
@@ -39,10 +39,8 @@
         margin: 0 auto;
          background-color: $purple;
         margin: 100px auto;
-        padding:25px;
         display: flex;
         max-width: 900px;
-        background-color: $title-color;
         border-radius: 15px;
          box-shadow: 1px 5px 15px -4px rgba(100,100,150,0.2), 1px 4px 35px rgba(0,0,0,0.12);
         &-img {
@@ -76,6 +74,7 @@
         padding: 10px 0 0 0;
     }
 }
+
 @media screen and (max-width: 720px) {
     .wrapper {
         padding: 0;
