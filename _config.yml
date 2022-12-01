@@ -17,9 +17,9 @@ description: > # this means to ignore newlines until "baseurl:"
   low-cost spay/neuter program, fostering, humane education and 
   more.
 
-domain: my-site.github.io
-url: "https://tatimblin.github.io" # the base hostname & protocol for your site
-baseurl: "morris-jekyll" # the subpath of your site, e.g. /blog
+domain: tatimblin.github.io
+url: https://tatimblin.github.io # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
 
 
 twitter_username: MorrisAnimal
